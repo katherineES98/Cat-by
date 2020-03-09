@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registroE.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-form col-md-4 offset-md-4 ">
+           <h1 class="title"> Registro</h1>
+<form>
+<div class="form-group">
+    <label for="nombre de la empresa">Empresa</label>
+    <input type="text" placeholder="nombre de la Empresa"  class="form-control">
+</div>
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlFile1">subir logo y Banner</label>
+      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+  </form>
+  
+<div class="form-group">
+    <label for="password">Contraseña</label>
+    <input type="password" placeholder="Contraseña" class="form-control">
+</div>
+
+<div class="form-group">
+    <hr>
+    <h5>Descripcion de la Empresa</h5>
+    <hr>
+   <label for="exampleformControlTextareas1">Mision</label>
+   <textarea class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+</div>
+<div class="form-group">
+   
+   <label for="exampleformControlTextareas1">Vision</label>
+   <textarea class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="username">Telefono</label>
+    <input type="text" placeholder="Numero de Telefono" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="username">Pais</label>
+    <input type="text" placeholder="pais" class="form-control">
+</div>
+<div class="form-group">
+    <label for="username">Ciudad</label>
+    <input type="text" placeholder="ciudad" class="form-control">
+</div>
+    <div class="form-row align-items-center">
+        <div class="col-auto my-1">
+          <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>Redes Sociales</option>
+            <option value="1">Facebook</option>
+            <option value="2">Instagram</option>
+            <option value="1">twiter</option>
+          </select>
+        </div>
+    </div>
+    <div class="form-group">
+        
+        <label for="username">URL</label>
+        <input type="text" placeholder="url"  class="form-control">
+    </div>
+
+
+    <div class="form-group">
+        
+        <label for="username">Correo</label>
+        <input type="text" placeholder="Correo"  class="form-control" >
+    </div>
+    <div class="form-group">
+        
+        <label for="username">Direccion</label>
+        <input type="text" placeholder="Direccion"  class="form-control">
+    </div>
+    <div class="form-group">
+        <hr>
+        <h5>Ubicacion Geografica</h5>
+        <hr>
+        <label for="username">Latitud</label >
+        <input type="text" placeholder="latitud" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="username">Longitud</label>
+        <input type="text" placeholder="longitud"  class="form-control">
+    </div>
+
+    <fieldset class="form-group">
+        <div class="row">
+            <hr>
+            <h5>Forma de pago</h5>
+            <hr>
+          <legend class="col-form-label col-sm-2 pt-0"></legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+               Tarjeta de Debito
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Tarjeta de Credito
+              </label>
+            </div>
+            
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="form-group">
+        <input type="text" placeholder="Nombre del Propietario"  class="form-control">
+    </div>
+    <div class="form-group">
+        <input type="text" placeholder="Numero de tarjeta"  class="form-control" >
+    </div>
+    <div class="form-group">
+        <input type="text" placeholder="Vencimiento"  class="form-control" >
+    </div>
+    <div class="form-group">
+        <input type="text" placeholder="CVV"  class="form-control">
+    </div>
+    
+    <fieldset class="form-group">
+        <div class="row">
+            <hr>
+            <h5>Plan a Elegir</h5>
+            <hr>
+          <legend class="col-form-label col-sm-2 pt-0"></legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+               Plan Gratis
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+               Plan Profesional
+              </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                 Plan Ultimate
+                </label>
+              </div>
+          
+        </div>
+      </fieldset>
+      <input type="button" value="Registrar" class=" btn-enviar " class="form-control" required>
+      <p class="form-link">¿Ya tienes una cuenta? <a href="#">Ingresa aqui</a> </p>
+
+</form>
+
+
+
+
+</div>
+       
+
+
+
+
+    </div>
+</body>
+</html>

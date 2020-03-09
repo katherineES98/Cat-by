@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+margin: 50px;
+font-family: sans-serif;
+background: #204862;
+}
+
+.login-form{
+    width: 98%;
+    max-width:500px;
+    margin: auto;
+    background: white;
+    border-radius:7px;
+    
+    }
+
+    .title{
+        background:#7d4786 !important;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-weight: 200px;
+        font-size: 30px;
+        border-top-left-radius:10px;
+        border-top-right-radius: 10px;
+        border-bottom: 5px solid  bisque !important;
+        
+        }
+        
+        input{
+            margin-bottom: 15px;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 3px; 
+            border: 1px solid darkgray;
+        }
+        .btn-enviar{
+            background: crimson;
+            color:#fff;
+            margin: auto;
+            padding: 10px 40px;
+            cursor: pointer;
+            font-size: 20px;
+            position: relative;
+        }
+
+        .login-form a{
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 20px;
+            color: #007bff;
+            
+            
+            }
+            
+            .login-form a:hover{
+            color: #fff;
+            
+            }
+            .btn-enviar:active{
+                transform: scale(1.05);
+                
+                }
+
+                .form-link{
+                width: 100%;
+               margin: 7px;
+              text-align: center;
+               font-size: 14px;
+
+
+}
+
+#inlineFormCustomSelect{
+   
+    border: 1px solid darkgray;
+  
+
+}

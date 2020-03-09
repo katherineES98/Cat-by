@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+
+<form action="registrar" class="form-registro">
+<h2 class="form_titulo">CREA UNA CUENTA</h2>
+<div class="contenedor-inputs">
+<input type="text" name="nombre" placeholder="Nombre" class="input-48" required>
+<input type="text" name="apellido" placeholder="Apellido"  class="input-48" required>
+<input type="email" name="correo" placeholder="correo" class="input-100" required>
+<input type="password" name="clave" placeholder="Contraeña"  class="input-48" required>
+<input type="text" name="telefono" placeholder="telefono" class="input-48" required>
+<input type="text" name="direccion" placeholder="direccion"  class="input-100" required>
+
+
+<div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Genero</option>
+        <option value="1">Masculino</option>
+        <option value="2">Femenino</option>
+        
+      </select>
+    </div>
+</div>
+<input type="button" value="Registrar" class=" btn-enviar" required>
+<p class="form-link">¿Ya tienes una cuenta? <a href="#">Ingresa aqui</a> </p>
+</div>
+</form>
+</body>
+</html>
