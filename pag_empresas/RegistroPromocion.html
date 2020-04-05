@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promocion</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/RegistroPromo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../img/cate2.png" class="logo" alt="">
+
+        </nav>
+        <section class="texto-header">
+            <h1>Registro de Promociones</h1>
+            <h2> Bienvenido</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffff;"></path>
+            </svg></div>
+
+    </header>
+ <main>
+<div class="containe-fluid abs-center">
+    <div class="card" style="border-radius: 5px; border: 1px #DCDCDC outset;">
+        <div class="card-body">
+            <h4>Datos de las Promociones</h4>
+            <hr>
+            <form >
+                <div class="alert alert-danger" role="alert">
+                   Producto Aplicar Promocion.
+                   </div>
+                   <hr>
+                   <div class="row">
+                    <div class="col-md-6  mb-3 mt-4">
+                        <input id="NombreP" type="text"  class="form-control"
+                            placeholder="Nombre del Producto">
+                    </div>
+                    <div class="col-md-6 mb-3 mt-4">
+                        <input id="Precio1" type="text"  class="form-control" placeholder="Precio">
+                    </div>
+                </div>
+                <div class="alert alert-danger" role="alert">
+                   Descuento a Aplicar
+                   </div>
+                   <hr>
+                   <div class="row">
+                    <div class="col-md-4 mt-4">
+                        <label class="example Texto2 ">Porcentaje De  Promocion: </label>
+                        <select name="" class="form-control">
+
+                        <option value="">Porcentajes:</option>
+                        <option value="10%">10%</option>
+                        <option value="20%">20%</option>
+                        <option value="40%">40%</option>
+                        <option value="50%">50%</option>
+
+                        </select>
+                    </div>
+                    <div class="col-md-4  mb-3 mt-4">
+                        <label class="example Texto2 ">Fecha de incio: </label>
+                        <input id="fechainicio" type="date" class="form-control"  value=''>
+
+                    </div>
+                    <div class="col-md-4  mb-3 mt-4">
+                        <label class="example Texto2">Fecha limite: </label>
+                        <input id="fechalimite" type="date" class="form-control"  value=''>
+                        
+                    </div>
+                    
+                   </div>
+                   <div class="alert alert-danger" role="alert">
+                    Sucursales con Promocion activa
+                   </div>
+                   <hr>
+                   <div class="row">
+                    <div class="col-sm-9 col-lg-9 mb-3 m-auto">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label " for="exampleRadios1" >
+                              San Pedro.
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                            <label class="form-check-label" for="exampleRadios2">
+                             Tegucilgalpa
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                            <label class="form-check-label" for="exampleRadios3">
+                            Comayagua.
+                            </label>
+                          </div>
+                    </div>
+                     
+                   </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-3 mx-auto mt-auto botonE">
+                        <button type="button" onclick="login()"  value="Login" class=" btn-block" >Agregar</button>
+                </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+ </main>
+ <script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery.slim.js"></script>
+ <script src="../js/bootstrap.min.js"></script> 
+   <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/RegistroPromo.js"></script>
+</body>
+</html>

@@ -7,7 +7,8 @@ $(document).ready(function(){
 
 	// FILTRANDO PRODUCTOS  ============================================
 
-	$('.category_item').click(function(){
+	$('.category_item').click(function(e){
+		e.preventDefault();
 		var catProduct = $(this).attr('category');
 		console.log(catProduct);
 

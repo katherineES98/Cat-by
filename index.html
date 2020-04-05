@@ -11,21 +11,22 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg  " >
+        <nav class="navbar navbar-expand-lg " >
             <a class="navbar-brand" href="#"><img src="./img/cate2.png"/></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon bg-light"></span>
             </button>
-          
-            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+   
+            <div class="collapse navbar-collapse"  style=" flex-direction: row-reverse;" id="navbarSupportedContent">
               
-              <form class="form-inline my-2 my-lg-0">
+                 <div class="navbar-nav " >
                 <a class="nav-link colorEnlace" href="#">Acerca de</a>
                 <a class="nav-link colorEnlace" href="#">Contactos</a>
                 <a class="nav-link colorEnlace" data-toggle="modal" data-target="#modal" href="#">Registrarse</a>
-                 <a class="nav-link colorEnlace" href="#" data-toggle="modal" data-target="#modalusuarios">Iniciar sesion</a>
-                
-              </form>
+                 <a class="nav-link colorEnlace" href="#" data-toggle="modal" data-target="#modalusuarios">Iniciar como Usuario</a>
+                 <a class="nav-link colorEnlace" href="#" data-toggle="modal" data-target="#modalempresa">Iniciar como Empresa</a>
+                </div>
+              
             </div>
           </nav>
        
@@ -168,14 +169,14 @@
           <form >
   <div class="form-group">
       <label for="username">Correo</label>
-      <input  type="email" placeholder="Email ">
+      <input type="email"  onkeyup="validarEmail(this)" placeholder="Email ">
      
   
   </div>
   
   <div class="form-group">
       <label for="password">Contraseña</label>
-  <input type="password"placeholder="enter pasword">
+  <input id="contraseña" type="password"placeholder="enter pasword">
   
   </div>
   
@@ -187,7 +188,7 @@
             
             <a href="#" >¿ha perdido su contraseña?</a><br>
             <a href="#">Crear cuenta</a> 
-            <input type="button" value="Ingresar" onclick='ingresar()' class="iniciar" >
+            <input type="button"  onclick='ingresar()'value="Ingresar" class="iniciar" >
         </div>
        
       </div>
@@ -221,6 +222,49 @@
       </div>
     </div>
   </div>
+
+
+
+  <!--Modal empresa-->
+ <div class="modal fade" id="modalempresa" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header " style="border-bottom: 0 !important;">
+          <h5 class="modal-title">Iniciar sesion</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form >
+  <div class="form-group">
+      <label for="username">Correo</label>
+      <input type="email"  onkeyup="validarEmail(this)" placeholder="Email ">
+     
+  
+  </div>
+  
+  <div class="form-group">
+      <label for="password">Contraseña</label>
+  <input id="contraseña" type="password"placeholder="enter pasword">
+  
+  </div>
+  
+  
+  
+          </form>
+        </div>
+        <div class="modal-footer " style="border-top: 0 !important;">
+            
+            <a href="#" >¿ha perdido su contraseña?</a><br>
+            <a href="#">Crear cuenta</a> 
+            <input type="button"  onclick='ingresarempresa()'value="Ingresar" class="iniciar" >
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  
    
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.slim.js"></script>
