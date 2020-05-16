@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Carrito.css">
+    <link rel="stylesheet" href="css/all.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " >
+            <a class="navbar-brand" href="#"><img src="img/cate2.png"/></a>
+            <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse"  style=" flex-direction: row-reverse;" id="navbarSupportedContent">
+              
+                 <div class="navbar-nav " >
+                    <a class="nav-link colorEnlace" href="principal.html"><i class="fas fa-store" ></i> Tienda</a>
+                    <a class="nav-link colorEnlace" href="Comprar.html"><i class="fas fa-cash-register"></i> Comprar </a>
+                    <a class="nav-link colorEnlace" href="cuentausuario.html"><i class="fas fa-undo-alt "></i> Regresar </a>
+                </div>
+              
+            </div>
+          </nav>
+        <section class="texto-header">
+            <h1>Carrito</h1>
+            <h2> Bienvenidos Haz tu Compra!!</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffff;"></path>
+            </svg></div>
+
+    </header>
+    <main>
+        <div class="container-fluid">
+            <table >
+                <thead>
+                <tr>
+                   <th>Imagen</th>
+                   <th>Producto</th>
+                   <th>Precio</th>
+                   <th>Cantidad</th>
+                   <th>Total</th>
+                   <th>Quitar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Imagen"> 
+                        <a href="#">   <img class="img-fluid" src="img/rosa.jpg" alt="" /></a>
+                    </td>
+                    <td data-label=" Producto" >Vestido</td>
+                    <td data-label="Precio">$ 80.0</td>
+                    <td data-label="Cantidad"><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
+                    <td data-label="Total">$ 80.0</td>
+                    <td data-label="Quitar">
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td data-label="Imagen" >
+                 
+                    <a href="#"> <img class="img-fluid " src="img/vestido.jpg" alt="" /></a>
+                  </td>
+                    <td data-label="Producto" >Vestido</td>
+                    <td data-label="Precio">$ 80.0</td>
+                    <td  data-label="Cantidad" ><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
+                    <td data-label="Total">$ 80.0</td>
+                    <td data-label="Quitar">
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td data-label="Imagen" >
+                       
+                        <a href="#"><img class="img-fluid" src="img/relojp.jpg" alt="" /></a>
+                    </td>
+                    <td data-label="Producto" >Reloj</td>
+                    <td data-label="Precio" >$ 80.0</td>
+                    <td data-label="Cantidad" ><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
+                    <td data-label="Total">$ 80.0</td>
+                    <td data-label="Quitar">
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </td>
+                 </tr>
+            
+            
+                </tbody>
+            </table>
+        </div>
+                       
+        <div class="col-md-3 mb-3 mt-2 botonE">
+            <button type="button" onclick="login()" value="Login" class=" btn-block" ><a href="Comprar.html">Revisar</a></button>
+    </div>
+            </div>
+            
+            
+       
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+      <script src="js/jquery-3.4.1.min.js"></script>
+     <script src="js/Comprar.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!---
+
+ <div class="container-fluid  abs-center">
+          
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                    
+                            <table class="table">
+                    
+                                <thead>
+                    
+                                    <tr class="text-center">
+                                        <th>Imagen</th>
+                                        <th>Nombre del Producto</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th>Total</th>
+                                        <th>Quitar</th>
+                                    </tr>
+                    
+                                </thead>
+                    
+                                <tbody>
+                    
+                                    <tr>
+                                        <td class="thumbnail-img">
+                                            <a href="#">
+                                                <img class="img-fluid" src="images/img-pro-01.jpg" />
+                                            </a>
+                                        </td>
+                                        <td class="name-pr">
+                                            <a href="#">
+                                        Lorem ipsum dolor sit amet
+                                    </a>
+                                        </td>
+                                        <td class="price-pr">
+                                            <p>$ 80.0</p>
+                                        </td>
+                                        <td class="quantity-box"><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
+                                        <td class="total-pr">
+                                            <p>$ 80.0</p>
+                                        </td>
+                                        <td class="remove-pr">
+                                            <a href="#">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                
+                    
+                                </tbody>
+                    
+                            </table>
+
+                            
+                    
+                        </div>
+                       
+                        <div class="col-md-3 mb-3 mt-2 botonE">
+                            <button type="button" onclick="login()" value="Login" class=" btn-block" ><a href="Comprar.html">Revisar</a></button>
+                    </div>
+                
+                    </div>
+
+
+
+
+
+
+
+
+
+-->
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg " >
+        <a class="navbar-brand" href="#"><img src="img/cate2.png"/></a>
+        <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+
+        <div class="collapse navbar-collapse"  style=" flex-direction: row-reverse;" id="navbarSupportedContent">
+          
+             <div class="navbar-nav " >
+                <a class="nav-link colorEnlace" href="cuentausuario.html"><i class="fas fa-undo-alt "></i> Regresar </a>
+            </div>
+          
+        </div>
+      </nav>
+    <section class="texto-header">
+        <h1>Registro del Cliente</h1>
+        <h2> Bienvenido</h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #ffff;"></path>
+        </svg></div>
+
+</header>
+<main>
+    <div class="container-fluid  abs-center">
+        <div class="card" style="border-radius: 5px; border: 1px #DCDCDC outset;">
+            <div class="card-body">
+               <h5 class="texto4">Registrarse</h5>
+               <hr>
+                <form >
+                    <div class="alert alert-danger" role="alert">
+                        Datos Generales
+                       </div>
+                       <hr>
+                       <div class="row">
+                        <div class="col-md-4  mb-2">
+                            <input  id="nombre" type="text" class="form-control"
+                                placeholder="Nombre">
+                        </div>
+                        <div class="col-md-4 mb-2 ">
+                          <input id="apellido" type="text"  class="form-control" placeholder="Apellido">
+                      </div>
+                        <div class="col-md-4 mb-2  ">
+
+                           <select id="genero"  class="form-control">
+
+                           <option  value="Genero">Genero</option>
+                           <option value="Femenino">Femenino</option>
+                           <option value="Masculino">Masculino</option>
+                        
+                           </select>
+                       </div>
+                    </div>
+                    <hr>
+                        <div class="row">
+                          <div class="col-md-6 mb-1 mt-1">
+                            <input id="contrasena" type="password" onkeyup="validarContraseña(this)" placeholder="Contraseña" class="form-control">
+                        </div>
+
+                          <div class="col-md-6 mb-1 mt-1">
+                            <input id="correo" type="text" onkeyup="validarEmail(this)" class="form-control" placeholder="Correo Electronico">
+                        </div>
+                           
+                     </div>
+                     <hr>
+                        <div class="row">
+                         <div class="col-md-6  mb-1 mt-1">
+                             <input id="direccion" type="text"  class="form-control"
+                                 placeholder="Introduzca la Direccion">
+                         </div>
+                         <div class="col-md-6 mb-1 mt-1">
+                             <input id="telefono" type="text"  onkeyup="validarTelefono(this)" class="form-control" placeholder="Telefono">
+                         </div>
+                         
+                     </div>
+                     <hr>
+                     <div class="row">
+                         <div class="col-md-4 mx-auto mt-auto  botonE">
+                    
+                         <button type="button" onclick="actualizarUsuario()"  value="Login" class=" btn-block" >Actualizar</button>
+                     
+                 </div>
+                 </div>
+                
+                </form>     
+        </div>
+    </div>
+</div>
+</main>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.slim.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/axios.min.js"></script>
+  <script src="js/controlador-usuario.js"   ></script>
+ <script src="js/logincli.js"></script>
+</body>
+</html>

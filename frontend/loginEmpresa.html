@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginempresa</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registroE.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " >
+            <a class="navbar-brand" href="#"><img src="img/cate2.png"/></a>
+            <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse"  style=" flex-direction: row-reverse;" id="navbarSupportedContent">
+              
+                 <div class="navbar-nav " >
+                    <a class="nav-link colorEnlace" href="index.html"><i class="fas fa-undo-alt "></i> Regresar </a>
+                </div>
+              
+            </div>
+          </nav>
+        <section class="texto-header">
+            <h1>Registro de Empresa.</h1>
+            <h2> Bienvenido</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffff;"></path>
+            </svg></div>
+
+    </header>
+    <main>
+        <div class="containe-fluid abs-center">
+            <div class="card" style="border-radius: 5px; border: 1px #DCDCDC outset;">
+                <div class="card-body">
+                    <h4>Registro Empresa</h4>
+                   <hr>
+               <form action="subirArchivo.php" method="POST" enctype="multipart/form-data" onsubmit="return validarEmpresa();">
+                <div class="alert alert-danger" role="alert">
+                    Datos Generales
+                   </div>
+                   <hr>
+                 <div class="row">
+                    <div class="col-md-4  mb-3 mt-4">
+                        <input  id="nombreEmpresa" type="text" class="form-control"
+                            placeholder="Nombre de la Empresa">
+                    </div>
+                    <div class="col-md-4 mb-3 mt-4">
+                        <input id="correo" type="text" name="user" class="form-control" placeholder="Correo Electronico">
+                    </div>
+                        
+                    <div class="col-md-4 mb-3 mt-4">
+                        <input id="contrasena" type="password"  placeholder="Contraseña" class="form-control">
+                    </div>
+
+                    <div class="col-md-6 mb-3 mt-4">
+                       
+                        <div class="custom-file ">
+                            <input type="file" name="archivo[]" class="custom-file-input " id="logo">
+                            <label class="custom-file-label" for="customFile">Logo</label>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 mb-3 mt-4">
+                        
+                        <div class="custom-file ">
+                            <input type="file"  name="archivo[]" class="custom-file-input " id="banner">
+                            <label class="custom-file-label" for="customFile">Banner</label>
+                        </div>
+                    </div>
+
+                 </div>
+                 <div class="alert alert-danger" role="alert">
+                   Descripcion de la Empresa.
+                   </div>
+                   <hr>
+                   <div class="row">
+                    <div class="col-md-4  mb-3 mt-4">
+                        <label for="exampleformControlTextareas1">Mision</label>
+                        <textarea id="mision" class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+                    </div>
+                    <div class="col-md-4 mb-3 mt-4">
+                        <label for="exampleformControlTextareas1">Vision</label>
+                 <textarea id="vision" class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+                    </div>
+                    <div class="col-md-4 mb-3 mt-4">
+                        <label for="exampleformControlTextareas1">Descripcion</label>
+                 <textarea id="descripcionEmpresa" class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+                    </div>
+
+                   </div>
+                   <div class="alert alert-danger" role="alert">
+                    Adomicilio
+                   </div>
+                   <hr>
+                   <div class="row">
+                    <div class="col-md-3  mb-3 mt-4">
+                        <input  id="direccion" type="text" class="form-control"
+                            placeholder="Direccion">
+                    </div>
+                    <div class="col-md-3 mt-4">
+
+                       <select id="pais" class="form-control" type="text" >
+                       <option value="Honduras">Honduras</option>
+                       <option value="Costa Rica">Guatemal</option>
+                       <option value="Salvador">Salvador</option>
+                    
+                       </select>
+                   </div>
+                    <div class="col-md-3 mb-3 mt-4">
+                        <input id="ciudad" type="text"  class="form-control" placeholder="Ciudad">
+                    </div>
+                    <div class="col-md-3  mb-3 mt-4">
+                        <input  id="telefono" type="text"   class="form-control"
+                            placeholder="Numero Telefonico">
+                    </div>
+                </div>
+                <div class="alert alert-danger" role="alert">
+                   Redes Sociales.
+                   </div>
+                   <hr>
+                   <div class="row">
+                    <div class="col-md-6 mt-4">
+
+                       <select  id="redesSociales" class="form-control" >
+
+                       <option  value="">Redes Sociales</option>
+                       <option value="Honduras">Facebok</option>
+                       <option value="Costa Rica">Twiter</option>
+                       <option value="Salvador">Instagram</option>
+                      
+
+                       </select>
+                   </div>
+                   <div class="col-md-6  mb-3 mt-4">
+                    <input  id="URL" type="text"  class="form-control"
+                        placeholder="URL">
+                        
+                </div>
+             
+                
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    Ubicacion Geografica
+                    </div>
+                    <hr>
+                    <div class="row">
+                     <div class="col-md-6 mb-3 mt-4">
+                         <input id="latitud" type="text"  class="form-control" placeholder="Latitud">
+                     </div>
+                     <div class="col-md-6 mb-3 mt-4">
+                         <input id="longitud" type="text"    class="form-control" placeholder="Longitud">
+                     </div>
+                 </div>
+
+                 <div class="alert alert-danger" role="alert">
+                Forma de Pago.
+                    </div>
+                    <div class="row">
+                        
+                            <div class="col-md-6 mt-4">
+        
+                               <select id="pago"  class="form-control"  >
+        
+                               <option  value="Forma de Pago">Forma de Pago</option>
+                               <option value="Tarjeta de Credito">Tarjeta de Credito</option>
+                               <option value="Tarjeta de Debito">Tarjeta de Debito</option>
+                               <option value="Paypal">Paypal</option>
+                              
+        
+                               </select>
+                           </div>
+                           <div class="col-md-6  mb-3 mt-4">
+                            <select id="plan" class="form-control"  >
+        
+                                <option  value="Plan">Plan</option>
+                                <option value="Gratis">Gratis</option>
+                                <option value="Profesional">Profesional</option>
+                                <option value="Ultimate">Ultimate</option>
+                               
+         
+                                </select>
+                                
+                        </div>
+                     
+                        
+                       
+                        <div class="col-md-6  mb-3 mt-4">
+                            <input id="propietario" type="text"  class="form-control"
+                                placeholder="Nombre del Propietario">
+                        </div>
+                        <div class="col-md-6 mb-3 mt-4">
+                            <input id="numeroTarjeta" type="text"  class="form-control" placeholder="Numero de Tarjeta">
+                        </div> 
+                        
+                        <div class="col-md-6  mb-3 mt-4">
+                            <input id="vencimiento" type="text"  class="form-control"
+                                placeholder="vencimiento">
+                        </div>
+                        <div class="col-md-6 mb-3 mt-4">
+                            <input id="cvv" type="text"  class="form-control" placeholder="CVV">
+                        </div>
+                    </div>
+                    
+                       
+                        
+                       <!--
+                            <button type="button" onclick="guardarEmpresa()"  value="Login" class=" btn-block" >Registrarse</button>
+                            -->
+                            
+                            <input type="submit" value="Registrar" class="btn-enviar">
+                            <p class="form-link">¿Ya tienes una cuenta? <a href="#">Ingresa aqui</a> </p>
+                    
+     
+               </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/axios.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/validar.js"></script>
+   
+</body>
+</html>

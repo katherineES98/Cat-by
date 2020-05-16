@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro de imagenes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/promo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg " >
+            <a class="navbar-brand" href="#"><img src="img/cate2.png"></a>
+        
+            <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+
+                <!--ver porque no me da la modal en el carrito    ya daaa-->
+              
+                 <div class="navbar-nav " >
+                     <a data-toggle="modal" data-target="#exampleModal">
+                         <img src="../img/cart.jpeg " class=" img-fluid" style="width: 70px; height: 70px;"
+                        alt="">
+                    </a>
+                 </div> 
+            
+            </div>
+          </nav>
+        <section class="texto-header">
+            <h1>Nuestras mejores promociones </h1>
+            <h2> COMPRA YA! </h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #ffff;"></path>
+            </svg></div>
+
+    </header>
+
+    <div class="container"  id="lista-producto">
+        <div class="menu">
+            <ul>
+                <li class="todos active"><a href="#" class="btn-menu" data-filter="todos">Todos</a></li>
+                <li class="laptop"><a href="#" class="btn-menu" data-filter="laptop">Laptos</a></li>
+                <li class="camara"><a href="#" class="btn-menu" data-filter="camara">Camaras</a></li>
+                <li class="iphone"><a href="#" class="btn-menu" data-filter="iphone">Iphones</a></li>
+                <li class="audifono"><a href="#" class="btn-menu" data-filter="audifono">Audifonos</a></li>
+            </ul>
+        </div>
+        <div class="galeria">
+            <div class="title-img">
+                <h3>Galeria de imagenes</h3>
+
+            </div>
+
+            <div class="box-img laptop">
+                <img src="../img/Laptop-I.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img camara">
+                <img src="../img/Camara-I.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img iphone">
+                <img src="../img/Iphone-I.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img audifono">
+                <img src="../img/Audifono-I.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img laptop">
+                <img src="../img/Laptop-II.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img camara">
+                <img src="../img/Camara-II.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img iphone">
+                <img src="../img/Iphone-II.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img audifono">
+                <img src="../img/Audifono-II.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+            <div class="box-img audifono">
+                <img src="../img/Audifono-III.jpg" alt="">
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    
+   <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.slim.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/filtro.js"></script>
+
+</body>
+
+</html>
