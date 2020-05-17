@@ -1,20 +1,7 @@
 <?php
    
     include_once("../clases/class-empresa.php");
-    if(!isset($_SESSION["token"])){
-        echo '{"mensaje":"Acceso no autorizado"}';
-        exit;
-        
-            }
-            if(!isset($_COOKIE["token"])){
-                echo '{"mensaje":"Acceso no autorizado"}';
-        exit;
-            }
-            
-            if($_SESSION["token"] != $_COOKIE["token"] ){
-                echo '{"mensaje":"Acceso no autorizado"}';
-        exit;
-            }
+    
     $_POST = json_decode(file_get_contents('php://input') , true);
     switch($_SERVER['REQUEST_METHOD']){
         case 'POST': //Guardar

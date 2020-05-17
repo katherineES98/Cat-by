@@ -1,15 +1,24 @@
 const url = "../../Cat-by-master-V/backend/api/empresas.php";
 const url1="../../Cat-by-master-V/backend/api/loginEmpresa.php";
 
+console.log("imprimeindo windon location",window.location.search.substring(1))
 
-
+if(window.location.search.substring(1)){
+  octenerEmpresaId()
+  //updateForm()
+}
 //const url1="../api/productos.php";
 
+function updateFormValue(data){
+  document.getElementById('nombreEmpresa').value=data.nombreEmpresa
+  document.getElementById('correo').value=data.correo
+}
 var empresas = [];
 //var empresaSeleccionada;
 
 
 function obtenerEmpresas() {
+  
   axios({
     method: "GET",
     url: url,
@@ -83,6 +92,40 @@ function generarEmpresa() {
 		
 		`;
   }
+}
+function optenerId(){
+  let kokie 
+  let idEmpresa
+  let aCookies = document.cookie.split(";");
+  for (let i = 0; i < aCookies.length; i++) {
+    kokie=aCookies[i].split("=")
+    if(kokie[0]===" id"){
+      console.log(kokie[1])
+       idEmpresa=kokie[1]
+    }
+  }
+  return idEmpresa
+}
+
+function octenerEmpresaId(){
+  
+  console.log("id a buscar: ",idEmpresa)
+  axios({
+    method: "GET",
+    url: url+`?id=${optenerId()}`,
+    responseType: "json"
+  })
+    .then((res) => {
+      console.log(res.data);
+      this.empresas = res.data;
+      updateFormValue(res.data)
+      //al  momento que responda el servidor le vamos asignar el arreglo
+     // generarEmpresa();
+      
+    })
+    .catch((error) => {
+      console.error(error);
+    });
 }
 
 //cargalas sucursales de la modal
@@ -255,7 +298,7 @@ console.log('Empresa a actualizar', empresa );
 //servidor ahora
 axios({
   method:'PUT',
-  url:url +`?id=${0}`,
+  url:url +`?id=${optenerId()}`,
   responseType:'json',
   data:empresa
  }).then(res=>{

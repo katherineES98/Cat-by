@@ -66,7 +66,7 @@ header("Location: 401.html");
                             <div class="card " style="height: 150px;box-shadow: 2px 2px 5px #1ea7d4;">
                                 <div class="card-body ">
                                     <div class="iconos">
-                                        <a href="actualizarEmpresa.html"><i class="fas fa-user-edit fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;" ></i></a>
+                                        <a href="actualizarEmpresa.html?key=formEmpresa"><i class="fas fa-user-edit fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;" ></i></a>
                                     <h3>Editar Perfil</h3>
                                 </div>
                                 </div>
@@ -187,7 +187,8 @@ header("Location: 401.html");
 
 
 
-
+    <script src="js/axios.min.js"></script>
+  <script src="js/script.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script> 

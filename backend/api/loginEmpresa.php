@@ -17,16 +17,19 @@
                );
                $_SESSION["token"] = $resultado["token"];
                setcookie("token",$resultado["token"],time()+(60*60*24*31),"/");
-               setcookie("nombreEmpresa",$Empresa["nombreEmpresa"],time()+(60*60*24*31),"/");
-               setcookie("correo",$Empresa["correo"],time()+(60*60*24*31),"/");
+               setcookie("nombreEmpresa",$Empresa[0]["nombreEmpresa"],time()+(60*60*24*31),"/");
+               setcookie("correo",$Empresa[0]["correo"],time()+(60*60*24*31),"/");
+               setcookie("id",$Empresa[1],time()+(60*60*24*31),"/");
             echo json_encode($resultado);
      } else{
         setcookie("token","",time()-1,"/");
         setcookie("nombreEmpresa","",time()-1,"/");
         setcookie("correo","",time()-1,"/");
+        setcookie("id","",time()-1,"/");
              echo '{"codigoResultado":0,"mensaje":"Usuario/Contraseña incorrectos"}';
             }
             break;
+            
        
     }
 ?>

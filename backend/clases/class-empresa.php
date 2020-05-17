@@ -634,7 +634,7 @@ public static function verificarEmpresa($correo , $contrasena){
     $empresas = json_decode($contenidoArchivo, true);
     for ($i=0; $i < sizeof($empresas) ; $i++) { 
        if ($empresas[$i]["correo"]==$correo && $empresas[$i]["contrasena"]==sha1($contrasena)) {
-         return $empresas[$i];
+         return array ($empresas[$i], $i);
        }
     }
 return null;
