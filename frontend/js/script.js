@@ -1,5 +1,5 @@
-const url = "../../Cat-by-master-V/backend/api/empresas.php";
-const url1="../../Cat-by-master-V/backend/api/loginEmpresa.php";
+const url = "../../Cat-by/backend/api/empresas.php";
+const url1="../../Cat-by/backend/api/loginEmpresa.php";
 
 console.log("imprimeindo windon location",window.location.search.substring(1))
 
@@ -109,7 +109,7 @@ function optenerId(){
 
 function octenerEmpresaId(){
   
-  console.log("id a buscar: ",idEmpresa)
+  console.log("id a buscar: ",optenerId());
   axios({
     method: "GET",
     url: url+`?id=${optenerId()}`,
@@ -223,8 +223,8 @@ function guardarEmpresa(){
     descripcionEmpresa: document.getElementById('descripcionEmpresa').value,
     correo: document.getElementById('correo').value,
     contrasena: document.getElementById('contrasena').value,
-    logo: "Cat-by-master-V/frontend/img/" + document.getElementById("logo").files[0].name,
-    banner: "Cat-by-master-V/frontend/img/" + document.getElementById("banner").files[0].name,
+    logo: "Cat-by/frontend/img/" + document.getElementById("logo").files[0].name,
+    banner: "Cat-by/frontend/img/" + document.getElementById("banner").files[0].name,
     mision: document.getElementById('mision').value,
     vision: document.getElementById('vision').value,
     direccion: document.getElementById('direccion').value,

@@ -72,6 +72,16 @@
         "direccion": "lempira",
         "latitud": "123",
         "longitud": "123"
+      },
+      {
+        "nombre": "Variedades Rubi",
+        "correo": "samsant@gmail.com",
+        "telefono": "22206517",
+        "pais": "Costa Rica",
+        "ciudad": "Tegucigalp",
+        "direccion": "suaxo",
+        "latitud": "123",
+        "longitud": "123"
       }
     ],
     "productos": [
@@ -206,6 +216,17 @@
         "direccion": "lempira",
         "longitud": "123",
         "latitud": "123"
+      },
+      {
+        "image": "Cat-by/frontend/img/accesorios1.jpeg",
+        "nombreProducto": "pulseras",
+        "precio": "200",
+        "cantidad": "2",
+        "categoria": "Mujeres",
+        "descripcion": "asdfghjkl\u00f1lkjhgfdfgjkl\u00f1",
+        "direccion": "suaxo",
+        "longitud": "123",
+        "latitud": "123"
       }
     ],
     "promociones": [
@@ -240,6 +261,17 @@
         "fechaInicio": "2020-05-13",
         "fechaLimite": "2020-05-13",
         "ubicacionsucursal": "Comayagua",
+        "evaluacion": []
+      },
+      {
+        "nombreProducto": "Camisa",
+        "categoria": "modaAdulto",
+        "precioAntes": "24",
+        "precioAhora": "3",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-04",
+        "fechaLimite": "2020-05-21",
+        "ubicacionsucursal": "Tegucigalpa",
         "evaluacion": []
       }
     ]
@@ -367,5 +399,32 @@
         "evaluacion": []
       }
     ]
+  },
+  {
+    "nombreEmpresa": "hondurasR",
+    "descripcionEmpresa": "jinfushbfhwerf",
+    "correo": "katsantos1997@gmail.com",
+    "contrasena": "23456789",
+    "logo": "Cat-by/frontend/img/.jpg",
+    "banner": "Cat-by/frontend/img/1295956191_0 - copia.jpg",
+    "mision": "hebfauhsbdjawd",
+    "vision": "wkjndaebfhewbfhqe",
+    "direccion": "lempira",
+    "pais": "Costa Rica",
+    "ciudad": "Tegucigalp",
+    "telefono": "22206517",
+    "redesSociales": "Costa Rica",
+    "URL": "https://www.google.com",
+    "latitud": "123",
+    "longitud": "123",
+    "pago": "Tarjeta de Credito",
+    "propietario": "juaasssss",
+    "numeroTarjeta": "12345",
+    "vencimiento": "12/12/2019",
+    "cvv": "1223",
+    "plan": "Profesional",
+    "sucursales": [],
+    "productos": [],
+    "promociones": []
   }
 ]

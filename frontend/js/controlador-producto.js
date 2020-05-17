@@ -1,6 +1,6 @@
-const url='../../Cat-by-master-V/backend/api/productos.php';
-const url1 = "../../Cat-by-master-V/backend/api/empresas.php";
-const url2='../../Cat-by-master-V/backend/api/promociones.php';
+const url='../../Cat-by/backend/api/productos.php';
+const url1 = "../../Cat-by/backend/api/empresas.php";
+const url2='../../Cat-by/backend/api/promociones.php';
 var empresas = [];
 var producto = [];
 
@@ -13,7 +13,7 @@ var producto = [];
 function  guardarProducto(){
  
     let producto = {
-        image:"Cat-by-master-V/frontend/img/" + document.getElementById("image").files[0].name,
+        image:"Cat-by/frontend/img/" + document.getElementById("image").files[0].name,
         nombreProducto: document.getElementById('nombreProducto').value,
         precio: document.getElementById('precio').value,
         cantidad: document.getElementById('cantidad').value,

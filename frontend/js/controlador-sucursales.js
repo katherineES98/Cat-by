@@ -1,5 +1,5 @@
 
-const url='../../Cat-by-master-V/backend/api/sucursales.php';
+const url='../../Cat-by/backend/api/sucursales.php';
 
 
 

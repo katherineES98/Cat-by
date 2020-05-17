@@ -1,11 +1,11 @@
 [
   {
-    "nombre": "Samir",
+    "nombre": "Xioma",
     "apellido": "martinez",
     "genero": "Femenino",
-    "contrasena": "2345678",
-    "correo": "katsant@gmail.com",
-    "direccion": "lempira",
+    "contrasena": "1234567",
+    "correo": "samsant@gmail.com",
+    "direccion": "suaxo",
     "telefono": "22206517",
     "empresaFavoritas": [
       {
@@ -160,6 +160,18 @@
     "apellido": "martinez",
     "genero": "Masculino",
     "contrasena": "1234567",
+    "correo": "katsantos1997@gmail.com",
+    "direccion": "suazo",
+    "telefono": "22206517",
+    "empresaFavoritas": [],
+    "carrito": [],
+    "promocionesFavoritas": []
+  },
+  {
+    "nombre": "juan",
+    "apellido": "espino",
+    "genero": "Femenino",
+    "contrasena": "234567",
     "correo": "katsantos1997@gmail.com",
     "direccion": "suazo",
     "telefono": "22206517",

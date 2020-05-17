@@ -1,4 +1,4 @@
-const url2='../../Cat-by-master-V/backend/api/usuarios.php';
+const url2='../../Cat-by/backend/api/usuarios.php';
 
 
 //guardar Usuario
@@ -62,7 +62,7 @@ function  guardarUsuario(){
        console.error(error);
    });
   
-   login();
+  
   
   }
   
