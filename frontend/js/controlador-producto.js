@@ -78,7 +78,7 @@ function  guardarProducto(){
     //servidor ahora
     axios({
       method:'POST',
-      url:url2 +`?id=${0}`,
+      url:url2 +`?id=${optenerId()}`,
       responseType:'json',
       data:promocion
      }).then((res)=>{
@@ -118,6 +118,7 @@ function  guardarProducto(){
 
             this.empresas = res.data;
             llenarProducto(res.data)
+            llenarSucursales(res.data)
             //al  momento que responda el servidor le vamos asignar el arreglo
            // generarEmpresa();
             
@@ -130,20 +131,12 @@ function  guardarProducto(){
 
 
 
-
-
-
-
-
-
-
-
     function llenarProducto(data) {
         console.log(data);
         document.getElementById("nombreProducto").innerHTML = "";
             for (let k = 0; k < data.productos.length; k++) {
                 document.getElementById("nombreProducto").innerHTML += `
-                <option value="${k}">${data.productos[k].nombreProducto}</option>
+                <option value="${data.productos[k].nombreProducto}">${data.productos[k].nombreProducto}</option>
             
                 `;
                 
@@ -154,7 +147,21 @@ function  guardarProducto(){
     
     }
     
+    function llenarSucursales(data) {
+        console.log(data);
+        document.getElementById("ubicacionsucursal").innerHTML = "";
+            for (let k = 0; k < data.sucursales.length; k++) {
+                document.getElementById("ubicacionsucursal").innerHTML += `
+                <option value="${data.sucursales[k].nombre}">${data.sucursales[k].nombre}</option>
+            
+                `;
+                
+            
+          
+        }
     
+    
+    }
   
     
 

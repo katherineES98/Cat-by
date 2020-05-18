@@ -1,5 +1,7 @@
 
 const url='../../Cat-by/backend/api/sucursales.php';
+const url1 = "../../Cat-by/backend/api/empresas.php";
+var empresas = [];
 
 
 
@@ -23,7 +25,7 @@ function  guardarSucursal(){
   //servidor ahora
   axios({
     method:'POST',
-    url:url +`?id=${0}`,
+    url:url +`?id=${optenerId()}`,
     responseType:'json',
     data:sucursal
    }).then((res)=>{
@@ -35,3 +37,21 @@ function  guardarSucursal(){
    
   
   }
+
+
+  function optenerId(){
+    let kokie 
+    let idEmpresa
+    let aCookies = document.cookie.split(";");
+    for (let i = 0; i < aCookies.length; i++) {
+      kokie=aCookies[i].split("=")
+      if(kokie[0]===" id"){
+        console.log(kokie[1])
+         idEmpresa=kokie[1]
+      }
+    }
+    return idEmpresa
+  }
+
+
+

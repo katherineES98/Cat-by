@@ -1,1 +1,515 @@
-[{"nombreEmpresa":"Carrion","descripcionEmpresa":"sdfghjioyhfd","correo":"katsantos1997@gmail.com","contrasena":"bcdcb29ed2aab16d48c11485264df665e906bdd9","logo":"","banner":"","mision":"dfghjklkjhg","vision":"dfghjioiuyf","direccion":"lempira","pais":"Costa Rica","ciudad":"Tegucigalp","telefono":"22206517","redesSociales":"Honduras","URL":"https:\/\/www.google.com","latitud":"123","longitud":"123","pago":"Tarjeta de Credito","propietario":"juaasssss","numeroTarjeta":"12345","vencimiento":"12\/12\/2019","cvv":"1223","plan":"Gratis","sucursales":[{"nombre":"honduasr","correo":"ruben@gmail.com","telefono":"22206738","pais":"Honduras","ciudad":"Tegucigalpa","direccion":"col.pueblo nuevo","latitud":"12","longitud":"20"},{"nombre":"Variedades Samuel","correo":"Sam@gmail.com","telefono":"2204567","pais":"Honduras","ciudad":"Tegucigalpa","direccion":"ila ","latitud":"13","longitud":"14"},{"nombre":"Variedades JOH","correo":"samsant@gmail.com","telefono":"22206517","pais":"Honduras","ciudad":"Tegucigalp","direccion":"suaxo","latitud":"123","longitud":"123"},{"nombre":"Variedades Maria","correo":"samsant@gmail.com","telefono":"22206517","pais":"Honduras","ciudad":"Tegucigalp","direccion":"lempira","latitud":"123","longitud":"123"},{"nombre":"kat","correo":"katsantos1997@gmail.com","telefono":"22206517","pais":"Honduras","ciudad":"Tegucigalp","direccion":"lempira","latitud":"123","longitud":"123"},{"nombre":"Variedades Rubi","correo":"samsant@gmail.com","telefono":"22206517","pais":"Costa Rica","ciudad":"Tegucigalp","direccion":"suaxo","latitud":"123","longitud":"123"}],"productos":[{"image":"..\/img\/Laptop-II.jpg","nombreProducto":"Tecnologia","precio":"500","cantidad":"2","categoria":"Tecnologia","descripcion":"Some quick example text to build","direccion":"col.villa nueva","longitud":"12","latitud":"13"},{"image":"","nombreProducto":"Collatr","precio":"123","cantidad":"2","categoria":"Ni\u00f1os","descripcion":"sdfghjk","direccion":"suazo","longitud":"12","latitud":"12"},{"image":"","nombreProducto":"camisas polo1","precio":"2000","cantidad":"4","categoria":"Hombres","descripcion":"xdcfvgbh","direccion":"suazo","longitud":"14","latitud":"12"},{"image":"","nombreProducto":"Camisa Polo","precio":"200","cantidad":"2","categoria":"Hombres","descripcion":"dfghjkljhgfdfghjioiuyhfd","direccion":"lempira","longitud":"123","latitud":"123"},{"image":"","nombreProducto":"Camisa Polo1","precio":"300","cantidad":"1","categoria":"Ni\u00f1os","descripcion":"asdfghjklkjhgdsdfghjk","direccion":"suaxo","longitud":"123","latitud":"123"},{"image":"","nombreProducto":"collarbrilllabtesss","precio":"10","cantidad":"2","categoria":"Ni\u00f1os","descripcion":"sdfghjkl\u00f1kjhgfds","direccion":"lempira","longitud":"123","latitud":"123"},{"image":"","nombreProducto":"blusa","precio":"300","cantidad":"1","categoria":"Hombres","descripcion":"asdfghjkl\u00f1lkjhgfd","direccion":"lempira","longitud":"123","latitud":"123"},{"image":"Cat-by-master-V\/frontend\/img\/Captura.PNG","nombreProducto":"Camisa blusa","precio":"200","cantidad":"2","categoria":"Mujeres","descripcion":"gvhfklakjhfkalKJHBVGFHKALjhbfvg","direccion":"lempira","longitud":"123","latitud":"123"},{"image":"Cat-by-master-V\/frontend\/img\/Captura.PNG","nombreProducto":"Zapatos","precio":"300","cantidad":"1","categoria":"Hombres","descripcion":"ASKLKJHGDSfghjkj","direccion":"suazo","longitud":"123","latitud":"123"},{"image":"Cat-by-master-V\/frontend\/img\/prueba.png","nombreProducto":"Zapatosasdfghj","precio":"300","cantidad":"1","categoria":"Ni\u00f1os","descripcion":"asdfghjkljhgfdsdghuj","direccion":"suazo","longitud":"123","latitud":"123"},{"image":"Cat-by-master-V\/frontend\/img\/prueba.png","nombreProducto":"Zapatos","precio":"300","cantidad":"1","categoria":"Mujeres","descripcion":"astyujiyewtyu","direccion":"suazo","longitud":"123","latitud":"123"},{"image":"Cat-by-master-V\/frontend\/img\/Captura.PNG","nombreProducto":"blusa dama","precio":"10","cantidad":"2","categoria":"Hombres","descripcion":"ghszkldfhghdskalsdkfjhgfdkslakdjfh","direccion":"lempira","longitud":"123","latitud":"123"},{"image":"Cat-by\/frontend\/img\/accesorios1.jpeg","nombreProducto":"pulseras","precio":"200","cantidad":"2","categoria":"Mujeres","descripcion":"asdfghjkl\u00f1lkjhgfdfgjkl\u00f1","direccion":"suaxo","longitud":"123","latitud":"123"},{"image":"Cat-by\/frontend\/img\/ - copia.jpg","nombreProducto":"cadena","precio":"200","cantidad":"2","categoria":"Ni\u00f1os","descripcion":"sdfghjklkjhgdsdfgyuj","direccion":"suazo","longitud":"123","latitud":"123"},{"image":"Cat-by\/frontend\/img\/adulto2.jpg","nombreProducto":"Tacones ","precio":"200","cantidad":"2","categoria":"Mujeres","descripcion":"sdfghjkl\u00f1kjhgd","direccion":"lempira","longitud":"123","latitud":"123"}],"promociones":[{"nombreProducto":"Computara\/Dell","categoria":"Tecnologia","precioAntes":"300","precioAhora":"250","descuento":"2890%","fechaInicio":"12-02-2020","fechaLimite":"12-03-2020","ubicacionsucursal":"variedades juan","evaluacion":[{"comentario":"Mas o menos","calificacon":"3"}]},{"nombreProducto":"Reloj","categoria":"modaAdulto","precioAntes":"$500","precioAhora":"$400","descuento":"10%","fechaInicio":"2020-05-24","fechaLimite":"2020-05-31","ubicacionsucursal":"Tegucigalpa","evaluacion":[]},{"nombreProducto":"Camisa","categoria":"Tecnologia","precioAntes":"24","precioAhora":"45","descuento":"10%","fechaInicio":"2020-05-13","fechaLimite":"2020-05-13","ubicacionsucursal":"Comayagua","evaluacion":[]},{"nombreProducto":"Camisa","categoria":"modaAdulto","precioAntes":"24","precioAhora":"3","descuento":"20%","fechaInicio":"2020-05-04","fechaLimite":"2020-05-21","ubicacionsucursal":"Tegucigalpa","evaluacion":[]}]},{"nombreEmpresa":"Galloo","descripcionEmpresa":"Some quick","correo":"charly@gmail.com","contrasena":"bcdcb29ed2aab16d48c11485264df665e906bdd9","logo":"..\/img\/jestereo.gif","banner":"img\/cover1.jpg","mision":"crear  un espaciocultural de alto nivel","vision":"ser un espacio cultural excelente","direccion":"col.lomas","pais":"Honduras","ciudad":"Tegucigalpa","telefono":"2208790","redesSociales":"Facebook","URL":"http","latitud":"23","longitud":"12","pago":" Tarjeta de credito","propietario":"Pedro","numeroTarjeta":"","vencimiento":"","cvv":"234","plan":"Gratis","sucursales":[{"nombre":"Variedades Ruben","correo":"ruben@gmail.com","telefono":"22206738","pais":"Honduras","ciudad":"Tegucigalpa","direccion":"col.pueblo nuevo","latitud":"12","longitud":"20"}],"productos":[{"image":"..\/img\/Laptop-II.jpg","nombreProducto":"Tecnologia","precio":"350","cantidad":"2","categoria":"Tecnologia","descripcion":"Some quick example text to build","direccion":"col.reparto","longitud":"12","latitud":"13"}],"promociones":[{"nombreProducto":"Computara\/Dell","categoria":"Tecnologia","precioAntes":"300","precioAhora":"250","descuento":"20%","fechaInicio":"12-02-2020","fechaLimite":"12-03-2020","ubicacionsucursal":"variedades juan","evaluacion":[{"comentario":"Buen Producto","calificacon":"3"}]}]},{"nombreEmpresa":"Xio","descripcionEmpresa":"Some quick","correo":"charly@gmail.com","contrasena":"1234","logo":"..\/img\/jestereo.gif","banner":"img\/cover1.jpg","mision":"crear  un espaciocultural de alto nivel","vision":"ser un espacio cultural excelente","direccion":"col.lomas","pais":"Honduras","ciudad":"Tegucigalpa","telefono":"2208790","redesSociales":"Facebook","URL":"http","latitud":"23","longitud":"12","pago":" Tarjeta de credito","propietario":"Pedro","numeroTarjeta":"","vencimiento":"","cvv":"234","plan":"Gratis","sucursales":[{"nombre":"Variedades Ruben","correo":"ruben@gmail.com","telefono":"22206738","pais":"Honduras","ciudad":"Tegucigalpa","direccion":"col.pueblo nuevo","latitud":"12","longitud":"20"}],"productos":[{"image":"..\/img\/Laptop-II.jpg","nombreProducto":"Tecnologia","precio":"300","cantidad":"2","categoria":"Tecnologia","descripcion":"Some quick example text to build","direccion":"col.suazo","longitud":"12","latitud":"13"}],"promociones":[{"nombreProducto":"Computara\/Dell","categoria":"Tecnologia","precioAntes":"300","precioAhora":"250","descuento":"2890%","fechaInicio":"12-02-2020","fechaLimite":"12-03-2020","ubicacionsucursal":"variedades chea","evaluacion":[]}]},{"nombreEmpresa":"hondurasR","descripcionEmpresa":"jinfushbfhwerf","correo":"katsantos1997@gmail.com","contrasena":"23456789","logo":"Cat-by\/frontend\/img\/.jpg","banner":"Cat-by\/frontend\/img\/1295956191_0 - copia.jpg","mision":"hebfauhsbdjawd","vision":"wkjndaebfhewbfhqe","direccion":"lempira","pais":"Costa Rica","ciudad":"Tegucigalp","telefono":"22206517","redesSociales":"Costa Rica","URL":"https:\/\/www.google.com","latitud":"123","longitud":"123","pago":"Tarjeta de Credito","propietario":"juaasssss","numeroTarjeta":"12345","vencimiento":"12\/12\/2019","cvv":"1223","plan":"Profesional","sucursales":[],"productos":[],"promociones":[]}]
+[
+  {
+    "nombreEmpresa": "Carrion",
+    "descripcionEmpresa": "sdfghjioyhfd",
+    "correo": "katsantos1997@gmail.com",
+    "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
+    "logo": "",
+    "banner": "",
+    "mision": "dfghjklkjhg",
+    "vision": "dfghjioiuyf",
+    "direccion": "lempira",
+    "pais": "Costa Rica",
+    "ciudad": "Tegucigalp",
+    "telefono": "22206517",
+    "redesSociales": "Honduras",
+    "URL": "https://www.google.com",
+    "latitud": "123",
+    "longitud": "123",
+    "pago": "Tarjeta de Credito",
+    "propietario": "juaasssss",
+    "numeroTarjeta": "12345",
+    "vencimiento": "12/12/2019",
+    "cvv": "1223",
+    "plan": "Gratis",
+    "sucursales": [
+      {
+        "nombre": "honduasr",
+        "correo": "ruben@gmail.com",
+        "telefono": "22206738",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalpa",
+        "direccion": "col.pueblo nuevo",
+        "latitud": "12",
+        "longitud": "20"
+      },
+      {
+        "nombre": "Variedades Samuel",
+        "correo": "Sam@gmail.com",
+        "telefono": "2204567",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalpa",
+        "direccion": "ila ",
+        "latitud": "13",
+        "longitud": "14"
+      },
+      {
+        "nombre": "Variedades JOH",
+        "correo": "samsant@gmail.com",
+        "telefono": "22206517",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalp",
+        "direccion": "suaxo",
+        "latitud": "123",
+        "longitud": "123"
+      },
+      {
+        "nombre": "Variedades Maria",
+        "correo": "samsant@gmail.com",
+        "telefono": "22206517",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalp",
+        "direccion": "lempira",
+        "latitud": "123",
+        "longitud": "123"
+      },
+      {
+        "nombre": "kat",
+        "correo": "katsantos1997@gmail.com",
+        "telefono": "22206517",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalp",
+        "direccion": "lempira",
+        "latitud": "123",
+        "longitud": "123"
+      },
+      {
+        "nombre": "Variedades Rubi",
+        "correo": "samsant@gmail.com",
+        "telefono": "22206517",
+        "pais": "Costa Rica",
+        "ciudad": "Tegucigalp",
+        "direccion": "suaxo",
+        "latitud": "123",
+        "longitud": "123"
+      },
+      {
+        "nombre": "Variedades Nilsen",
+        "correo": "samsant@gmail.com",
+        "telefono": "22206517",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalp",
+        "direccion": "suaxo",
+        "latitud": "123",
+        "longitud": "123"
+      }
+    ],
+    "productos": [
+      {
+        "image": "../img/Laptop-II.jpg",
+        "nombreProducto": "Tecnologia",
+        "precio": "500",
+        "cantidad": "2",
+        "categoria": "Tecnologia",
+        "descripcion": "Some quick example text to build",
+        "direccion": "col.villa nueva",
+        "longitud": "12",
+        "latitud": "13"
+      },
+      {
+        "image": "",
+        "nombreProducto": "Collatr",
+        "precio": "123",
+        "cantidad": "2",
+        "categoria": "Ni\u00f1os",
+        "descripcion": "sdfghjk",
+        "direccion": "suazo",
+        "longitud": "12",
+        "latitud": "12"
+      },
+      {
+        "image": "",
+        "nombreProducto": "camisas polo1",
+        "precio": "2000",
+        "cantidad": "4",
+        "categoria": "Hombres",
+        "descripcion": "xdcfvgbh",
+        "direccion": "suazo",
+        "longitud": "14",
+        "latitud": "12"
+      },
+      {
+        "image": "",
+        "nombreProducto": "Camisa Polo",
+        "precio": "200",
+        "cantidad": "2",
+        "categoria": "Hombres",
+        "descripcion": "dfghjkljhgfdfghjioiuyhfd",
+        "direccion": "lempira",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "",
+        "nombreProducto": "Camisa Polo1",
+        "precio": "300",
+        "cantidad": "1",
+        "categoria": "Ni\u00f1os",
+        "descripcion": "asdfghjklkjhgdsdfghjk",
+        "direccion": "suaxo",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "",
+        "nombreProducto": "collarbrilllabtesss",
+        "precio": "10",
+        "cantidad": "2",
+        "categoria": "Ni\u00f1os",
+        "descripcion": "sdfghjkl\u00f1kjhgfds",
+        "direccion": "lempira",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "",
+        "nombreProducto": "blusa",
+        "precio": "300",
+        "cantidad": "1",
+        "categoria": "Hombres",
+        "descripcion": "asdfghjkl\u00f1lkjhgfd",
+        "direccion": "lempira",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by-master-V/frontend/img/Captura.PNG",
+        "nombreProducto": "Camisa blusa",
+        "precio": "200",
+        "cantidad": "2",
+        "categoria": "Mujeres",
+        "descripcion": "gvhfklakjhfkalKJHBVGFHKALjhbfvg",
+        "direccion": "lempira",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by-master-V/frontend/img/Captura.PNG",
+        "nombreProducto": "Zapatos",
+        "precio": "300",
+        "cantidad": "1",
+        "categoria": "Hombres",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "direccion": "suazo",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by-master-V/frontend/img/prueba.png",
+        "nombreProducto": "Zapatosasdfghj",
+        "precio": "300",
+        "cantidad": "1",
+        "categoria": "Ni\u00f1os",
+        "descripcion": "asdfghjkljhgfdsdghuj",
+        "direccion": "suazo",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by-master-V/frontend/img/prueba.png",
+        "nombreProducto": "Zapatos",
+        "precio": "300",
+        "cantidad": "1",
+        "categoria": "Mujeres",
+        "descripcion": "astyujiyewtyu",
+        "direccion": "suazo",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by-master-V/frontend/img/Captura.PNG",
+        "nombreProducto": "blusa dama",
+        "precio": "10",
+        "cantidad": "2",
+        "categoria": "Hombres",
+        "descripcion": "ghszkldfhghdskalsdkfjhgfdkslakdjfh",
+        "direccion": "lempira",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by/frontend/img/accesorios1.jpeg",
+        "nombreProducto": "pulseras",
+        "precio": "200",
+        "cantidad": "2",
+        "categoria": "Mujeres",
+        "descripcion": "asdfghjkl\u00f1lkjhgfdfgjkl\u00f1",
+        "direccion": "suaxo",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by/frontend/img/ - copia.jpg",
+        "nombreProducto": "cadena",
+        "precio": "200",
+        "cantidad": "2",
+        "categoria": "Ni\u00f1os",
+        "descripcion": "sdfghjklkjhgdsdfgyuj",
+        "direccion": "suazo",
+        "longitud": "123",
+        "latitud": "123"
+      },
+      {
+        "image": "Cat-by/frontend/img/adulto2.jpg",
+        "nombreProducto": "Tacones ",
+        "precio": "200",
+        "cantidad": "2",
+        "categoria": "Mujeres",
+        "descripcion": "sdfghjkl\u00f1kjhgd",
+        "direccion": "lempira",
+        "longitud": "123",
+        "latitud": "123"
+      }
+    ],
+    "promociones": [
+      {
+        "nombreProducto": "Computara/Dell",
+        "categoria": "Tecnologia",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades juan",
+        "evaluacion": [{ "comentario": "Mas o menos", "calificacon": "3" }]
+      },
+      {
+        "nombreProducto": "Reloj",
+        "categoria": "modaAdulto",
+        "precioAntes": "$500",
+        "precioAhora": "$400",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-24",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "Tegucigalpa",
+        "evaluacion": []
+      },
+      {
+        "nombreProducto": "Camisa",
+        "categoria": "Tecnologia",
+        "precioAntes": "24",
+        "precioAhora": "45",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-13",
+        "fechaLimite": "2020-05-13",
+        "ubicacionsucursal": "Comayagua",
+        "evaluacion": []
+      },
+      {
+        "nombreProducto": "Camisa",
+        "categoria": "modaAdulto",
+        "precioAntes": "24",
+        "precioAhora": "3",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-04",
+        "fechaLimite": "2020-05-21",
+        "ubicacionsucursal": "Tegucigalpa",
+        "evaluacion": []
+      }
+    ]
+  },
+  {
+    "nombreEmpresa": "Galloo",
+    "descripcionEmpresa": "Some quick",
+    "correo": "charly@gmail.com",
+    "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
+    "logo": "../img/jestereo.gif",
+    "banner": "img/cover1.jpg",
+    "mision": "crear  un espaciocultural de alto nivel",
+    "vision": "ser un espacio cultural excelente",
+    "direccion": "col.lomas",
+    "pais": "Honduras",
+    "ciudad": "Tegucigalpa",
+    "telefono": "2208790",
+    "redesSociales": "Facebook",
+    "URL": "http",
+    "latitud": "23",
+    "longitud": "12",
+    "pago": " Tarjeta de credito",
+    "propietario": "Pedro",
+    "numeroTarjeta": "",
+    "vencimiento": "",
+    "cvv": "234",
+    "plan": "Gratis",
+    "sucursales": [
+      {
+        "nombre": "Variedades Ruben",
+        "correo": "ruben@gmail.com",
+        "telefono": "22206738",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalpa",
+        "direccion": "col.pueblo nuevo",
+        "latitud": "12",
+        "longitud": "20"
+      },
+      {
+        "nombre": "Variedades ",
+        "correo": "ruben@gmail.com",
+        "telefono": "22206738",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalpa",
+        "direccion": "col.pueblo nuevo",
+        "latitud": "12",
+        "longitud": "20"
+      },
+      {
+        "nombre": "Variedades JOH",
+        "correo": "katsantos1997@gmail.com",
+        "telefono": "22206517",
+        "pais": "Salvador",
+        "ciudad": "Tegucigalp",
+        "direccion": "suazo",
+        "latitud": "123",
+        "longitud": "123"
+      }
+    ],
+    "productos": [
+      {
+        "image": "../img/Laptop-II.jpg",
+        "nombreProducto": "Tecnologia",
+        "precio": "350",
+        "cantidad": "2",
+        "categoria": "Tecnologia",
+        "descripcion": "Some quick example text to build",
+        "direccion": "col.reparto",
+        "longitud": "12",
+        "latitud": "13"
+      },
+      {
+        "image": "../img/Laptop-II.jpg",
+        "nombreProducto": "Dell",
+        "precio": "350",
+        "cantidad": "2",
+        "categoria": "Tecnologia",
+        "descripcion": "Some quick example text to build",
+        "direccion": "col.reparto",
+        "longitud": "12",
+        "latitud": "13"
+      }
+    ],
+    "promociones": [
+      {
+        "nombreProducto": "Computara/Dell",
+        "categoria": "Tecnologia",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "20%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades juan",
+        "evaluacion": [{ "comentario": "Buen Producto", "calificacon": "3" }]
+      },
+      {
+        "nombreProducto": "1",
+        "categoria": "modaAdulto",
+        "precioAntes": "24",
+        "precioAhora": "30",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-20",
+        "fechaLimite": "2020-05-13",
+        "ubicacionsucursal": "2",
+        "evaluacion": []
+      },
+      {
+        "nombreProducto": "Dell",
+        "categoria": "modaAdulto",
+        "precioAntes": "24",
+        "precioAhora": "30",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-13",
+        "fechaLimite": "2020-05-14",
+        "ubicacionsucursal": "Variedades Ruben",
+        "evaluacion": []
+      }
+    ]
+  },
+  {
+    "nombreEmpresa": "Xio",
+    "descripcionEmpresa": "Some quick",
+    "correo": "charly@gmail.com",
+    "contrasena": "1234",
+    "logo": "../img/jestereo.gif",
+    "banner": "img/cover1.jpg",
+    "mision": "crear  un espaciocultural de alto nivel",
+    "vision": "ser un espacio cultural excelente",
+    "direccion": "col.lomas",
+    "pais": "Honduras",
+    "ciudad": "Tegucigalpa",
+    "telefono": "2208790",
+    "redesSociales": "Facebook",
+    "URL": "http",
+    "latitud": "23",
+    "longitud": "12",
+    "pago": " Tarjeta de credito",
+    "propietario": "Pedro",
+    "numeroTarjeta": "",
+    "vencimiento": "",
+    "cvv": "234",
+    "plan": "Gratis",
+    "sucursales": [
+      {
+        "nombre": "Variedades Ruben",
+        "correo": "ruben@gmail.com",
+        "telefono": "22206738",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalpa",
+        "direccion": "col.pueblo nuevo",
+        "latitud": "12",
+        "longitud": "20"
+      }
+    ],
+    "productos": [
+      {
+        "image": "../img/Laptop-II.jpg",
+        "nombreProducto": "Tecnologia",
+        "precio": "300",
+        "cantidad": "2",
+        "categoria": "Tecnologia",
+        "descripcion": "Some quick example text to build",
+        "direccion": "col.suazo",
+        "longitud": "12",
+        "latitud": "13"
+      }
+    ],
+    "promociones": [
+      {
+        "nombreProducto": "Computara/Dell",
+        "categoria": "Tecnologia",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades chea",
+        "evaluacion": []
+      }
+    ]
+  },
+  {
+    "nombreEmpresa": "hondurasR",
+    "descripcionEmpresa": "jinfushbfhwerf",
+    "correo": "katsantos1997@gmail.com",
+    "contrasena": "23456789",
+    "logo": "Cat-by/frontend/img/.jpg",
+    "banner": "Cat-by/frontend/img/1295956191_0 - copia.jpg",
+    "mision": "hebfauhsbdjawd",
+    "vision": "wkjndaebfhewbfhqe",
+    "direccion": "lempira",
+    "pais": "Costa Rica",
+    "ciudad": "Tegucigalp",
+    "telefono": "22206517",
+    "redesSociales": "Costa Rica",
+    "URL": "https://www.google.com",
+    "latitud": "123",
+    "longitud": "123",
+    "pago": "Tarjeta de Credito",
+    "propietario": "juaasssss",
+    "numeroTarjeta": "12345",
+    "vencimiento": "12/12/2019",
+    "cvv": "1223",
+    "plan": "Profesional",
+    "sucursales": [],
+    "productos": [],
+    "promociones": []
+  }
+]
