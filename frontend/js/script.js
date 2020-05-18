@@ -4,7 +4,7 @@ const url1="../../Cat-by/backend/api/loginEmpresa.php";
 console.log("imprimeindo windon location",window.location.search.substring(1))
 
 if(window.location.search.substring(1)){
-  octenerEmpresaId()
+  obtenerEmpresaId()
   //updateForm()
 }
 //const url1="../api/productos.php";
@@ -12,6 +12,25 @@ if(window.location.search.substring(1)){
 function updateFormValue(data){
   document.getElementById('nombreEmpresa').value=data.nombreEmpresa
   document.getElementById('correo').value=data.correo
+  document.getElementById('contrasena').value=data.contrasena
+  document.getElementById('mision').value=data.mision
+  document.getElementById('vision').value=data.vision
+  document.getElementById('descripcionEmpresa').value=data.descripcionEmpresa
+  document.getElementById('direccion').value=data.direccion
+  document.getElementById('pais').value=data.pais
+  document.getElementById('ciudad').value=data.ciudad
+  document.getElementById('telefono').value=data.telefono
+  document.getElementById('redesSociales').value=data.redesSociales
+  document.getElementById('URL').value=data.URL
+  document.getElementById('latitud').value=data.latitud
+  document.getElementById('longitud').value=data.longitud
+  document.getElementById('pago').value=data.pago
+  document.getElementById('plan').value=data.plan
+  document.getElementById('propietario').value=data.propietario
+  document.getElementById('numeroTarjeta').value=data.numeroTarjeta
+  document.getElementById('vencimiento').value=data.vencimiento
+  document.getElementById('cvv').value=data.cvv
+ 
 }
 var empresas = [];
 //var empresaSeleccionada;
@@ -106,7 +125,7 @@ function optenerId(){
   }
   return idEmpresa
 }
-function octenerEmpresaId(){
+function obtenerEmpresaId(){
   
   console.log("id a buscar: ",optenerId());
   axios({
@@ -273,8 +292,8 @@ function actualizarEmpresa(){
     descripcionEmpresa: document.getElementById('descripcionEmpresa').value,
     correo: document.getElementById('correo').value,
     contrasena: document.getElementById('contrasena').value,
-    logo: document.getElementById('logo').value,
-    banner: document.getElementById('banner').value,
+    logo: "Cat-by/frontend/img/" + document.getElementById("logo").files[0].name,
+    banner: "Cat-by/frontend/img/" + document.getElementById("banner").files[0].name,
     mision: document.getElementById('mision').value,
     vision: document.getElementById('vision').value,
     direccion: document.getElementById('direccion').value,
@@ -307,7 +326,7 @@ axios({
      console.error(error);
  });
 
- login();
+ 
 
  
 

@@ -41,7 +41,7 @@
                 <div class="card-body">
                     <h4>Registro Empresa</h4>
                    <hr>
-               <form >
+               <form action="uploaderActualizarE.php" method="POST" enctype="multipart/form-data" onsubmit="return validarEmpresaActalizada();" >
                 <div class="alert alert-danger" role="alert">
                     Datos Generales
                    </div>
@@ -52,28 +52,24 @@
                             placeholder="Nombre de la Empresa">
                     </div>
                     <div class="col-md-4 mb-3 mt-4">
-                        <input id="correo" type="text" onkeyup="validarEmail(this)" class="form-control" placeholder="Correo Electronico">
+                        <input id="correo" type="text"  class="form-control" placeholder="Correo Electronico">
                     </div>
                         
                     <div class="col-md-4 mb-3 mt-4">
-                        <input id="contrasena" type="password" onkeyup="validarContraseña(this)" placeholder="Contraseña" class="form-control">
+                        <input id="contrasena" type="password"  placeholder="Contraseña" class="form-control">
                     </div>
 
                     <div class="col-md-6 mb-3 mt-4">
-                        <div class="logo1">
-                            <img src="../img/logo-placeholder.png " class=" img-fluid ">
-                        </div>
+                       
                         <div class="custom-file ">
-                            <input type="file" class="custom-file-input " id="logo">
+                            <input type="file" name="archivo[]" class="custom-file-input " id="logo" name="logo">
                             <label class="custom-file-label" for="customFile">Logo</label>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3 mt-4">
-                        <div class="baner1">
-                            <img src="../img/logo-placeholder.png " class=" img-fluid ">
-                        </div>
+                       
                         <div class="custom-file ">
-                            <input type="file" class="custom-file-input " id="banner">
+                            <input type="file" name="archivo[]" class="custom-file-input " id="banner" name="banner"  >
                             <label class="custom-file-label" for="customFile">Banner</label>
                         </div>
                     </div>
@@ -122,7 +118,7 @@
                         <input id="ciudad" type="text"  class="form-control" placeholder="Ciudad">
                     </div>
                     <div class="col-md-3  mb-3 mt-4">
-                        <input  id="telefono" type="text"  onkeyup="validarTelefono(this)" class="form-control"
+                        <input  id="telefono" type="text"   class="form-control"
                             placeholder="Numero Telefonico">
                     </div>
                 </div>
@@ -136,15 +132,15 @@
                        <select id="redesSociales"  class="form-control">
 
                        <option value="">Redes Sociales</option>
-                       <option value="Honduras">Facebok</option>
-                       <option value="Costa Rica">Twiter</option>
-                       <option value="Salvador">Instagram</option>
+                       <option value="Facebook">Facebook</option>
+                       <option value="Twiter">Twiter</option>
+                       <option value="Instagram">Instagram</option>
                       
 
                        </select>
                    </div>
                    <div class="col-md-6  mb-3 mt-4">
-                    <input  id="URL" type="text"  onkeyup= "validarURL(this)" class="form-control"
+                    <input  id="URL" type="text"   class="form-control"
                         placeholder="URL">
                         
                 </div>
@@ -157,10 +153,10 @@
                     <hr>
                     <div class="row">
                      <div class="col-md-6 mb-3 mt-4">
-                         <input id="latitud" type="text" onkeyup= "validarLatitud(this)" class="form-control" placeholder="Latitud">
+                         <input id="latitud" type="text"  class="form-control" placeholder="Latitud">
                      </div>
                      <div class="col-md-6 mb-3 mt-4">
-                         <input id="longitud" type="text"  onkeyup= "validarLongitud(this)"   class="form-control" placeholder="Longitud">
+                         <input id="longitud" type="text"     class="form-control" placeholder="Longitud">
                      </div>
                  </div>
 
@@ -201,11 +197,11 @@
                              placeholder="Nombre del Propietario">
                      </div>
                      <div class="col-md-6 mb-3 mt-4">
-                         <input id="numeroTarjeta" type="text" onkeyup="validarNumerotarjeta(this)" class="form-control" placeholder="Numero de Tarjeta">
+                         <input id="numeroTarjeta" type="text"  class="form-control" placeholder="Numero de Tarjeta">
                      </div> 
                      
                      <div class="col-md-6  mb-3 mt-4">
-                         <input id="vencimiento" type="text" onkeyup= "validarFechavenc(this)" class="form-control"
+                         <input id="vencimiento" type="text"  class="form-control"
                              placeholder="vencimiento">
                      </div>
                      <div class="col-md-6 mb-3 mt-4">
@@ -213,13 +209,15 @@
                      </div>
                     </div>
                    
-                        <div class="row">
-                            <div class="col-md-3 mx-auto mt-auto botonE">
-                       
+                    
+                           
+                       <!--
                             <button type="button" onclick="actualizarEmpresa()" value="Login" class=" btn-block" >Actualizar</button>
+                           -->
+                           <input type="submit" value="Actualizar" class="btn-enviar">
                             <p class="form-link">¿Ya tienes una cuenta? <a href="#">Ingresa aqui</a> </p>
-                    </div>
-                    </div>
+                    
+                   
      
                </form>
 
@@ -233,7 +231,7 @@
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script> 
       <script src="js/jquery-3.4.1.min.js"></script>
-     <script src="js/RegistroEmpre.js"></script>
+     <script src="js/validar.js"></script>
 
 
 
