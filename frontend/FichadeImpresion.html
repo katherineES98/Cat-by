@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse"  style=" flex-direction: row-reverse;" id="navbarSupportedContent">
               
                  <div class="navbar-nav " >
-                    <a class="nav-link colorEnlace" href="cuentaEmpresarial.html"><i class="fas fa-undo-alt "></i> Regresar </a>
+                    <a class="nav-link colorEnlace" href="cuentaEmpresarial.php"><i class="fas fa-undo-alt "></i> Regresar </a>
                 
                 </div>
               
@@ -46,13 +46,13 @@
                         <hr>
                      <form >
                  <div class="row">
-                    <div class="col-md-6  mb-3 mt-4">
-                        <input id="Nombre del Producto" type="text" class="form-control"
-                            placeholder="Nombre del Producto">
+                    <div class="col-md-12  mb-3 mt-4">
+                        <select id="producto" class="form-control">
+                            <option value="Camisa">Camisa</option>
+                         
+                            </select>
                     </div>
-                    <div class="col-md-6 mb-3 mt-2 botonE">
-                        <button type="button" onclick="login()" value="Login" class=" btn-block" >Buscar</button>
-                </div>
+                 
                  </div>
 
                  <div class="alert alert-danger" role="alert">
@@ -94,10 +94,12 @@
         </div>
     </div>
     </main>
+    <script src="js/axios.min.js"></script>
+    <script src="js/FichaImpresion.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script> 
       <script src="js/jquery-3.4.1.min.js"></script>
-      <script src="js/FichaImpresion.js"></script>
+      
 </body>
 </html>
