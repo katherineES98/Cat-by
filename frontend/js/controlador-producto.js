@@ -4,6 +4,13 @@ const url2='../../Cat-by/backend/api/promociones.php';
 var empresas = [];
 var producto = [];
 
+console.log("imprimeindo windon location",window.location.search.substring(1))
+
+if(window.location.search.substring(1)){
+    obtenerEmpresaId()
+  //updateForm()
+}
+
 //var empresaSeleccionada;
 
 
@@ -31,7 +38,7 @@ function  guardarProducto(){
 
   axios({
     method:'POST',
-    url:url +`?id=${0}`,
+    url:url +`?id=${optenerId()}`,
     responseType:'json',
     data:producto
    }).then((res)=>{
@@ -83,12 +90,76 @@ function  guardarProducto(){
      
     
     }
-  
-  
 
-
+    function optenerId(){
+        let kokie 
+        let idEmpresa
+        let aCookies = document.cookie.split(";");
+        for (let i = 0; i < aCookies.length; i++) {
+          kokie=aCookies[i].split("=")
+          if(kokie[0]===" id"){
+            console.log(kokie[1])
+             idEmpresa=kokie[1]
+          }
+        }
+        return idEmpresa
+      }
   
+    function obtenerEmpresaId(){
+  
+        console.log("id a buscar: ",optenerId());
+        axios({
+          method: "GET",
+          url: url1+`?id=${optenerId()}`,
+          responseType: "json"
+        })
+          .then((res) => {
+            console.log(res.data);
+
+            this.empresas = res.data;
+            llenarProducto(res.data)
+            //al  momento que responda el servidor le vamos asignar el arreglo
+           // generarEmpresa();
+            
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
       
+
+
+
+
+
+
+
+
+
+
+
+    function llenarProducto(data) {
+        console.log(data);
+        document.getElementById("nombreProducto").innerHTML = "";
+            for (let k = 0; k < data.productos.length; k++) {
+                document.getElementById("nombreProducto").innerHTML += `
+                <option value="${k}">${data.productos[k].nombreProducto}</option>
+            
+                `;
+                
+            
+          
+        }
+    
+    
+    }
+    
+    
+  
+    
+
+
+
   
   
   

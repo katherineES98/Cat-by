@@ -104,7 +104,7 @@ header("Location: 401.html");
                             <div class="card " style="height:150px;box-shadow: 2px 2px 5px #1ea7d4;">
                                 <div class="card-body ">
                                     <div class="iconos">
-                                        <a href="RegistroPromocion.html"> <i class="fas fa-store fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
+                                        <a href="RegistroPromocion.html?key=producto"> <i class="fas fa-store fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
                                         <h3>Registro de Promociones</h3>
                                     </div>
 

@@ -106,7 +106,6 @@ function optenerId(){
   }
   return idEmpresa
 }
-
 function octenerEmpresaId(){
   
   console.log("id a buscar: ",optenerId());
@@ -127,6 +126,7 @@ function octenerEmpresaId(){
       console.error(error);
     });
 }
+
 
 //cargalas sucursales de la modal
 function cargarSucursales(nombreS) {
