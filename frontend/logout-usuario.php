@@ -6,7 +6,7 @@ setcookie("nombre","",time()-1,"/");
 setcookie("apellido","",time()-1,"/");
 setcookie("correo","",time()-1,"/");
 setcookie("telefono","",time()-1,"/");
-
+setcookie("id","",time()-1,"/");
 
 header("Location: index.html");
 

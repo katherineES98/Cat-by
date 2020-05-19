@@ -44,7 +44,7 @@
             <div class="card-body">
                <h5 class="texto4">Registrarse</h5>
                <hr>
-                <form >
+                <form onsubmit="return validarUsuarioActualizar();" >
                     <div class="alert alert-danger" role="alert">
                         Datos Generales
                        </div>
@@ -71,11 +71,10 @@
                     <hr>
                         <div class="row">
                           <div class="col-md-6 mb-1 mt-1">
-                            <input id="contrasena" type="password" onkeyup="validarContraseña(this)" placeholder="Contraseña" class="form-control">
+                            <input id="correo" type="text"  class="form-control" placeholder="Correo Electronico">
                         </div>
-
-                          <div class="col-md-6 mb-1 mt-1">
-                            <input id="correo" type="text" onkeyup="validarEmail(this)" class="form-control" placeholder="Correo Electronico">
+                        <div class="col-md-6 mb-1 mt-1">
+                            <input id="contrasena" type="password"  placeholder="Contraseña" class="form-control">
                         </div>
                            
                      </div>
@@ -86,18 +85,19 @@
                                  placeholder="Introduzca la Direccion">
                          </div>
                          <div class="col-md-6 mb-1 mt-1">
-                             <input id="telefono" type="text"  onkeyup="validarTelefono(this)" class="form-control" placeholder="Telefono">
+                             <input id="telefono" type="text"  class="form-control" placeholder="Telefono">
                          </div>
                          
                      </div>
                      <hr>
-                     <div class="row">
-                         <div class="col-md-4 mx-auto mt-auto  botonE">
                     
+                       
+                    <!---
                          <button type="button" onclick="actualizarUsuario()"  value="Login" class=" btn-block" >Actualizar</button>
-                     
-                 </div>
-                 </div>
+                         -->
+                         <input type="submit" value="Actualizar" class="btn-enviar">
+               
+             
                 
                 </form>     
         </div>
@@ -109,7 +109,8 @@
 <script src="js/bootstrap.min.js"></script> 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/axios.min.js"></script>
-  <script src="js/controlador-usuario.js"   ></script>
+  <script src="js/controlador-usuario.js"></script>
+  <script src="js/validar.js"></script>
  <script src="js/logincli.js"></script>
 </body>
 </html>

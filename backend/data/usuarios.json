@@ -5,7 +5,7 @@
     "genero": "Femenino",
     "correo": "samsant@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "direccion": "suaxo",
+    "direccion": "San pablo",
     "telefono": "22206517",
     "empresaFavoritas": [
       {
@@ -77,13 +77,13 @@
     ]
   },
   {
-    "nombre": "kat",
-    "apellido": "santo",
+    "nombre": "Gloria",
+    "apellido": "Martinez",
     "genero": "Femenino",
-    "correo": "kat@gmail.com",
+    "correo": "GloriaM@gmail.com",
     "contrasena": "2891baceeef1652ee698294da0e71ba78a2a4064",
-    "direccion": "El Hatillo, Kilometro 7.3, Frente antiguo Restaurante La Cumbre",
-    "telefono": "+50431902143",
+    "direccion": "reparto ",
+    "telefono": "31905034",
     "empresaFavoritas": [
       {
         "imagen": "../img/imag.jpg",
@@ -143,5 +143,4 @@
       }
     ]
   }
-
 ]

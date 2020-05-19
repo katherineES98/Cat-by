@@ -9,8 +9,8 @@
                   $_POST['nombre'],
                   $_POST['apellido'], 
                   $_POST['genero'], 
-                  $_POST['contrasena'],
                   $_POST['correo'],
+                  $_POST['contrasena'],
                   $_POST['direccion'], 
                   $_POST['telefono']
                
@@ -35,8 +35,8 @@
               $_PUT['nombre'],
              $_PUT['apellido'], 
              $_PUT['genero'], 
-             $_PUT['contrasena'],
              $_PUT['correo'], 
+             $_PUT['contrasena'],
              $_PUT['direccion'], 
              $_PUT['telefono']
            

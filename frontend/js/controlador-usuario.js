@@ -61,6 +61,7 @@ function obtenerUsuarioId(){
     .then((res) => {
       console.log(res.data);
       this.usuarios = res.data;
+      updateFormValueUsuario(res.data)
      
       //al  momento que responda el servidor le vamos asignar el arreglo
      // generarEmpresa();
@@ -71,7 +72,16 @@ function obtenerUsuarioId(){
     });
 }
 
+function updateFormValueUsuario(data){
+  document.getElementById('nombre').value=data.nombre
+  document.getElementById('apellido').value=data.apellido
+  document.getElementById('genero').value=data.genero
+  document.getElementById('correo').value=data.correo
+  document.getElementById('contrasena').value=data.contrasena
+  document.getElementById('direccion').value=data.direccion
+  document.getElementById('telefono').value=data.telefono
 
+}
 
 
 
@@ -89,8 +99,8 @@ function  guardarUsuario(){
       nombre: document.getElementById('nombre').value,
       apellido: document.getElementById('apellido').value,
       genero: document.getElementById('genero').value,
-      contrasena: document.getElementById('contrasena').value,
       correo: document.getElementById('correo').value,
+      contrasena: document.getElementById('contrasena').value,
       direccion: document.getElementById('direccion').value,
       telefono: document.getElementById('telefono').value,
       empresaFavoritas: [],
@@ -123,8 +133,8 @@ function  guardarUsuario(){
       nombre: document.getElementById('nombre').value,
       apellido: document.getElementById('apellido').value,
       genero: document.getElementById('genero').value,
-      contrasena: document.getElementById('contrasena').value,
       correo: document.getElementById('correo').value,
+      contrasena: document.getElementById('contrasena').value,
       direccion: document.getElementById('direccion').value,
       telefono: document.getElementById('telefono').value
       
@@ -134,7 +144,7 @@ function  guardarUsuario(){
   //servidor ahora
   axios({
     method:'PUT',
-    url:url2 +`?id=${0}`,
+    url:url2 +`?id=${obtenerIdUsuario()}`,
     responseType:'json',
     data:usuario
    }).then((res)=>{

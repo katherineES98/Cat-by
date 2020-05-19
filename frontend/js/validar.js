@@ -55,6 +55,64 @@ else {
 
 }
 
+function validarUsuarioActualizar(){
+    var nombre,apellido,genero,correo,direccion,telefono,re; 
+    nombre = document.getElementById("nombre").value;
+    apellido = document.getElementById("apellido").value;
+    genero  = document.getElementById("genero").value;
+   
+    correo  = document.getElementById("correo").value;
+    direccion  = document.getElementById("direccion").value;
+    telefono  = document.getElementById("telefono").value;
+    
+    re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    
+    if(nombre==="" ||apellido===""||genero===""||correo===""||direccion===""||telefono===""){
+    alert("Todos los campos son obligatorios");
+    return false;
+    }
+    else if(nombre.length>30){
+        alert("El nombre es muy Largo");
+        return false
+    }
+    else if(apellido.length>80){
+        alert("El apellido es muy Largo");
+        return false
+    }
+    
+    
+    else if(correo.length>100){
+        alert("El correo es muy Largo");
+        return false
+    }
+    else if(!(re.test(correo))){
+        alert("El correo no es valido");
+        return false
+    }
+    else if(direccion.length>20){
+        alert("la Direccion es muy Largo");
+        return false
+    }
+    else if(telefono.length>10){
+        alert("El Telefono es muy Largo");
+        return false
+    }
+    else if(isNaN(telefono)){
+        alert("El Telefono ingresado no es un numero");
+        return false
+    }
+    else {
+        alert("Datos Correctos");
+        actualizarUsuario();
+        return true
+    }
+    
+    }
+
+
+
+
+
 function validarEmpresa(){
     var nombreEmpresa,correo,contrasena,logo,banner,mision,vision,re,re1,re2,descripcionEmpresa,direccion,pais,ciudad,telefono,redesSociales,URL,latitud,longitud,pago,plan,propietario,vencimiento,cvv,numeroTarjeta; 
     nombreEmpresa = document.getElementById("nombreEmpresa").value;
