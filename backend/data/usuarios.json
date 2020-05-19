@@ -3,8 +3,8 @@
     "nombre": "Xioma",
     "apellido": "martinez",
     "genero": "Femenino",
-    "contrasena": "1234567",
     "correo": "samsant@gmail.com",
+    "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
     "direccion": "suaxo",
     "telefono": "22206517",
     "empresaFavoritas": [
@@ -80,8 +80,8 @@
     "nombre": "kat",
     "apellido": "santo",
     "genero": "Femenino",
-    "contrasena": "|12345",
     "correo": "kat@gmail.com",
+    "contrasena": "2891baceeef1652ee698294da0e71ba78a2a4064",
     "direccion": "El Hatillo, Kilometro 7.3, Frente antiguo Restaurante La Cumbre",
     "telefono": "+50431902143",
     "empresaFavoritas": [
@@ -105,8 +105,8 @@
     "nombre": "Mario",
     "apellido": "Galeano-Burgos",
     "genero": "Femenino",
-    "contrasena": "23456789",
     "correo": "mariogburgos@gmail.com",
+    "contrasena": "23456789",
     "direccion": "El Hatillo, Kilometro 7.3, Frente antiguo Restaurante La Cumbre",
     "telefono": "+50431902143",
     "empresaFavoritas": [
@@ -142,41 +142,6 @@
         "sucursales": []
       }
     ]
-  },
-  {
-    "nombre": "",
-    "apellido": "",
-    "genero": "Genero",
-    "contrasena": "",
-    "correo": "",
-    "direccion": "",
-    "telefono": "",
-    "empresaFavoritas": [],
-    "carrito": [],
-    "promocionesFavoritas": []
-  },
-  {
-    "nombre": "juan",
-    "apellido": "martinez",
-    "genero": "Masculino",
-    "contrasena": "1234567",
-    "correo": "katsantos1997@gmail.com",
-    "direccion": "suazo",
-    "telefono": "22206517",
-    "empresaFavoritas": [],
-    "carrito": [],
-    "promocionesFavoritas": []
-  },
-  {
-    "nombre": "juan",
-    "apellido": "espino",
-    "genero": "Femenino",
-    "contrasena": "234567",
-    "correo": "katsantos1997@gmail.com",
-    "direccion": "suazo",
-    "telefono": "22206517",
-    "empresaFavoritas": [],
-    "carrito": [],
-    "promocionesFavoritas": []
   }
+
 ]

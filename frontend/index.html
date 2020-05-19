@@ -191,14 +191,14 @@
           <form >
   <div class="form-group">
       <label for="username">Correo</label>
-      <input type="email"  onkeyup="validarEmail(this)" placeholder="Email ">
+      <input type="email" id="correo" placeholder="Email ">
      
   
   </div>
   
   <div class="form-group">
       <label for="password">Contraseña</label>
-  <input id="contraseña" type="password"placeholder="enter pasword">
+  <input  type="password" id="contrasena"  placeholder="enter pasword">
   
   </div>
   
@@ -210,40 +210,15 @@
             
             <a href="#" >¿ha perdido su contraseña?</a><br>
             <a href="#">Crear cuenta</a> 
-            <input type="button"  onclick='ingresar()'value="Ingresar" class="iniciar" >
+            <input type="button" onclick="login()" value="Ingresar" class="iniciar" >
+            <div class="alert alert-danger" id="errorUsuario" style="display: none;"></div>
         </div>
        
       </div>
     </div>
   </div>
 
-  <!--Modal Usuarios-->
- <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header " style="border-bottom: 0 !important;">
-          <h5 class="modal-title">Registro</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <p class="texto"> Registrarse como:</p>
-          <select class="form-control" id="registro" onchange="registro()">
-            <option value="1">Cliente</option>
-            <option value="2">Empresa</option>
-          </select>
-
-   
-        </div>
-        <div class="modal-footer " style="border-top: 0 !important;">
-            
-            <input type="button" value="Acceder" class="Acceder" >
-        </div>
-       
-      </div>
-    </div>
-  </div>
+ 
 
 
 
@@ -289,6 +264,7 @@
   </div>
   
   <script src="js/axios.min.js"></script>
+  <script src="js/controlador-usuario.js"></script>
   <script src="js/script.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.slim.js"></script>

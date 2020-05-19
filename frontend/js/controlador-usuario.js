@@ -1,4 +1,85 @@
 const url2='../../Cat-by/backend/api/usuarios.php';
+var usuarios = [];
+console.log("imprimeindo windon location",window.location.search.substring(1))
+
+if(window.location.search.substring(1)){
+  obtenerUsuarioId()
+  
+}
+
+function login(){
+  axios({
+    method:'POST',
+    url:"../../Cat-by/backend/api/login.php",
+    responseType:'json',
+    data:{
+      correo:document.getElementById('correo').value,
+     contrasena:document.getElementById('contrasena').value
+
+    }
+   }).then(res=>{
+    if (res.data.codigoResultados==1) {
+      window.location.href="cuentausuario.php";
+      
+  } else {
+      document.getElementById('errorUsuario').style.display='block';
+      document.getElementById('errorUsuario').innerHTML=res.data.mensaje;
+      
+  }
+        
+       console.log(res);
+       
+   }).catch(error=>{
+       console.error(error);
+   });
+  
+
+
+}
+
+function obtenerIdUsuario(){
+  let kokie 
+  let idEmpresa
+  let aCookies = document.cookie.split(";");
+  for (let i = 0; i < aCookies.length; i++) {
+    kokie=aCookies[i].split("=")
+    if(kokie[0]===" id"){
+      console.log(kokie[1])
+       idEmpresa=kokie[1]
+    }
+  }
+  return idEmpresa
+}
+function obtenerUsuarioId(){
+  
+  console.log("id a buscar: ",obtenerIdUsuario());
+  axios({
+    method: "GET",
+    url: url2+`?id=${obtenerIdUsuario()}`,
+    responseType: "json"
+  })
+    .then((res) => {
+      console.log(res.data);
+      this.usuarios = res.data;
+     
+      //al  momento que responda el servidor le vamos asignar el arreglo
+     // generarEmpresa();
+      
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
+
+
+
+
+
+
+
+
+
+
 
 
 //guardar Usuario

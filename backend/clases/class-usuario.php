@@ -4,18 +4,18 @@ class Usuario{
     private $nombre;
     private $apellido;
     private $genero;
-    private $contrasena;
     private $correo;
+    private $contrasena;
     private $direccion;
     private $telefono;
     //private $empresaFavoritas;
     
-    public function __construct($nombre,$apellido,$genero,$contrasena,$correo,$direccion,$telefono){
+    public function __construct($nombre,$apellido,$genero,$correo,$contrasena,$direccion,$telefono){
         $this->nombre = $nombre;
         $this->apellido = $apellido;
         $this->genero = $genero;
-        $this->contrasena = $contrasena;
         $this->correo = $correo;
+        $this->contrasena = $contrasena;
         $this->direccion = $direccion;
         $this->telefono = $telefono;
         //$this->empresaFavoritas = $empresaFavoritas;
@@ -84,6 +84,24 @@ class Usuario{
         return $this;
     }
 
+
+       
+    public function getCorreo()
+    {
+        return $this->correo;
+    }
+
+    /**
+     * Set the value of correo
+     *
+     * @return  self
+     */ 
+    public function setCorreo($correo)
+    {
+        $this->correo = $correo;
+
+        return $this;
+    }
     /**
      * Get the value of contraseña
      */ 
@@ -145,23 +163,7 @@ class Usuario{
     }
 
    
-      
-    public function getCorreo()
-    {
-        return $this->correo;
-    }
-
-    /**
-     * Set the value of correo
-     *
-     * @return  self
-     */ 
-    public function setCorreo($correo)
-    {
-        $this->correo = $correo;
-
-        return $this;
-    }
+   
 
     public  static function  obtenerUsuarios(){
         $contenidoArchivoUsuario = file_get_contents("../data/usuarios.json");
@@ -182,8 +184,8 @@ public  static function  obtenerUsuario($indice){
                 "nombre"=> $this->nombre,
                 "apellido"=> $this->apellido,
                 "genero"=> $this->genero,
-                "contrasena"=> $this->contrasena,
                 "correo"=> $this->correo,
+                "contrasena"=> $this->contrasena,
                 "direccion"=> $this->direccion,
                 "telefono"=> $this->telefono,
 
@@ -211,8 +213,8 @@ public function actualizarUsuario($indice){
     "nombre"=> $this->nombre,
     "apellido"=> $this->apellido,
     "genero"=> $this->genero,
-    "contrasena"=> $this->contrasena,
     "correo"=> $this->correo,
+    "contrasena"=> $this->contrasena,
     "direccion"=> $this->direccion,
     "telefono"=> $this->telefono,
     "empresaFavoritas"=> $usuarios[$indice]["empresaFavoritas"],
@@ -241,7 +243,17 @@ public static function eliminarUsuario($indice){
 
     
 }
+public static function verificarUsuario($correo , $contrasena){
+    $contenidoArchivoUsuario = file_get_contents("../data/usuarios.json");
+    $usuarios = json_decode($contenidoArchivoUsuario, true);
+    for ($i=0; $i < sizeof($usuarios) ; $i++) { 
+       if ($usuarios[$i]["correo"]==$correo && $usuarios[$i]["contrasena"]==sha1($contrasena)) {
+        return array( $usuarios[$i], $i);
+       }
+    }
+return null;
 
+}
 
 
 
