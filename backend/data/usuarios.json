@@ -90,12 +90,6 @@
         "nombreEmpresa": "Mercadito jat",
         "descripcion": "lorem...",
         "ubicacion": "tegucigalpa"
-      },
-      {
-        "imagen": "../img/imag.jpg",
-        "nombreEmpresa": "CarrionS",
-        "descripcion": "lorem...",
-        "ubicacion": "tegucigalpa"
       }
     ],
     "carrito": [],
