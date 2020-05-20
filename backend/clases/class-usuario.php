@@ -185,7 +185,7 @@ public  static function  obtenerUsuario($indice){
                 "apellido"=> $this->apellido,
                 "genero"=> $this->genero,
                 "correo"=> $this->correo,
-                "contrasena"=> $this->contrasena,
+                "contrasena"=> sha1($this->contrasena),
                 "direccion"=> $this->direccion,
                 "telefono"=> $this->telefono,
 

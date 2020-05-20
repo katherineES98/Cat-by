@@ -136,5 +136,29 @@
         "sucursales": []
       }
     ]
+  },
+  {
+    "nombre": "Maria",
+    "apellido": "martinez",
+    "genero": "Femenino",
+    "correo": "carmen@gmail.com",
+    "contrasena": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
+    "direccion": "suaxo",
+    "telefono": "22206517",
+    "empresaFavoritas": [],
+    "carrito": [],
+    "promocionesFavoritas": []
+  },
+  {
+    "nombre": "Juan",
+    "apellido": "martinez",
+    "genero": "Masculino",
+    "correo": "katsantos1997@gmail.com",
+    "contrasena": "7c4a8d09ca3762af61e59520943dc26494f8941b",
+    "direccion": "reparto oeste",
+    "telefono": "31905034",
+    "empresaFavoritas": [],
+    "carrito": [],
+    "promocionesFavoritas": []
   }
 ]
