@@ -1,5 +1,7 @@
 const url = "../../Cat-by/backend/api/empresas.php";
 const url1="../../Cat-by/backend/api/loginEmpresa.php";
+const url2='../../Cat-by/backend/api/empresasFavoritas.php';
+var empresas = [];
 
 console.log("imprimeindo windon location",window.location.search.substring(1))
 
@@ -81,7 +83,7 @@ function generarEmpresa() {
 				
          </p>
       </form>
-						  <h5 class="card-title"><b>${empresas[i].nombreEmpresa}</b>   <i class="fas fa-heart" style=" padding-left: 90px; color: red;" ></i>     </h5>
+						  <h5 class="card-title"><b>${empresas[i].nombreEmpresa}</b></h5> <a href="" onClick="empresaFav('${i}')"  ><i class="fas fa-heart" style=" padding-left: 90px; color: red;" ></i> </a> 
 
                           <p class="card-text" style="background-color: #FFFAF0!important;"><b> Descripcion :</b>  ${empresas[i].descripcionEmpresa}</p>
                           <hr>
@@ -365,6 +367,59 @@ function loginEmpresa(){
 
 
 }
+
+function obtenerIdUsuario(){
+  let kokie 
+  let idUsuario
+  let aCookies = document.cookie.split(";");
+  for (let i = 0; i < aCookies.length; i++) {
+    kokie=aCookies[i].split("=")
+    if(kokie[0]===" id"){
+      console.log(kokie[1])
+       idUsuario=kokie[1]
+    }
+  }
+  return idUsuario
+}
+
+
+function empresaFav(k){
+console.log("este es la empresa favorita al guardar",k);
+let favoriteCompany = {
+  logo:empresas[k].logo,
+  nombreEmpresa:empresas[k].nombreEmpresa,
+  descripcionEmpresa:empresas[k].descripcionEmpresa,
+  direccion:empresas[k].direccion 
+
+
+};
+console.log('Empresa Favorita a guardar', favoriteCompany)
+
+axios({
+  method:'POST',
+  url:url2 +`?id=${obtenerIdUsuario()}`,
+  responseType:'json',
+  data:favoriteCompany
+ }).then(res=>{
+     console.log(res);
+     
+ }).catch(error=>{
+     console.error(error);
+ });
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
 
 
 
