@@ -1,43 +1,43 @@
 <?php
 class EmpresaF{
-private $imagen;
+private $logo;
 private $nombreEmpresa;
-private $descripcion;
-private $ubicacion;
+private $descripcionEmpresa;
+private $direccion;
+
+
 
 public function __construct(
-   $imagen,
+   $logo,
    $nombreEmpresa,
-   $descripcion,
-   $ubicacion
+   $descripcionEmpresa,
+   $direccion
    
 ){
- $this->imagen =  $imagen;
+ $this->logo =  $logo;
  $this->nombreEmpresa =  $nombreEmpresa;
- $this->descripcion =  $descripcion;
- $this->ubicacion =$ubicacion;
+ $this->descripcionEmpresa =  $descripcionEmpresa;
+ $this->direccion =$direccion;
 
     }
 
 
-
-
 /**
- * Get the value of imagen
+ * Get the value of logo
  */ 
-public function getImagen()
+public function getLogo()
 {
-return $this->imagen;
+return $this->logo;
 }
 
 /**
- * Set the value of imagen
+ * Set the value of logo
  *
  * @return  self
  */ 
-public function setImagen($imagen)
+public function setLogo($logo)
 {
-$this->imagen = $imagen;
+$this->logo = $logo;
 
 return $this;
 }
@@ -63,44 +63,46 @@ return $this;
 }
 
 /**
- * Get the value of descripcion
+ * Get the value of descripcionEmpresa
  */ 
-public function getDescripcion()
+public function getDescripcionEmpresa()
 {
-return $this->descripcion;
+return $this->descripcionEmpresa;
 }
 
 /**
- * Set the value of descripcion
+ * Set the value of descripcionEmpresa
  *
  * @return  self
  */ 
-public function setDescripcion($descripcion)
+public function setDescripcionEmpresa($descripcionEmpresa)
 {
-$this->descripcion = $descripcion;
+$this->descripcionEmpresa = $descripcionEmpresa;
 
 return $this;
 }
 
 /**
- * Get the value of ubicacion
+ * Get the value of direccion
  */ 
-public function getUbicacion()
+public function getDireccion()
 {
-return $this->ubicacion;
+return $this->direccion;
 }
 
 /**
- * Set the value of ubicacion
+ * Set the value of direccion
  *
  * @return  self
  */ 
-public function setUbicacion($ubicacion)
+public function setDireccion($direccion)
 {
-$this->ubicacion = $ubicacion;
+$this->direccion = $direccion;
 
 return $this;
 }
+
+
 
 //CRUD
 public static function obtenerEmpresaFavorita($indice){
@@ -112,14 +114,14 @@ public static function obtenerEmpresaFavorita($indice){
 }
 
 
-public static function  obtenerEmpresaFavoritas($indice,$index){
-    $contenidoArchivo = file_get_contents("../data/usuarios.jsons");
+/*public static function  obtenerEmpresaFavoritas($indice,$index){
+    $contenidoArchivo = file_get_contents("../data/usuarios.json");
     $usuarios= json_decode($contenidoArchivo, true);
     echo json_encode($usuarios[$indice]["empresaFavoritas"][$index]);
 
 
 }
-
+*/
 
 public function guardarEmpresaFavorita($indice){
     $contenidoArchivo = file_get_contents("../data/usuarios.json");
@@ -127,11 +129,11 @@ public function guardarEmpresaFavorita($indice){
     
     $usuarios[$indice]["empresaFavoritas"][]= array(
     
-        "imagen"=> $this->imagen,
+        "logo"=> $this->logo,
         "nombreEmpresa"=> $this->nombreEmpresa,
-        "descripcion"=> $this->descripcion,
-        "ubicacion"=> $this->ubicacion
-         
+        "descripcionEmpresa"=> $this->descripcionEmpresa,
+        "direccion"=> $this->direccion
+
     );
     
     $archivo = fopen("../data/usuarios.json","w");
@@ -150,11 +152,12 @@ public function guardarEmpresaFavorita($indice){
         $usuarios = json_decode($contenidoArchivo, true);
         
         $empresaf= array(
-            "imagen"=> $this->imagen,
+            "logo"=> $this->logo,
             "nombreEmpresa"=> $this->nombreEmpresa,
-            "descripcion"=> $this->descripcion,
-            "ubicacion"=> $this->ubicacion
-        
+            "descripcionEmpresa"=> $this->descripcionEmpresa,
+            "direccion"=> $this->direccion
+    
+
         );
         $usuarios[$id]["empresaFavoritas"][$index] = $empresaf;
         $archivo = fopen('../data/usuarios.json', 'w');
@@ -175,6 +178,8 @@ public function guardarEmpresaFavorita($indice){
 
 
         }
+
+
 
 
 

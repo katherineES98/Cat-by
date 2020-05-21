@@ -1,13 +1,13 @@
 [
   {
     "nombreEmpresa": "Carrion",
-    "descripcionEmpresa": "sdfghjioyhfd",
+    "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
     "correo": "katsantos1997@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "logo": "Cat-by/frontend/img/1295956191_0 - copia.jpg",
-    "banner": "Cat-by/frontend/img/.jpg",
+    "logo": "Cat-by/frontend/img/hispanos1.jpg",
+    "banner": "Cat-by/frontend/img/deporte2.jpg",
     "mision": "dfghjklkjhg",
-    "vision": "dfghjioiuyf",
+    "vision": "precensiaq",
     "direccion": "lempira",
     "pais": "Costa Rica",
     "ciudad": "Tegucigalp",
@@ -90,6 +90,16 @@
         "pais": "Honduras",
         "ciudad": "Tegucigalp",
         "direccion": "suaxo",
+        "latitud": "123",
+        "longitud": "123"
+      },
+      {
+        "nombre": "variedades Mar",
+        "correo": "carmen@gmail.com",
+        "telefono": "22206517",
+        "pais": "Costa Rica",
+        "ciudad": "Tegucigalp",
+        "direccion": "reparto ",
         "latitud": "123",
         "longitud": "123"
       }
@@ -182,6 +192,17 @@
         "direccion": "lempira",
         "longitud": "123",
         "latitud": "123"
+      },
+      {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "nombreProducto": "Camisa Polo",
+        "precio": "300",
+        "cantidad": "1",
+        "categoria": "Hombres",
+        "descripcion": "dfghjklkjhgfdsdfghjk",
+        "direccion": "suazo",
+        "longitud": "123",
+        "latitud": "123"
       }
     ],
     "promociones": [
@@ -227,6 +248,17 @@
         "fechaInicio": "2020-05-04",
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "Tegucigalpa",
+        "evaluacion": []
+      },
+      {
+        "nombreProducto": "Tacones ",
+        "categoria": "Tecnologia",
+        "precioAntes": "260",
+        "precioAhora": "3",
+        "descuento": "50%",
+        "fechaInicio": "2020-05-15",
+        "fechaLimite": "2020-05-15",
+        "ubicacionsucursal": "Variedades Rubi",
         "evaluacion": []
       }
     ]

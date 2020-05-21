@@ -1,6 +1,6 @@
 [
   {
-    "nombre": "Xioma",
+    "nombre": "Maria",
     "apellido": "martinez",
     "genero": "Femenino",
     "correo": "samsant@gmail.com",
@@ -9,16 +9,22 @@
     "telefono": "22206517",
     "empresaFavoritas": [
       {
-        "imagen": "../img/imag.jpg",
+        "logo": "../img/imag.jpg",
         "nombreEmpresa": "MercaditoR",
-        "descripcion": "lorem...",
-        "ubicacion": "lempira"
+        "descripcionEmpresa": "lorem...",
+        "direccion": "lempira"
       },
       {
-        "imagen": "../img/imag.jpg",
+        "logo": "../img/imag.jpg",
         "nombreEmpresa": "Elecktra",
-        "descripcion": "lorem...",
-        "ubicacion": "lempira"
+        "descripcionEmpresa": "lorem...",
+        "direccion": "lempira"
+      },
+      {
+        "logo": "../img/imag.jpg",
+        "nombreEmpresa": "MercaditoR",
+        "descripcionEmpresa": "lorem...",
+        "direccion": "lempa"
       }
     ],
     "carrito": [
@@ -84,14 +90,7 @@
     "contrasena": "2891baceeef1652ee698294da0e71ba78a2a4064",
     "direccion": "reparto ",
     "telefono": "31905034",
-    "empresaFavoritas": [
-      {
-        "imagen": "../img/imag.jpg",
-        "nombreEmpresa": "Mercadito jat",
-        "descripcion": "lorem...",
-        "ubicacion": "tegucigalpa"
-      }
-    ],
+    "empresaFavoritas": [],
     "carrito": [],
     "promocionesFavoritas": []
   },

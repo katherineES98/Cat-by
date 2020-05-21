@@ -6,10 +6,12 @@
     switch($_SERVER['REQUEST_METHOD']){
         case 'POST': //Guardar
              $empresaf = new EmpresaF( 
-                  $_POST['imagen'],
+                  $_POST['logo'],
                   $_POST['nombreEmpresa'], 
-                  $_POST['descripcion'], 
-                  $_POST['ubicacion']
+                  $_POST['descripcionEmpresa'], 
+                  $_POST['direccion']
+
+                  
                  
                 );
           echo $empresaf->guardarEmpresaFavorita($_GET['id']);
@@ -21,7 +23,7 @@
             EmpresaF:: obtenerEmpresaFavorita($_GET['id']);
            
         }else{
-          EmpresaF::obtenerEmpresaFavoritas($_GET['id'],$_GET['index']);
+         // EmpresaF::obtenerEmpresaFavoritas($_GET['id'],$_GET['index']);
             
         }
             
@@ -29,10 +31,10 @@
         case 'PUT':
             $_PUT = json_decode(file_get_contents('php://input'),true);
             $empresaf = new EmpresaF( 
-              $_PUT['imagen'],
+              $_PUT['logo'],
              $_PUT['nombreEmpresa'], 
-             $_PUT['descripcion'], 
-             $_PUT['ubicacion']
+             $_PUT['descripcionEmpresa'], 
+             $_PUT['direccion']
              
            
             );
