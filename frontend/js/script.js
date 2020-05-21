@@ -83,33 +83,23 @@ function generarEmpresa() {
 				
          </p>
       </form>
-						  <h5 class="card-title"><b>${empresas[i].nombreEmpresa}</b></h5> <a href="" onClick="empresaFav('${i}')"  ><i class="fas fa-heart" style=" padding-left: 90px; color: red;" ></i> </a> 
+						  <h5 class="card-title"><b>${empresas[i].nombreEmpresa}</b></h5>
 
                           <p class="card-text" style="background-color: #FFFAF0!important;"><b> Descripcion :</b>  ${empresas[i].descripcionEmpresa}</p>
                           <hr>
-              <h6> <b>Comments</b><br></h6>
-            <div>
-              <span class="post-user">Gohan</span>
-              <span class="post-content">Lorem ipsum dolor.</span>
-            </div>
-            <div>
-              <span class="post-user">Gohan</span>
-              <span class="post-content">Lorem ipsum dolor.</span>
-            </div>
-            <hr>
-            <div class="px-0">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Comment" id="comentario-post-3">
-                <div class="input-group-append">
-                    <button type="button" onclick="comentar(3);" class="btn btn-outline-danger"><i class="far fa-paper-plane"></i></button>
-                </div>
-              </div>
-            </div>
-
-
-                        </div>
+                          <div>
+                          <center>
+                          <div class="iconos" style="display: flex!important; align-items: center!important;justify-content: centerr!important;">
+                          <a href="" onClick="empresaFav('${i}')"  ><i class="fas fa-heart" style=" margin-left:60px!important; color: red;" ></i> </a>    
+                         <i class="fas fa-comment-dots" style="margin-left:25px!important;color:blue;" ></i>
+                         </center>
+                         </div>
+                        
+                          </div>
+                          </div>
                       </div>
                 </div>
+                
 		
 		`;
   }

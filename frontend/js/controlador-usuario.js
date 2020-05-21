@@ -39,16 +39,16 @@ function login(){
 
 function obtenerIdUsuario(){
   let kokie 
-  let idEmpresa
+  let idUsuario
   let aCookies = document.cookie.split(";");
   for (let i = 0; i < aCookies.length; i++) {
     kokie=aCookies[i].split("=")
     if(kokie[0]===" id"){
       console.log(kokie[1])
-       idEmpresa=kokie[1]
+      idUsuario=kokie[1]
     }
   }
-  return idEmpresa
+  return idUsuario
 }
 function obtenerUsuarioId(){
   
