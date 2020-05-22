@@ -46,9 +46,9 @@ function obtenerEmpresaId(){
 function llenarProducto(data) {
     console.log(data);
     document.getElementById("producto").innerHTML = "";
-        for (let k = 0; k < data.productos.length; k++) {
+        for (let k = 0; k < data.promociones.length; k++) {
             document.getElementById("producto").innerHTML += `
-            <option value="${data.productos[k].nombreProducto}">${data.productos[k].nombreProducto}</option>
+            <option value="${data.promociones[k].nombreProducto}">${data.promociones[k].nombreProducto}</option>
         
             `;
             
