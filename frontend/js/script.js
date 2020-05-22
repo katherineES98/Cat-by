@@ -1,6 +1,6 @@
-const url = "../../Cat-by/backend/api/empresas.php";
-const url1="../../Cat-by/backend/api/loginEmpresa.php";
-const url2='../../Cat-by/backend/api/empresasFavoritas.php';
+const url = '../../Cat-by/backend/api/empresas.php';
+const url1='../../Cat-by/backend/api/loginEmpresa.php';
+const tests='../../Cat-by/backend/api/empresasFavoritas.php';
 var empresas = [];
 
 console.log("imprimeindo windon location",window.location.search.substring(1))
@@ -387,7 +387,7 @@ console.log('Empresa Favorita a guardar', favoriteCompany)
 
 axios({
   method:'POST',
-  url:url2 +`?id=${obtenerIdUsuario()}`,
+  url:tests +`?id=${obtenerIdUsuario()}`,
   responseType:'json',
   data:favoriteCompany
  }).then(res=>{
@@ -419,24 +419,4 @@ axios({
 
 
 
-
-
-//funcion de productos NO DA
-var productos=[];
-function generarProductos(categorias){
-  axios({
-    method:'GET',
-    url:url + `?id=${categorias}`,
-    responseType:'json'
-   }).then(res=>{
-       console.log(res.data);
-       //al  momento que responda el servidor le vamos asignar el arreglo usuariox
-       this.productos= res.data;
-       
-     
-   }).catch(error=>{
-       console.error(error);
-   });
-
-}
 
