@@ -207,6 +207,7 @@
     ],
     "promociones": [
       {
+        "image": "img/logo-placeholder.png",
         "nombreProducto": "Computara/Dell",
         "categoria": "Tecnologia",
         "precioAntes": "300",
@@ -218,6 +219,7 @@
         "evaluacion": [{ "comentario": "Mas o menos", "calificacon": "3" }]
       },
       {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
         "nombreProducto": "Reloj",
         "categoria": "modaAdulto",
         "precioAntes": "$500",
@@ -229,6 +231,7 @@
         "evaluacion": []
       },
       {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
         "nombreProducto": "Camisa",
         "categoria": "Tecnologia",
         "precioAntes": "24",
@@ -240,25 +243,27 @@
         "evaluacion": []
       },
       {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
         "nombreProducto": "Camisa",
         "categoria": "modaAdulto",
-        "precioAntes": "24",
+        "precioAntes": "500",
         "precioAhora": "3",
         "descuento": "20%",
-        "fechaInicio": "2020-05-04",
+        "fechaInicio": "2020-05-18",
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "Tegucigalpa",
         "evaluacion": []
       },
       {
-        "nombreProducto": "Tacones ",
-        "categoria": "Tecnologia",
-        "precioAntes": "260",
+        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "nombreProducto": "Camisa",
+        "categoria": "modaAdulto",
+        "precioAntes": "500",
         "precioAhora": "3",
-        "descuento": "50%",
-        "fechaInicio": "2020-05-15",
-        "fechaLimite": "2020-05-15",
-        "ubicacionsucursal": "Variedades Rubi",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-18",
+        "fechaLimite": "2020-05-21",
+        "ubicacionsucursal": "San pedro",
         "evaluacion": []
       }
     ]
@@ -365,6 +370,7 @@
     ],
     "promociones": [
       {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
         "nombreProducto": "Computara/Dell",
         "categoria": "Tecnologia",
         "precioAntes": "300",
@@ -376,6 +382,7 @@
         "evaluacion": [{ "comentario": "Buen Producto", "calificacon": "3" }]
       },
       {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
         "nombreProducto": "Dell",
         "categoria": "modaAdulto",
         "precioAntes": "24",
@@ -387,6 +394,7 @@
         "evaluacion": []
       },
       {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
         "nombreProducto": "tacones brillantes",
         "categoria": "Tecnologia",
         "precioAntes": "300",
@@ -460,6 +468,7 @@
     ],
     "promociones": [
       {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
         "nombreProducto": "Computara/Dell",
         "categoria": "Tecnologia",
         "precioAntes": "300",
@@ -522,33 +531,6 @@
     "vencimiento": "12/12/2019",
     "cvv": "1223",
     "plan": "Gratis",
-    "sucursales": [],
-    "productos": [],
-    "promociones": []
-  },
-  {
-    "nombreEmpresa": "Ennee",
-    "descripcionEmpresa": "asdfnsjbfnsf",
-    "correo": "enee@gmail.com",
-    "contrasena": "asdfghjk",
-    "logo": "Cat-by/frontend/img/deporte1.jpg",
-    "banner": "Cat-by/frontend/img/adulto1.jpg",
-    "mision": "holaaadbahwds",
-    "vision": "hollaaadnajsd",
-    "direccion": "suaxo",
-    "pais": "Salvador",
-    "ciudad": "Tegucigalp",
-    "telefono": "31905034",
-    "redesSociales": "Costa Rica",
-    "URL": "https://www.google.com",
-    "latitud": "123",
-    "longitud": "123",
-    "pago": "Tarjeta de Debito",
-    "propietario": "juaasssss",
-    "numeroTarjeta": "12345",
-    "vencimiento": "12/10/2019",
-    "cvv": "1223",
-    "plan": "Profesional",
     "sucursales": [],
     "productos": [],
     "promociones": []

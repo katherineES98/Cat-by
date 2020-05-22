@@ -6,6 +6,7 @@
     switch($_SERVER['REQUEST_METHOD']){
         case 'POST': //Guardar
             $promocion = new Promocion( 
+                $_POST['image'],
                 $_POST['nombreProducto'],
                 $_POST['categoria'], 
                 $_POST['precioAntes'], 
@@ -14,7 +15,7 @@
                 $_POST['fechaInicio'], 
                 $_POST['fechaLimite'],
                 $_POST['ubicacionsucursal']
-
+                
               
               );
         echo  $promocion ->guardarPromocion($_GET['id']);
@@ -33,15 +34,16 @@
         case 'PUT':
             $_PUT = json_decode(file_get_contents('php://input'),true);
             $promocion = new Promocion( 
-              $_PUT['nombreProducto'],
-             $_PUT['categoria'], 
-             $_PUT['precioAntes'], 
-             $_PUT['precioAhora'],
-             $_PUT['descuento'], 
-             $_PUT['fechaInicio'], 
-             $_PUT['fechaLimite'],
-             $_PUT['ubicacionsucursal']
-
+            $_PUT['image'],
+            $_PUT['nombreProducto'],
+            $_PUT['categoria'], 
+            $_PUT['precioAntes'], 
+            $_PUT['precioAhora'],
+            $_PUT['descuento'], 
+            $_PUT['fechaInicio'], 
+            $_PUT['fechaLimite'],
+            $_PUT['ubicacionsucursal']
+             
            
             );
             $promocion->actualizarPromocion($_GET['id'],$_GET['index']);

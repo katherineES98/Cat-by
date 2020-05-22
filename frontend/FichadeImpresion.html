@@ -47,7 +47,7 @@
                      <form >
                  <div class="row">
                     <div class="col-md-12  mb-3 mt-4">
-                        <select id="producto" class="form-control">
+                        <select id="producto" class="form-control" onchange="seleccionarSelect()"  >
                             <option value="Camisa">Camisa</option>
                          
                             </select>
@@ -59,8 +59,8 @@
                    Ficha De Promocion.
                     </div>
                     <hr>
-                    <div class=" ficha">
-                        <span class="descuento">50%</span>
+                    <div class=" ficha" id="descuento" >
+                     
                     </div>
                     <hr>
                     <div class="row">
@@ -73,17 +73,16 @@
                     <hr>
                    
                        </div>
-                       <div class="col-md-4">
-                        <h2>Nombre del Producto</h2>
-                        <p class="Texto5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum at beatae recusandae aperiam sed, et unde alias officiis dolores, eius numquam! Alias obcaecati, sequi exercitationem mollitia amet harum nam ullam quaerat at et
-                        </p>
+                       <div class="col-md-4" id="nombreP">
+                        <h5>Nombre del Producto</h5>
+                        
                         <hr>
 
                        </div>
-                       <div class="col-md-4">
-                        <h2>Foto Producto</h2>
+                       <div class="col-md-4" id="imagen">
+                        <h5>Foto Producto</h5>
                         
-                        <img src="/images/logotipo.png" width="123" height="123" />
+                      
                        </div>
                         <hr>
                     </div>

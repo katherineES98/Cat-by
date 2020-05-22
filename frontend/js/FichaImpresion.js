@@ -1,6 +1,6 @@
 
  const url1 = "../../Cat-by/backend/api/empresas.php";
- 
+ var empresa=[];
  obtenerEmpresaId()
  
  function optenerId(){
@@ -28,9 +28,9 @@ function obtenerEmpresaId(){
       .then((res) => {
         console.log(res.data);
 
-        this.empresas = res.data;
+        this.empresa = res.data;
         llenarProducto(res.data)
-       
+       console.log(empresa);
         //al  momento que responda el servidor le vamos asignar el arreglo
        // generarEmpresa();
         
@@ -48,15 +48,28 @@ function llenarProducto(data) {
     document.getElementById("producto").innerHTML = "";
         for (let k = 0; k < data.promociones.length; k++) {
             document.getElementById("producto").innerHTML += `
-            <option value="${data.promociones[k].nombreProducto}">${data.promociones[k].nombreProducto}</option>
+            <option value="${k}">${data.promociones[k].nombreProducto}</option>
         
-            `;
-            
-        
-      
+            `; 
     }
+}
+
+function seleccionarSelect(){
+  document.getElementById("descuento").innerHTML=`
+  <span class="descuento">${empresa.promociones[document.getElementById("producto").value].descuento}</span>
+  
+  `
+
+
+document.getElementById("nombreP").innerHTML=`
+<h5>${empresa.promociones[document.getElementById("producto").value].nombreProducto}</h5>
+
+`
+document.getElementById("imagen").innerHTML=`
+<img src="${empresa.promociones[document.getElementById("producto").value].image}" width="123" height="123" />
+
+`
+
 
 
 }
-
-

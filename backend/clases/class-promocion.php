@@ -1,5 +1,6 @@
 <?php
 class Promocion{
+    private $image;
     private $nombreProducto;
     private $categoria;
     private $precioAntes;
@@ -11,6 +12,7 @@ class Promocion{
    
 
     public function __construct(
+        $image,
         $nombreProducto,
         $categoria,
         $precioAntes,
@@ -20,6 +22,7 @@ class Promocion{
         $fechaLimite,
         $ubicacionsucursal
        ){
+            $this->image = $image;
             $this->nombreProducto = $nombreProducto;
             $this->categoria = $categoria;
             $this->precioAntes = $precioAntes;
@@ -33,7 +36,25 @@ class Promocion{
           
     }
     
+/**
+     * Get the value of image
+     */ 
+    public function getImage()
+    {
+        return $this->image;
+    }
 
+    /**
+     * Set the value of image
+     *
+     * @return  self
+     */ 
+    public function setImage($image)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
 
 
 
@@ -221,7 +242,7 @@ public function guardarPromocion($indice){
     $empresas = json_decode($contenidoArchivoProducto, true);
     
     $empresas[$indice]["promociones"][]= array(
-        
+        "image"=> $this->image,
         "nombreProducto"=> $this->nombreProducto,
         "categoria"=> $this->categoria,
         "precioAntes"=> $this->precioAntes,
@@ -249,6 +270,7 @@ public function guardarPromocion($indice){
         $empresas = json_decode($contenidoArchivo, true);
         
         $promociones= array(
+        "image"=> $this->image,
         "nombreProducto"=> $this->nombreProducto,
         "categoria"=> $this->categoria,
         "precioAntes"=> $this->precioAntes,
@@ -288,6 +310,8 @@ public function guardarPromocion($indice){
 
 
 
+
+    
 }
 
     ?>
