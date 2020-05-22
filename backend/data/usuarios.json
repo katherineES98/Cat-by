@@ -6,7 +6,7 @@
     "correo": "samsant@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
     "direccion": "San pablo",
-    "telefono": "22206517",
+    "telefono": "87967890",
     "empresaFavoritas": [
       {
         "logo": "../img/imag.jpg",
@@ -205,6 +205,18 @@
     "contrasena": "7c4a8d09ca3762af61e59520943dc26494f8941b",
     "direccion": "reparto oeste",
     "telefono": "31905034",
+    "empresaFavoritas": [],
+    "carrito": [],
+    "promocionesFavoritas": []
+  },
+  {
+    "nombre": "juan",
+    "apellido": "Aguilar",
+    "genero": "Masculino",
+    "correo": "carmen@gmail.com",
+    "contrasena": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
+    "direccion": "reparto oeste",
+    "telefono": "87967890",
     "empresaFavoritas": [],
     "carrito": [],
     "promocionesFavoritas": []

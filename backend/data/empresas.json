@@ -268,16 +268,16 @@
     "descripcionEmpresa": "Some quick",
     "correo": "charly@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "logo": "img/jestereo.gif",
-    "banner": "img/cover1.jpg",
+    "logo": "Cat-by/frontend/img/accesorios5.jpeg",
+    "banner": "Cat-by/frontend/img/1295956191_0 - copia.jpg",
     "mision": "crear  un espaciocultural de alto nivel",
-    "vision": "ser un espacio cultural excelente",
+    "vision": "ser un espacio cultural excelente y bien equipado",
     "direccion": "col.lomas",
     "pais": "Honduras",
-    "ciudad": "Tegucigalpa",
+    "ciudad": "Tegucigalp",
     "telefono": "2208790",
     "redesSociales": "Twiter",
-    "URL": "http//",
+    "URL": "https://myaccount.google.com",
     "latitud": "23",
     "longitud": "12",
     "pago": "Paypal",
@@ -316,6 +316,16 @@
         "direccion": "suazo",
         "latitud": "123",
         "longitud": "123"
+      },
+      {
+        "nombre": "Variedades emily",
+        "correo": "GloriaM@gmail.com",
+        "telefono": "22206517",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalp",
+        "direccion": "San pablo",
+        "latitud": "123",
+        "longitud": "123"
       }
     ],
     "productos": [
@@ -340,6 +350,17 @@
         "direccion": "col.reparto",
         "longitud": "12",
         "latitud": "13"
+      },
+      {
+        "image": "Cat-by/frontend/img/adulto2.jpg",
+        "nombreProducto": "tacones brillantes",
+        "precio": "250",
+        "cantidad": "2",
+        "categoria": "Mujeres",
+        "descripcion": "buen producto",
+        "direccion": "reparto ",
+        "longitud": "123",
+        "latitud": "23"
       }
     ],
     "promociones": [
@@ -355,17 +376,6 @@
         "evaluacion": [{ "comentario": "Buen Producto", "calificacon": "3" }]
       },
       {
-        "nombreProducto": "1",
-        "categoria": "modaAdulto",
-        "precioAntes": "24",
-        "precioAhora": "30",
-        "descuento": "20%",
-        "fechaInicio": "2020-05-20",
-        "fechaLimite": "2020-05-13",
-        "ubicacionsucursal": "2",
-        "evaluacion": []
-      },
-      {
         "nombreProducto": "Dell",
         "categoria": "modaAdulto",
         "precioAntes": "24",
@@ -374,6 +384,17 @@
         "fechaInicio": "2020-05-13",
         "fechaLimite": "2020-05-14",
         "ubicacionsucursal": "Variedades Ruben",
+        "evaluacion": []
+      },
+      {
+        "nombreProducto": "tacones brillantes",
+        "categoria": "Tecnologia",
+        "precioAntes": "300",
+        "precioAhora": "3",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-01",
+        "fechaLimite": "2020-05-17",
+        "ubicacionsucursal": "Variedades JOH",
         "evaluacion": []
       }
     ]
@@ -501,6 +522,33 @@
     "vencimiento": "12/12/2019",
     "cvv": "1223",
     "plan": "Gratis",
+    "sucursales": [],
+    "productos": [],
+    "promociones": []
+  },
+  {
+    "nombreEmpresa": "Ennee",
+    "descripcionEmpresa": "asdfnsjbfnsf",
+    "correo": "enee@gmail.com",
+    "contrasena": "asdfghjk",
+    "logo": "Cat-by/frontend/img/deporte1.jpg",
+    "banner": "Cat-by/frontend/img/adulto1.jpg",
+    "mision": "holaaadbahwds",
+    "vision": "hollaaadnajsd",
+    "direccion": "suaxo",
+    "pais": "Salvador",
+    "ciudad": "Tegucigalp",
+    "telefono": "31905034",
+    "redesSociales": "Costa Rica",
+    "URL": "https://www.google.com",
+    "latitud": "123",
+    "longitud": "123",
+    "pago": "Tarjeta de Debito",
+    "propietario": "juaasssss",
+    "numeroTarjeta": "12345",
+    "vencimiento": "12/10/2019",
+    "cvv": "1223",
+    "plan": "Profesional",
     "sucursales": [],
     "productos": [],
     "promociones": []
