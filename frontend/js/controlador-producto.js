@@ -60,6 +60,7 @@ function  guardarProducto(){
   function  guardarPromocion(){
    
       let promocion = {
+          image:document.getElementById('img').value,
           nombreProducto: document.getElementById('nombreProducto').value,
           categoria: document.getElementById('categoria').value,
           precioAntes: document.getElementById('precioAntes').value,
@@ -136,7 +137,7 @@ function  guardarProducto(){
         document.getElementById("nombreProducto").innerHTML = "";
             for (let k = 0; k < data.productos.length; k++) {
                 document.getElementById("nombreProducto").innerHTML += `
-                <option value="${data.productos[k].nombreProducto}">${data.productos[k].nombreProducto}</option>
+                <option value="${k}">${data.productos[k].nombreProducto}</option>
             
                 `;
                 
@@ -164,6 +165,16 @@ function  guardarProducto(){
     }
   
     
+    function seleccionarSelect(){
+      
+    document.getElementById("img").innerHTML=`
+    <img src="${empresas.productos[document.getElementById("nombreProducto").value].image}" width="123" height="123" />
+    
+    `
+    
+    
+    
+    }
 
 
 

@@ -25,6 +25,12 @@
         "nombreEmpresa": "Carrion",
         "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
         "direccion": "lempira"
+      },
+      {
+        "logo": "../img/jestereo.gif",
+        "nombreEmpresa": "Xio",
+        "descripcionEmpresa": "Some quick",
+        "direccion": "col.lomas"
       }
     ],
     "carrito": [
