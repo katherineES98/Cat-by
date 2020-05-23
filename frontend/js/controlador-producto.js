@@ -58,10 +58,13 @@ function  guardarProducto(){
 
   //guardar Producto en promocion
   function  guardarPromocion(){
-   
+    
+    let selectProducto =document.getElementById('nombreProducto');
+    let productoActual = selectProducto.options[selectProducto.selectedIndex].text;
+
       let promocion = {
           image:document.getElementById('img').value,
-          nombreProducto: document.getElementById('nombreProducto').value,
+          nombreProducto:productoActual,
           categoria: document.getElementById('categoria').value,
           precioAntes: document.getElementById('precioAntes').value,
           precioAhora: document.getElementById('precioAhora').value,
@@ -165,16 +168,7 @@ function  guardarProducto(){
     }
   
     
-    function seleccionarSelect(){
-      
-    document.getElementById("img").innerHTML=`
-    <img src="${empresas.productos[document.getElementById("nombreProducto").value].image}" width="123" height="123" />
-    
-    `
-    
-    
-    
-    }
+   
 
 
 

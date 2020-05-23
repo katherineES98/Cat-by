@@ -276,6 +276,18 @@
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "San pedro",
         "evaluacion": []
+      },
+      {
+        "image": null,
+        "nombreProducto": "Camisa blusa",
+        "categoria": "modaAdulto",
+        "precioAntes": "24",
+        "precioAhora": "3",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-24",
+        "fechaLimite": "2020-05-23",
+        "ubicacionsucursal": "Variedades Nilsen",
+        "evaluacion": []
       }
     ]
   },
