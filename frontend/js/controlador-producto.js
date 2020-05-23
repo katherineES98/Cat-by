@@ -20,7 +20,7 @@ if(window.location.search.substring(1)){
 function  guardarProducto(){
  
     let producto = {
-        image:"Cat-by/frontend/img/" + document.getElementById("image").files[0].name,
+        image:"img/productos/" + document.getElementById("image").files[0].name,
         nombreProducto: document.getElementById('nombreProducto').value,
         precio: document.getElementById('precio').value,
         cantidad: document.getElementById('cantidad').value,

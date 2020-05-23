@@ -9,28 +9,22 @@
     "telefono": "87967890",
     "empresaFavoritas": [
       {
-        "logo": "../img/imag.jpg",
-        "nombreEmpresa": "MercaditoR",
-        "descripcionEmpresa": "lorem...",
-        "direccion": "lempira"
-      },
-      {
-        "logo": "../img/jestereo.gif",
-        "nombreEmpresa": "Xio",
-        "descripcionEmpresa": "Some quick",
-        "direccion": "col.lomas"
-      },
-      {
-        "logo": "Cat-by/frontend/img/hispanos1.jpg",
+        "logo": "img/empresas/hispanos1.jpg",
         "nombreEmpresa": "Carrion",
         "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
         "direccion": "lempira"
       },
       {
-        "logo": "../img/jestereo.gif",
-        "nombreEmpresa": "Xio",
-        "descripcionEmpresa": "Some quick",
-        "direccion": "col.lomas"
+        "logo": "img/empresas/accesorios8.jpg",
+        "nombreEmpresa": "elcktra premium",
+        "descripcionEmpresa": "fbhdsgasvfgsvdfgf",
+        "direccion": "lempira"
+      },
+      {
+        "logo": "img/empresas/hispanos1.jpg",
+        "nombreEmpresa": "Carrion",
+        "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
+        "direccion": "lempira"
       }
     ],
     "carrito": [
