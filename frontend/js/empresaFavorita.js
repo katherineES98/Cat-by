@@ -40,6 +40,7 @@ function obtenerIdUsuario(){
 
  function llenarTabla(data){
  console.log(data);
+ document.querySelector('#tabla-empresaFavorita tbody').innerHTML="";
  for (let i = 0; i < data.empresaFavoritas.length; i++) {
      document.querySelector('#tabla-empresaFavorita tbody').innerHTML+=`
      <tr>
@@ -49,6 +50,11 @@ function obtenerIdUsuario(){
      <td data-label=" Empresa" >${ data.empresaFavoritas[i].nombreEmpresa}</td>
      <td data-label="Descripcion">${ data.empresaFavoritas[i].descripcionEmpresa}</td>
      <td data-label="Ubicacion">${ data.empresaFavoritas[i].direccion }</td>
+     <td data-label="Quitar">
+                        <a href="#">
+                            <i  onClick="EliminarFavoriteCompany(${i})" class="fas fa-times"></i>
+                        </a>
+                    </td>
   </tr>
      
      
@@ -61,3 +67,24 @@ function obtenerIdUsuario(){
 
 
  } 
+
+ function EliminarFavoriteCompany(empresa){
+  console.log("eliminar promocion favorita" ,empresa);
+  axios({
+      method: "DELETE",
+      url: url1+`?id=${obtenerIdUsuario()}&index=${empresa}`,
+      responseType: "json"
+    })
+      .then((res) => {
+        console.log(res.data);
+        obtenerUsuarioId();
+      
+      })
+      
+      .catch((error) => {
+        console.error(error);
+      });
+      
+  
+  
+  }
