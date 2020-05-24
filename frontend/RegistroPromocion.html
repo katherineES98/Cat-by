@@ -42,7 +42,7 @@
         <div class="card-body">
             <h4>Datos de las Promociones</h4>
             <hr>
-            <form onsubmit="return validarPromocion();">
+            <form >
                 <div class="alert alert-danger" role="alert">
                    Producto Aplicar Promocion.
                    </div>
@@ -116,7 +116,7 @@
                    </div>
                    <hr>
                    <div class="row">
-                    <div class="col-md-4  mb-3 mt-4">
+                    <div class="col-md-6 mb-3 mt-4">
                     <select id="ubicacionsucursal" class="form-control">
 
                         <option value="">Sucursales:</option>
@@ -126,15 +126,20 @@
                         </select>
 
                     </div> 
+                    <div class="col-md-6  mb-3 mt-4">
+                   
+                        <textarea id="descripcion" class="form-control  " id="exampleFormControlTextarea1" placeholder=" Ingrese Descripcion de la promocion" rows="3"></textarea>
+                     
+                    </div>
                    </div>
                     <hr>
                     <div class="row">
                         <div class="col-md-3 mx-auto mt-auto botonE">
-                            <!---
+                           
                         
-            <button type="button" onclick=" guardarPromocion()"  value="Login" class=" btn-block" >Agregar</button>
-           -->
-            <input type="submit" value="Registrar" class="btn-enviar"> 
+            <button type="button" onclick="validarPromocion()" value="Login" class=" btn-block" >Agregar</button>
+         
+           <!--- <input type="submit" value="Registrar" class="btn-enviar">--> 
         </div>
                 </div>
 

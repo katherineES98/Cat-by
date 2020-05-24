@@ -39,31 +39,13 @@ function agregarProducto(produc, k, i) {
             <img src='${produc.image}' class="card-img-top" alt="...">
             <div class="card-body">
               <div class="card-title">   
-              <h6><b>${produc.nombreProducto} | -${produc.porcentaje} </b></h6>
+              <h6><b>${produc.nombreProducto} | -${produc.descuento} </b></h6>
               <h6><b>Precio:${produc.precioAhora}</b></h6>
               <h6 class="texto2" style="text-decoration: line-through;" ><b>Precio real:${produc.precioAntes} </b></h6>
-              <h6><b>${produc.empresa}</b></h6>
+              <h6><b>${empresas[i].nombreEmpresa}</b></h6>
             </div>
               <p class="card-text">${produc.descripcion}</p>
-              <hr>
-              <h6> <b>Comments</b><br></h6>
-            <div>
-              <span class="post-user">Gohan</span>
-              <span class="post-content">Lorem ipsum dolor.</span>
-            </div>
-            <div>
-              <span class="post-user">Gohan</span>
-              <span class="post-content">Lorem ipsum dolor.</span>
-            </div>
-            <hr>
-            <div class="px-0">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Comment" id="comentario-post-3">
-                <div class="input-group-append">
-                    <button type="button" onclick="comentar(3);" class="btn btn-outline-danger"><i class="far fa-paper-plane"></i></button>
-                </div>
-              </div>
-            </div>
+            
             <hr>
             <div class="iconos" style="display: flex; align-items: center;justify-content: center;">
             <i class="fas fa-heart" style="margin-right: 5px!important ; color: red;" ></i>

@@ -66,6 +66,7 @@ function  guardarProducto(){
           image:document.getElementById('img').value,
           nombreProducto:productoActual,
           categoria: document.getElementById('categoria').value,
+          descripcion: document.getElementById('descripcion').value,
           precioAntes: document.getElementById('precioAntes').value,
           precioAhora: document.getElementById('precioAhora').value,
           descuento: document.getElementById('descuento').value,
@@ -73,7 +74,7 @@ function  guardarProducto(){
           fechaLimite: document.getElementById('fechaLimite').value,
           ubicacionsucursal: document.getElementById('ubicacionsucursal').value,
           evaluacion:[]
-       
+          
   
   
        

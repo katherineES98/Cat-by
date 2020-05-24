@@ -1,6 +1,6 @@
 [
   {
-    "nombreEmpresa": "Carrion",
+    "nombreEmpresa": "Honduras R",
     "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
     "correo": "katsantos1997@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
@@ -218,9 +218,10 @@
     ],
     "promociones": [
       {
-        "image": "img/productos/logo-placeholder.png",
-        "nombreProducto": "Computara/Dell",
-        "categoria": "Tecnologia",
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "categoria": "modaNi\u00f1o",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "2890%",
@@ -230,9 +231,10 @@
         "evaluacion": [{ "comentario": "Mas o menos", "calificacon": "3" }]
       },
       {
-        "image": "img/productos/hogar1.jpg",
-        "nombreProducto": "Reloj",
+        "image": "img/productos/deporte2.jpg",
+        "nombreProducto": "Sueter/Buso",
         "categoria": "modaAdulto",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "$500",
         "precioAhora": "$400",
         "descuento": "10%",
@@ -242,9 +244,10 @@
         "evaluacion": []
       },
       {
-        "image": "img/productos/hogar1.jpg",
-        "nombreProducto": "Camisa",
-        "categoria": "Tecnologia",
+        "image": "img/productos/mueble cojin.jpg",
+        "nombreProducto": "muebles",
+        "categoria": "Hogar",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "24",
         "precioAhora": "45",
         "descuento": "10%",
@@ -254,9 +257,10 @@
         "evaluacion": []
       },
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
-        "nombreProducto": "Camisa",
-        "categoria": "modaAdulto",
+        "image": "img/productos/ni\u00f1o7.jpg",
+        "nombreProducto": "Trajecito",
+        "categoria": "Hogar",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "500",
         "precioAhora": "3",
         "descuento": "20%",
@@ -266,9 +270,10 @@
         "evaluacion": []
       },
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "image": "img/productos/ni\u00f1o7.jpg",
         "nombreProducto": "Camisa",
         "categoria": "modaAdulto",
+        "descripcion": "linda ropa",
         "precioAntes": "500",
         "precioAhora": "3",
         "descuento": "20%",
@@ -276,27 +281,15 @@
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "San pedro",
         "evaluacion": []
-      },
-      {
-        "image": null,
-        "nombreProducto": "Camisa blusa",
-        "categoria": "modaAdulto",
-        "precioAntes": "24",
-        "precioAhora": "3",
-        "descuento": "10%",
-        "fechaInicio": "2020-05-24",
-        "fechaLimite": "2020-05-23",
-        "ubicacionsucursal": "Variedades Nilsen",
-        "evaluacion": []
       }
     ]
   },
   {
-    "nombreEmpresa": "Galloo",
+    "nombreEmpresa": "Curaco",
     "descripcionEmpresa": "Some quick",
     "correo": "charly@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "logo": "Cat-by/frontend/img/accesorios5.jpeg",
+    "logo": "img/empresas/curacao.png",
     "banner": "Cat-by/frontend/img/1295956191_0 - copia.jpg",
     "mision": "crear  un espaciocultural de alto nivel",
     "vision": "ser un espacio cultural excelente y bien equipado",
@@ -393,9 +386,10 @@
     ],
     "promociones": [
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
-        "nombreProducto": "Computara/Dell",
-        "categoria": "Tecnologia",
+        "image": "img/productos/micro.jpg",
+        "nombreProducto": "Microondas",
+        "categoria": "Hogar",
+        "descripcion": "linda ropa",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "20%",
@@ -405,9 +399,10 @@
         "evaluacion": [{ "comentario": "Buen Producto", "calificacon": "3" }]
       },
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
-        "nombreProducto": "Dell",
-        "categoria": "modaAdulto",
+        "image": "img/productos/estufa.jpg",
+        "nombreProducto": "Estufa",
+        "categoria": "Hogar",
+        "descripcion": "linda ropa",
         "precioAntes": "24",
         "precioAhora": "30",
         "descuento": "20%",
@@ -417,9 +412,10 @@
         "evaluacion": []
       },
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
-        "nombreProducto": "tacones brillantes",
-        "categoria": "Tecnologia",
+        "image": "img/productos/relojp.jpg",
+        "nombreProducto": "Reloj",
+        "categoria": "Accesorios",
+        "descripcion": "linda ropa",
         "precioAntes": "300",
         "precioAhora": "3",
         "descuento": "20%",
@@ -431,11 +427,11 @@
     ]
   },
   {
-    "nombreEmpresa": "Xio",
+    "nombreEmpresa": "Mystic",
     "descripcionEmpresa": "Some quick",
     "correo": "ch@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "logo": "../img/jestereo.gif",
+    "logo": "img/empresas/mystic.jpg",
     "banner": "img/cover1.jpg",
     "mision": "crear  un espaciocultural de alto nivel",
     "vision": "ser un espacio cultural excelente",
@@ -491,9 +487,10 @@
     ],
     "promociones": [
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "image": "img/productos/pulseras.jpg",
         "nombreProducto": "Computara/Dell",
-        "categoria": "Tecnologia",
+        "categoria": "Accesorios",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "2890%",
@@ -509,7 +506,7 @@
     "descripcionEmpresa": "jinfushbfhwerf",
     "correo": "katsantos1997@gmail.com",
     "contrasena": "23456789",
-    "logo": "Cat-by/frontend/img/.jpg",
+    "logo": "img/empresas/mendels.jpg",
     "banner": "Cat-by/frontend/img/1295956191_0 - copia.jpg",
     "mision": "hebfauhsbdjawd",
     "vision": "wkjndaebfhewbfhqe",
@@ -531,9 +528,10 @@
     "productos": [],
     "promociones": [
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
-        "nombreProducto": "Computara/Dell",
+        "image": "img/productos/tecnologia6.jpg",
+        "nombreProducto": "Reloj Digitales",
         "categoria": "Tecnologia",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "2890%",
@@ -545,11 +543,11 @@
     ]
   },
   {
-    "nombreEmpresa": "elektra",
+    "nombreEmpresa": "Exotic",
     "descripcionEmpresa": "sdfghjioyhfd",
     "correo": "katsantos1997@gmail.com",
     "contrasena": "asd.456",
-    "logo": "Cat-by/frontend/img/1295956191_0 - copia.jpg",
+    "logo": "img/empresas/exotic.png",
     "banner": "Cat-by/frontend/img/accesorios2 - copia.jpg",
     "mision": "dfghjklkjhg",
     "vision": "dfghjioiuyf",
@@ -571,9 +569,10 @@
     "productos": [],
     "promociones": [
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "image": "img/productos/ni\u00f1o7.jpg",
         "nombreProducto": "Computara/Dell",
         "categoria": "Tecnologia",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "2890%",
@@ -585,11 +584,11 @@
     ]
   },
   {
-    "nombreEmpresa": "elcktra premium",
+    "nombreEmpresa": " El Compadre",
     "descripcionEmpresa": "fbhdsgasvfgsvdfgf",
     "correo": "elcktra@gmail.com",
     "contrasena": "7c4a8d09ca3762af61e59520943dc26494f8941b",
-    "logo": "img/empresas/accesorios8.jpg",
+    "logo": "img/empresas/compadre.jpg",
     "banner": "img/empresas/accesorios4.jpg",
     "mision": "jihijdbcshdfsdfgdv",
     "vision": "ncfabsjdvwvdhasdhaw",
@@ -611,9 +610,10 @@
     "productos": [],
     "promociones": [
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "image": "img/productos/refri.jpg",
         "nombreProducto": "Computara/Dell",
-        "categoria": "Tecnologia",
+        "categoria": "Hogar",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "2890%",
@@ -623,9 +623,10 @@
         "evaluacion": []
       },
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
-        "nombreProducto": "Computara/Dell",
-        "categoria": "Hogar",
+        "image": "img/productos/rosa.jpg",
+        "nombreProducto": "Vestido",
+        "categoria": "modaAdulto",
+        "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "2890%",
