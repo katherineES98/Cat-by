@@ -51,52 +51,6 @@
     ],
     "promocionesFavoritas": [
       {
-        "image": "../img/imag.jpg",
-        "nombreProducto": "Colares",
-        "descripcion": "lorem..",
-        "precioAhora": "34..",
-        "ubicacionsucursal": "tegus",
-        "sucursales": [
-          {
-            "nombre": "Variedades Ruben",
-            "correo": "ruben@gmail.com",
-            "telefono": "22206738",
-            "pais": "Honduras",
-            "ciudad": "Tegucigalpa",
-            "direccion": "col.pueblo nuevo",
-            "latitud": "12",
-            "longitud": "20"
-          }
-        ]
-      },
-      {
-        "image": "../img/imag.jpg",
-        "nombreProducto": "Colares",
-        "descripcion": "lorem..",
-        "precioAhora": "34..",
-        "ubicacionsucursal": "tegus",
-        "sucursales": [
-          {
-            "nombre": "Varied",
-            "correo": "ruben@gmail.com",
-            "telefono": "22206738",
-            "pais": "Honduras",
-            "ciudad": "Tegucigalpa",
-            "direccion": "col.pueblo nuevo",
-            "latitud": "12",
-            "longitud": "20"
-          }
-        ]
-      },
-      {
-        "image": "img/imag.jpg",
-        "nombreProducto": "Camisa",
-        "descripcion": "lorem..",
-        "precioAhora": "34..",
-        "ubicacionsucursal": "tegus",
-        "sucursales": []
-      },
-      {
         "image": "img/productos/ni\u00f1o6.jpg",
         "nombreProducto": "Trajecitos",
         "descripcion": "ASKLKJHGDSfghjkj",
@@ -163,6 +117,14 @@
     "carrito": [],
     "promocionesFavoritas": [
       {
+        "image": "img/productos/deporte2.jpg",
+        "nombreProducto": "Sueter/Buso",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "$400",
+        "ubicacionsucursal": "Tegucigalpa",
+        "sucursales": []
+      },
+      {
         "image": "img/productos/ni\u00f1o6.jpg",
         "nombreProducto": "Trajecitos",
         "descripcion": "ASKLKJHGDSfghjkj",
@@ -175,14 +137,6 @@
         "nombreProducto": "Sueter/Buso",
         "descripcion": "ASKLKJHGDSfghjkj",
         "precioAhora": "$400",
-        "ubicacionsucursal": "Tegucigalpa",
-        "sucursales": []
-      },
-      {
-        "image": "img/productos/ni\u00f1o7.jpg",
-        "nombreProducto": "Trajecito",
-        "descripcion": "ASKLKJHGDSfghjkj",
-        "precioAhora": "3",
         "ubicacionsucursal": "Tegucigalpa",
         "sucursales": []
       }
