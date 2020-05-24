@@ -1,92 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/promo.css">
-    <link rel="stylesheet" href="css/all.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/promo.css" />
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg " >
-            <a class="navbar-brand" href="#"><img src="img/cate2.png"></a>
-        
-            <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon bg-light"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" style=" flex-direction: row-reverse;" id="navbarSupportedContent">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="img/cate2.png" /></a>
 
-                <!--ver porque no me da la modal en el carrito    ya daaa-->
-              
-                 <div class="navbar-nav " >
-                     <a data-toggle="modal" data-target="#exampleModal">
-                         <img src="img/cart.jpeg " class=" img-fluid" style="width: 70px; height: 70px;"
-                        alt="">
-                    </a>
-                    
-                    <a class="nav-link colorEnlace" href="principal.html"><i class="fas fa-undo-alt "></i> Regresar </a>
-                 </div> 
-            
-            </div>
-          </nav>
-        <section class="texto-header">
-            <h1>Nuestras mejores promociones </h1>
-            <h2> COMPRA YA! </h2>
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #ffff;"></path>
-            </svg></div>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-light"></span>
+        </button>
 
-    </header>
-  <main>
-    <div class="container"  id="lista-producto">
-        <div class="menu">
-            <ul>
-                <li class="todos active"><a  class="btn-menu" onClick="generarProductos('Tecnologia');" >Tecnologia</a></li>
-                <li class="laptop"><a   class="btn-menu" onClick="generarProductos('modaAdulto');" >Md/Adulto</a></li>
-                <li class="camara"><a  class="btn-menu" onClick="generarProductos('modaNiño');" >Md/Niño</a></li>
-                <li class="iphone"><a  class="btn-menu" onClick="generarProductos('Accesorios');" >Accesorios</a></li>
-                <li class="audifono"><a  class="btn-menu" onClick="generarProductos('Hogar');" >Hogar</a></li>
-                
-            </ul>
+        <div
+          class="collapse navbar-collapse"
+          style="flex-direction: row-reverse;"
+          id="navbarSupportedContent"
+        >
+          <!--ver porque no me da la modal en el carrito    ya daaa-->
+
+          <div class="navbar-nav">
+            <a data-toggle="modal" data-target="#exampleModal">
+              <img
+                src="img/cart.jpeg "
+                class="img-fluid"
+                style="width: 70px; height: 70px;"
+                alt=""
+              />
+            </a>
+
+            <a class="nav-link colorEnlace" href="principal.html"
+              ><i class="fas fa-undo-alt"></i> Regresar
+            </a>
+          </div>
         </div>
-         <div class="row justify-content-center" id="productos" >
-            
+      </nav>
+      <section class="texto-header">
+        <h1>Nuestras mejores promociones</h1>
+        <h2>COMPRA YA!</h2>
+      </section>
+      <div class="wave" style="height: 150px; overflow: hidden;">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #ffff;"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="lista-producto">
+        <div class="menu">
+          <ul>
+            <li class="todos active">
+              <a class="btn-menu" onClick="generarProductos('todos');">Todos</a>
+            </li>
+            <li>
+              <a class="btn-menu" onClick="generarProductos('Tecnologia');"
+                >Tecnologia</a
+              >
+            </li>
+            <li class="laptop">
+              <a class="btn-menu" onClick="generarProductos('modaAdulto');"
+                >Md/Adulto</a
+              >
+            </li>
+            <li class="camara">
+              <a class="btn-menu" onClick="generarProductos('modaNiño');"
+                >Md/Niño</a
+              >
+            </li>
+            <li class="iphone">
+              <a class="btn-menu" onClick="generarProductos('Accesorios');"
+                >Accesorios</a
+              >
+            </li>
+            <li class="audifono">
+              <a class="btn-menu" onClick="generarProductos('Hogar');">Hogar</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row justify-content-center" id="productos"></div>
+      </div>
+    </main>
 
-            
-            
-           
-            
-
-
-
-
-
-
-
-         </div>
-
-
-
-
-
-    </div>
-
-
-
-
-  </main>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.slim.js"></script>
-  <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
+    <script src="js/produc.js"></script>
+  </body>
 </html>

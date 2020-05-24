@@ -218,7 +218,7 @@
     ],
     "promociones": [
       {
-        "image": "img/logo-placeholder.png",
+        "image": "img/productos/logo-placeholder.png",
         "nombreProducto": "Computara/Dell",
         "categoria": "Tecnologia",
         "precioAntes": "300",
@@ -230,7 +230,7 @@
         "evaluacion": [{ "comentario": "Mas o menos", "calificacon": "3" }]
       },
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "image": "img/productos/hogar1.jpg",
         "nombreProducto": "Reloj",
         "categoria": "modaAdulto",
         "precioAntes": "$500",
@@ -242,7 +242,7 @@
         "evaluacion": []
       },
       {
-        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "image": "img/productos/hogar1.jpg",
         "nombreProducto": "Camisa",
         "categoria": "Tecnologia",
         "precioAntes": "24",
@@ -529,7 +529,20 @@
     "plan": "Profesional",
     "sucursales": [],
     "productos": [],
-    "promociones": []
+    "promociones": [
+      {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "nombreProducto": "Computara/Dell",
+        "categoria": "Tecnologia",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades chea",
+        "evaluacion": []
+      }
+    ]
   },
   {
     "nombreEmpresa": "elektra",
@@ -556,7 +569,20 @@
     "plan": "Gratis",
     "sucursales": [],
     "productos": [],
-    "promociones": []
+    "promociones": [
+      {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "nombreProducto": "Computara/Dell",
+        "categoria": "Tecnologia",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades chea",
+        "evaluacion": []
+      }
+    ]
   },
   {
     "nombreEmpresa": "elcktra premium",
@@ -583,6 +609,31 @@
     "plan": "Gratis",
     "sucursales": [],
     "productos": [],
-    "promociones": []
+    "promociones": [
+      {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "nombreProducto": "Computara/Dell",
+        "categoria": "Tecnologia",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades chea",
+        "evaluacion": []
+      },
+      {
+        "image": "Cat-by/frontend/img/hogar1.jpg",
+        "nombreProducto": "Computara/Dell",
+        "categoria": "Hogar",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades chea",
+        "evaluacion": []
+      }
+    ]
   }
 ]
