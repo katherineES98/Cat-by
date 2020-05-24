@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function getGET() {
+        // capturamos la url
+        var loc = document.location.href;
+        // si existe el interrogante
+        if (loc.indexOf("?") > 0) {
+          // cogemos la parte de la url que hay despues del interrogante
+          var getString = loc.split("?")[1];
+          // obtenemos un array con cada clave=valor
+          var GET = getString.split("&");
+          var get = {};
+          // recorremos todo el array de valores
+          for (var i = 0, l = GET.length; i < l; i++) {
+            var tmp = GET[i].split("=");
+            get[tmp[0]] = unescape(decodeURI(tmp[1]));
+          }
+          return get;
+        }
+      }
+      console.log(getGET());
+      // Note: This example requires that you consent to location sharing when
+      // prompted by your browser. If you see the error "The Geolocation service
+      // failed.", it means you probably did not give permission for the browser to
+      // locate you.
+      let cordenadas = getGET();
+      console.log(cordenadas.log);
+      function initMap() {
+        // The location of Uluru
+        var uluru = {
+          lat: parseFloat(cordenadas.lat),
+          lng: parseFloat(cordenadas.log),
+        };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({ position: uluru, map: map });
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChDVAiRpeXaION2rqXUJsk4fjTyY6Cp4g&callback=initMap"
+    ></script>
+  </body>
+</html>
