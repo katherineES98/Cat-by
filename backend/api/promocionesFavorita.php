@@ -6,10 +6,11 @@
     switch($_SERVER['REQUEST_METHOD']){
         case 'POST': //Guardar
              $promocionesfavorita = new PromocionesFavorita( 
-                  $_POST['imagen'],
-                  $_POST['nombre'], 
+                  $_POST['image'],
+                  $_POST['nombreProducto'],
                   $_POST['descripcion'], 
-                  $_POST['precio']
+                  $_POST['precioAhora'],
+                  $_POST['ubicacionsucursal']
 
                 );
           echo $promocionesfavorita->guardarPromocionFavoritas($_GET['id']);
@@ -29,11 +30,11 @@
         case 'PUT':
             $_PUT = json_decode(file_get_contents('php://input'),true);
             $promocionesfavorita = new PromocionesFavorita( 
-              $_PUT['imagen'],
-             $_PUT['nombre'], 
+              $_PUT['image'],
+             $_PUT['nombreProducto'], 
              $_PUT['descripcion'], 
-             $_PUT['precio']
-             
+             $_PUT['precioAhora'],
+             $_PUT['ubicacionsucursal']
              
            
             );

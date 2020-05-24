@@ -1,31 +1,32 @@
 <?php
 class PromocionesFavorita{
-    private $imagen;
-    private $nombre;
+    private $image;
+    private $nombreProducto;
     private $descripcion;
-    private $precio;
-  
+    private $precioAhora;
+    private $ubicacionsucursal;
+
     public function __construct(
-        $imagen,
-        $nombre,
+        $image,
+        $nombreProducto,
         $descripcion,
-        $precio
-        
+        $precioAhora,
+        $ubicacionsucursal
      ){
-      $this->imagen =  $imagen;
-      $this->nombre =  $nombre;
+      $this->image =  $image;
+      $this->nombreProducto =  $nombreProducto;
       $this->descripcion =  $descripcion;
-      $this->precio =$precio;
+      $this->precioAhora =$precioAhora;
+      $this->ubicacionsucursal =$ubicacionsucursal;
      
          }
      
-
-    /**
+ /**
      * Get the value of imagen
      */ 
-    public function getImagen()
+    public function getImage()
     {
-        return $this->imagen;
+        return $this->image;
     }
 
     /**
@@ -33,29 +34,29 @@ class PromocionesFavorita{
      *
      * @return  self
      */ 
-    public function setImagen($imagen)
+    public function setImagen($image)
     {
-        $this->imagen = $imagen;
+        $this->image = $image;
 
         return $this;
     }
 
     /**
-     * Get the value of nombre
+     * Get the value of nombreProducto
      */ 
-    public function getNombre()
+    public function getNombreProducto()
     {
-        return $this->nombre;
+        return $this->nombreProducto;
     }
 
     /**
-     * Set the value of nombre
+     * Set the value of nombreProducto
      *
      * @return  self
      */ 
-    public function setNombre($nombre)
+    public function setNombreProducto($nombreProducto)
     {
-        $this->nombre = $nombre;
+        $this->nombreProducto = $nombreProducto;
 
         return $this;
     }
@@ -81,24 +82,50 @@ class PromocionesFavorita{
     }
 
     /**
-     * Get the value of precio
+     * Get the value of precioAhora
      */ 
-    public function getPrecio()
+    public function getPrecioAhora()
     {
-        return $this->precio;
+        return $this->precioAhora;
     }
 
     /**
-     * Set the value of precio
+     * Set the value of precioAhora
      *
      * @return  self
      */ 
-    public function setPrecio($precio)
+    public function setPrecioAhora($precioAhora)
     {
-        $this->precio = $precio;
+        $this->precioAhora = $precioAhora;
 
         return $this;
     }
+
+    /**
+     * Get the value of ubicacionsucursal
+     */ 
+    public function getUbicacionsucursal()
+    {
+        return $this->ubicacionsucursal;
+    }
+
+    /**
+     * Set the value of ubicacionsucursal
+     *
+     * @return  self
+     */ 
+    public function setUbicacionsucursal($ubicacionsucursal)
+    {
+        $this->ubicacionsucursal = $ubicacionsucursal;
+
+        return $this;
+    }
+
+
+
+
+
+
 //CRUD
 public static function obtenerPromocionFavorita($indice){
     $contenidoArchivo = file_get_contents("../data/usuarios.json");
@@ -124,11 +151,14 @@ public function guardarPromocionFavoritas($indice){
     
     $usuarios[$indice]["promocionesFavoritas"][]= array(
     
-        "imagen"=> $this->imagen,
-        "nombre"=> $this->nombre,
+        "image"=> $this->image,
+        "nombreProducto"=> $this->nombreProducto,
         "descripcion"=> $this->descripcion,
-        "precio"=> $this->precio,
+        "precioAhora"=> $this->precioAhora,
+        "ubicacionsucursal"=> $this->ubicacionsucursal,
         "sucursales"=>[]
+
+        
 
     
          
@@ -150,12 +180,14 @@ public function guardarPromocionFavoritas($indice){
         $usuarios = json_decode($contenidoArchivo, true);
         
         $promociones= array(
-        "imagen"=> $this->imagen,
-        "nombre"=> $this->nombre,
+        "image"=> $this->image,
+        "nombreProducto"=> $this->nombreProducto,
         "descripcion"=> $this->descripcion,
-        "precio"=> $this->precio,
+        "precioAhora"=> $this->precioAhora,
+        "ubicacionsucursal"=> $this->ubicacionsucursal,
         "sucursales"=>$usuarios[$id]["promocionesFavoritas"][$index]["sucursales"]
-        
+
+       
         );
         $usuarios[$id]["promocionesFavoritas"][$index] = $promociones;
         $archivo = fopen('../data/usuarios.json', 'w');
@@ -185,6 +217,8 @@ public function guardarPromocionFavoritas($indice){
 
 
 
+
+   
 }
 
 
