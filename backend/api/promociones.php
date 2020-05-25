@@ -6,7 +6,7 @@
     switch($_SERVER['REQUEST_METHOD']){
         case 'POST': //Guardar
             $promocion = new Promocion( 
-                //$_POST['image'],
+                $_POST['image'],
                 $_POST['nombreProducto'],
                 $_POST['categoria'], 
                 $_POST['descripcion'], 
@@ -35,7 +35,7 @@
         case 'PUT':
             $_PUT = json_decode(file_get_contents('php://input'),true);
             $promocion = new Promocion( 
-           // $_PUT['image'],
+           $_PUT['image'],
             $_PUT['nombreProducto'],
             $_PUT['categoria'],
             $_PUT['descripcion'],  

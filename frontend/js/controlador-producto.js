@@ -2,7 +2,7 @@ const url='../../Cat-by/backend/api/productos.php';
 const url1 = "../../Cat-by/backend/api/empresas.php";
 const url2='../../Cat-by/backend/api/promociones.php';
 var empresas = [];
-var producto = [];
+var productos= [];
 
 console.log("imprimeindo windon location",window.location.search.substring(1))
 
@@ -63,7 +63,7 @@ function  guardarProducto(){
     let productoActual = selectProducto.options[selectProducto.selectedIndex].text;
 
       let promocion = {
-          image:document.getElementById('img').value,
+          image:empresas.productos[document.getElementById("nombreProducto").value].image,
           nombreProducto:productoActual,
           categoria: document.getElementById('categoria').value,
           descripcion: document.getElementById('descripcion').value,
@@ -122,8 +122,10 @@ function  guardarProducto(){
             console.log(res.data);
 
             this.empresas = res.data;
+            this.productos=res.data;
             llenarProducto(res.data)
             llenarSucursales(res.data)
+
             //al  momento que responda el servidor le vamos asignar el arreglo
            // generarEmpresa();
             
@@ -171,8 +173,20 @@ function  guardarProducto(){
     
    
 
+    function seleccionarSelect(){
+     
+    
+    document.getElementById("imagen1").innerHTML=`
+    <img src="${empresas.productos[document.getElementById("nombreProducto").value].image}" width="123" height="123" />
+    
+    `
+    
+    
+    
+    }
 
-
   
   
   
+    
+      

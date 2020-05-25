@@ -106,7 +106,7 @@
     ],
     "productos": [
       {
-        "image": "Cat-by-master-V/frontend/img/Captura.PNG",
+        "image": "img/productos/ni\u00f1o6.jpg",
         "nombreProducto": "Camisa blusa",
         "precio": "200",
         "cantidad": "2",
@@ -214,6 +214,17 @@
         "direccion": "reparto ",
         "longitud": "123",
         "latitud": "23"
+      },
+      {
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "precio": "300",
+        "cantidad": "1",
+        "categoria": "Hombres",
+        "descripcion": "sombrero comodo y accesible",
+        "direccion": "San pablo",
+        "longitud": "123",
+        "latitud": "23"
       }
     ],
     "promociones": [
@@ -280,6 +291,32 @@
         "fechaInicio": "2020-05-18",
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "San pedro",
+        "evaluacion": []
+      },
+      {
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Camisa blusa",
+        "categoria": "modaNi\u00f1o",
+        "descripcion": "buen pructo.............................",
+        "precioAntes": "200",
+        "precioAhora": "3000000",
+        "descuento": "50%",
+        "fechaInicio": "2020-05-14",
+        "fechaLimite": "2020-05-22",
+        "ubicacionsucursal": "Variedades Rubi",
+        "evaluacion": []
+      },
+      {
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "categoria": "modaAdulto",
+        "descripcion": "a bajo precio",
+        "precioAntes": "260",
+        "precioAhora": "30",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-15",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "variedades Mar",
         "evaluacion": []
       }
     ]

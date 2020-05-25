@@ -39,19 +39,11 @@
     ],
     "promocionesFavoritas": [
       {
-        "image": "img/productos/ni\u00f1o6.jpg",
-        "nombreProducto": "Trajecitos",
-        "descripcion": "ASKLKJHGDSfghjkj",
-        "precioAhora": "250",
-        "ubicacionsucursal": "variedades juan",
-        "sucursales": []
-      },
-      {
-        "image": "img/productos/estufa.jpg",
-        "nombreProducto": "Estufa",
-        "descripcion": "linda ropa",
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "descripcion": "a bajo precio",
         "precioAhora": "30",
-        "ubicacionsucursal": "Variedades Ruben",
+        "ubicacionsucursal": "variedades Mar",
         "sucursales": []
       }
     ]
