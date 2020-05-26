@@ -1,134 +1,165 @@
 <?php
 class Carrito{
-    private $imagen;
-    private $nombreproducto;
-    private $precio;
-    private $cantidad;
+    private $image;
+    private $nombreProducto;
+    private $categoria;
+    private $descripcion;
+    private $precioAntes;
+    private $precioAhora;
     private $descuento;
-    private $nombrePropietario;
-    private $numeroTarjeta;
-    private $vencimiento;
-    private $CVV;
-    private $total;
-    private $formaPago;
-    private $envio;
+    private $fechaInicio;
+    private $fechaLimite;
+    private $ubicacionsucursal;
+   
 
+
+
+
+    
     public function __construct(
-        $imagen,
-        $nombreproducto,
-        $precio,
-        $cantidad,
+        $image,
+        $nombreProducto,
+        $categoria,
+        $descripcion,
+        $precioAntes,
+        $precioAhora,
         $descuento,
-        $nombrePropietario,
-        $numeroTarjeta,
-        $vencimiento,
-        $CVV,
-        $total,
-        $formaPago,
-        $envio
+        $fechaInicio,
+        $fechaLimite,
+        $ubicacionsucursal
        ){
-            $this->imagen = $imagen;
-            $this->nombreproducto = $nombreproducto;
-            $this->precio = $precio;
-            $this->cantidad = $cantidad;
-            $this->descuento = $descuento;
-            $this->nombrePropietario = $nombrePropietario;
-            $this->numeroTarjeta = $numeroTarjeta;
-            $this->vencimiento = $vencimiento;
-            $this->CVV = $CVV;
-            $this->total = $total;
-            $this->formaPago = $formaPago;
-            $this->envio = $envio;
+        $this->image = $image;
+        $this->nombreProducto = $nombreProducto;
+        $this->categoria = $categoria;
+        $this->descripcion = $descripcion;
+        $this->precioAntes = $precioAntes;
+        $this->precioAhora = $precioAhora;
+        $this->descuento = $descuento;
+        $this->fechaInicio = $fechaInicio;
+        $this->fechaLimite = $fechaLimite;
+        $this->ubicacionsucursal = $ubicacionsucursal;
 
            
           
     }
     
+  
+    public function getImage()
+    {
+        return $this->image;
+    }
 
+    /**
+     * Set the value of image
+     *
+     *
+     */ 
+    public function setImage($image)
+    {
+        $this->image = $image;
 
+        return $this;
+    }
+
+   
+
+    /**
+     * Get the value of nombreProducto
+     */ 
+    public function getNombreProducto()
+    {
+        return $this->nombreProducto;
+    }
+
+    /**
+     * Set the value of nombreProducto
+     *
+     * @return  self
+     */ 
+    public function setNombreProducto($nombreProducto)
+    {
+        $this->nombreProducto = $nombreProducto;
+
+        return $this;
+    }
 
     
-
-
-
-
-
     /**
-     * Get the value of imagen
+     * Get the value of categoria
      */ 
-    public function getImagen()
+    public function getCategoria()
     {
-        return $this->imagen;
+        return $this->categoria;
     }
 
     /**
-     * Set the value of imagen
+     * Set the value of categoria
      *
      * @return  self
      */ 
-    public function setImagen($imagen)
+    public function setCategoria($categoria)
     {
-        $this->imagen = $imagen;
+        $this->categoria = $categoria;
+
+        return $this;
+    }
+
+    
+    /**
+     * Get the value of descripcion
+     */ 
+    public function getDescripcion()
+    {
+        return $this->descripcion;
+    }
+
+    /**
+     * Set the value of descripcion
+     *
+     * @return  self
+     */ 
+    public function setDescripcion($descripcion)
+    {
+        $this->descripcion = $descripcion;
+
+        return $this;
+    }
+    /**
+     * Get the value of precioAntes
+     */ 
+    public function getPrecioAntes()
+    {
+        return $this->precioAntes;
+    }
+
+    /**
+     * Set the value of precioAntes
+     *
+     * @return  self
+     */ 
+    public function setPrecioAntes($precioAntes)
+    {
+        $this->precioAntes = $precioAntes;
 
         return $this;
     }
 
     /**
-     * Get the value of nombreproducto
+     * Get the value of precioAhora
      */ 
-    public function getNombreproducto()
+    public function getPrecioAhora()
     {
-        return $this->nombreproducto;
+        return $this->precioAhora;
     }
 
     /**
-     * Set the value of nombreproducto
+     * Set the value of precioAhora
      *
      * @return  self
      */ 
-    public function setNombreproducto($nombreproducto)
+    public function setPrecioAhora($precioAhora)
     {
-        $this->nombreproducto = $nombreproducto;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of precio
-     */ 
-    public function getPrecio()
-    {
-        return $this->precio;
-    }
-
-    /**
-     * Set the value of precio
-     *
-     * @return  self
-     */ 
-    public function setPrecio($precio)
-    {
-        $this->precio = $precio;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of cantidad
-     */ 
-    public function getCantidad()
-    {
-        return $this->cantidad;
-    }
-
-    /**
-     * Set the value of cantidad
-     *
-     * @return  self
-     */ 
-    public function setCantidad($cantidad)
-    {
-        $this->cantidad = $cantidad;
+        $this->precioAhora = $precioAhora;
 
         return $this;
     }
@@ -154,144 +185,69 @@ class Carrito{
     }
 
     /**
-     * Get the value of nombrePropietario
+     * Get the value of fechaInicio
      */ 
-    public function getNombrePropietario()
+    public function getFechaInicio()
     {
-        return $this->nombrePropietario;
+        return $this->fechaInicio;
     }
 
     /**
-     * Set the value of nombrePropietario
+     * Set the value of fechaInicio
      *
      * @return  self
      */ 
-    public function setNombrePropietario($nombrePropietario)
+    public function setFechaInicio($fechaInicio)
     {
-        $this->nombrePropietario = $nombrePropietario;
+        $this->fechaInicio = $fechaInicio;
 
         return $this;
     }
 
     /**
-     * Get the value of numeroTarjeta
+     * Get the value of fechaLimite
      */ 
-    public function getNumeroTarjeta()
+    public function getFechaLimite()
     {
-        return $this->numeroTarjeta;
+        return $this->fechaLimite;
     }
 
     /**
-     * Set the value of numeroTarjeta
+     * Set the value of fechaLimite
      *
      * @return  self
      */ 
-    public function setNumeroTarjeta($numeroTarjeta)
+    public function setFechaLimite($fechaLimite)
     {
-        $this->numeroTarjeta = $numeroTarjeta;
+        $this->fechaLimite = $fechaLimite;
 
         return $this;
     }
 
     /**
-     * Get the value of vencimiento
+     * Get the value of ubicacionsucursal
      */ 
-    public function getVencimiento()
+    public function getUbicacionsucursal()
     {
-        return $this->vencimiento;
+        return $this->ubicacionsucursal;
     }
 
     /**
-     * Set the value of vencimiento
+     * Set the value of ubicacionsucursal
      *
      * @return  self
      */ 
-    public function setVencimiento($vencimiento)
+    public function setUbicacionsucursal($ubicacionsucursal)
     {
-        $this->vencimiento = $vencimiento;
+        $this->ubicacionsucursal = $ubicacionsucursal;
 
         return $this;
     }
 
-    /**
-     * Get the value of CVV
-     */ 
-    public function getCVV()
-    {
-        return $this->CVV;
-    }
 
-    /**
-     * Set the value of CVV
-     *
-     * @return  self
-     */ 
-    public function setCVV($CVV)
-    {
-        $this->CVV = $CVV;
 
-        return $this;
-    }
+    
 
-    /**
-     * Get the value of total
-     */ 
-    public function getTotal()
-    {
-        return $this->total;
-    }
-
-    /**
-     * Set the value of total
-     *
-     * @return  self
-     */ 
-    public function setTotal($total)
-    {
-        $this->total = $total;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of formaPago
-     */ 
-    public function getFormaPago()
-    {
-        return $this->formaPago;
-    }
-
-    /**
-     * Set the value of formaPago
-     *
-     * @return  self
-     */ 
-    public function setFormaPago($formaPago)
-    {
-        $this->formaPago = $formaPago;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of envio
-     */ 
-    public function getEnvio()
-    {
-        return $this->envio;
-    }
-
-    /**
-     * Set the value of envio
-     *
-     * @return  self
-     */ 
-    public function setEnvio($envio)
-    {
-        $this->envio = $envio;
-
-        return $this;
-    }
 
     public static function obtenerCarritos($indice){
         $contenidoArchivo = file_get_contents("../data/usuarios.json");
@@ -317,18 +273,17 @@ class Carrito{
         
         $usuarios[$indice]["carrito"][]= array(
         
-            "imagen"=> $this->imagen,
-            "nombreproducto"=> $this->nombreproducto,
-            "precio"=> $this->precio,
-            "cantidad"=> $this->cantidad,
-            "descuento"=> $this->descuento,
-            "nombrePropietario"=> $this->nombrePropietario,
-            "numeroTarjeta"=> $this->numeroTarjeta,
-            "vencimiento"=> $this->vencimiento,
-            "CVV"=> $this->CVV,
-            "total"=> $this->total,
-            "formaPago"=> $this->formaPago,
-            "envio"=> $this->envio
+         "image"=> $this->image,
+        "nombreProducto"=> $this->nombreProducto,
+        "categoria"=> $this->categoria,
+        "descripcion"=> $this->descripcion,
+        "precioAntes"=> $this->precioAntes,
+        "precioAhora"=> $this->precioAhora,
+        "descuento"=> $this->descuento,
+        "fechaInicio"=> $this->fechaInicio,
+        "fechaLimite"=> $this->fechaLimite,
+        "ubicacionsucursal"=> $this->ubicacionsucursal,
+      
        
              
         );
@@ -349,18 +304,16 @@ class Carrito{
             $usuarios = json_decode($contenidoArchivo, true);
             
             $carritoC= array(
-                "imagen"=> $this->imagen,
-                "nombreproducto"=> $this->nombreproducto,
-                "precio"=> $this->precio,
-                "cantidad"=> $this->cantidad,
-                "descuento"=> $this->descuento,
-                "nombrePropietario"=> $this->nombrePropietario,
-                "numeroTarjeta"=> $this->numeroTarjeta,
-                "vencimiento"=> $this->vencimiento,
-                "CVV"=> $this->CVV,
-                "total"=> $this->total,
-                "formaPago"=> $this->formaPago,
-                "envio"=> $this->envio
+        "image"=> $this->image,
+        "nombreProducto"=> $this->nombreProducto,
+        "categoria"=> $this->categoria,
+        "descripcion"=> $this->descripcion,
+        "precioAntes"=> $this->precioAntes,
+        "precioAhora"=> $this->precioAhora,
+        "descuento"=> $this->descuento,
+        "fechaInicio"=> $this->fechaInicio,
+        "fechaLimite"=> $this->fechaLimite,
+        "ubicacionsucursal"=> $this->ubicacionsucursal,
            
             
             );

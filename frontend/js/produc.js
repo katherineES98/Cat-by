@@ -1,6 +1,7 @@
 const url = "../../Cat-by/backend/api/empresas.php";
 const url1 = "../../Cat-by/backend/api/loginEmpresa.php";
 const tests = "../../Cat-by/backend/api/promocionesFavorita.php";
+const test1="../../Cat-by/backend/api/carrito.php";
 var empresas = [];
 generarProductos("todos");
 function generarProductos(produc) {
@@ -90,7 +91,34 @@ function agregarCarrito(indiceProducto, indiceEmpresa) {
 /*product son los datos de mi producto selecionado para agregar al carrito
 aqui se debe llmar al API de agregar este producto al JSON de usuarios.carrito[] osea el metodo post*/
 function productoSelecionado(product) {
-  console.log(product);
+  console.log("Este es el producto a guardar:",product);
+  let carrito={
+          image:product.image,
+          nombreProducto:product.nombreProducto,
+          categoria:product.categoria,
+          descripcion:product.descripcion,
+          precioAntes:product.precioAntes ,
+          precioAhora:product.precioAhora ,
+          descuento:product.descuento,
+          fechaInicio:product.fechaInicio,
+          fechaLimite:product.fechaLimite,
+          ubicacionsucursal:product.ubicacionsucursal,
+  }
+  console.log("Este es el producto a guardar:",product);
+
+  axios({
+    method: "POST",
+    url: test1 + `?id=${obtenerIdUsuario()}`,
+    responseType: "json",
+    data:carrito,
+  })
+    .then((res) => {
+      console.log(res);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+
 }
 
 

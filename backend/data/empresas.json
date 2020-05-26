@@ -318,6 +318,19 @@
         "fechaLimite": "2020-05-31",
         "ubicacionsucursal": "variedades Mar",
         "evaluacion": []
+      },
+      {
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Camisa blusa",
+        "categoria": "Tecnologia",
+        "descripcion": "fcsdgcfhadfhabdhfadb",
+        "precioAntes": "234",
+        "precioAhora": "30",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-14",
+        "fechaLimite": "2020-05-14",
+        "ubicacionsucursal": "Variedades Samuel",
+        "evaluacion": []
       }
     ]
   },

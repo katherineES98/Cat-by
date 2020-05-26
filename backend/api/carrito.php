@@ -6,18 +6,16 @@
     switch($_SERVER['REQUEST_METHOD']){
         case 'POST': //Guardar
              $carrito = new Carrito( 
-                  $_POST['imagen'],
-                  $_POST['nombreproducto'], 
-                  $_POST['precio'], 
-                  $_POST['cantidad'],
-                  $_POST['descuento'],
-                  $_POST['nombrePropietario'], 
-                  $_POST['numeroTarjeta'], 
-                  $_POST['vencimiento'],
-                  $_POST['CVV'],
-                  $_POST['total'], 
-                  $_POST['formaPago'], 
-                  $_POST['envio']
+              $_POST['image'],
+              $_POST['nombreProducto'],
+              $_POST['categoria'], 
+              $_POST['descripcion'], 
+              $_POST['precioAntes'], 
+              $_POST['precioAhora'],
+              $_POST['descuento'],
+              $_POST['fechaInicio'], 
+              $_POST['fechaLimite'],
+              $_POST['ubicacionsucursal']
                 
                 );
           echo $carrito->guardarCarrito($_GET['id']);
@@ -37,18 +35,16 @@
         case 'PUT':
             $_PUT = json_decode(file_get_contents('php://input'),true);
             $carrito = new Carrito( 
-              $_PUT['imagen'],
-             $_PUT['nombreproducto'], 
-             $_PUT['precio'], 
-             $_PUT['cantidad'],
-             $_PUT['descuento'],
-             $_PUT['nombrePropietario'], 
-             $_PUT['numeroTarjeta'], 
-             $_PUT['vencimiento'],
-             $_PUT['CVV'], 
-             $_PUT['total'],
-             $_PUT['formaPago'],
-             $_PUT['envio']
+              $_POST['image'],
+              $_POST['nombreProducto'],
+              $_POST['categoria'], 
+              $_POST['descripcion'], 
+              $_POST['precioAntes'], 
+              $_POST['precioAhora'],
+              $_POST['descuento'],
+              $_POST['fechaInicio'], 
+              $_POST['fechaLimite'],
+              $_POST['ubicacionsucursal']
 
 
            

@@ -23,18 +23,28 @@
     ],
     "carrito": [
       {
-        "imagen": "./img/producto1.jpg",
-        "nombreproducto": "Reloj",
-        "precio": "$350",
-        "cantidad": "2",
-        "descuento": "40%",
-        "nombrePropietario": "santos",
-        "numeroTarjeta": "03455",
-        "vencimiento": "12/12/2012",
-        "CVV": "897",
-        "total": "500",
-        "formaPago": "paypal",
-        "envio": "Gratis"
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "categoria": "modaNi\u00f1o",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades juan"
+      },
+      {
+        "image": "img/productos/deporte2.jpg",
+        "nombreProducto": "Sueter/Buso",
+        "categoria": "modaAdulto",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "$500",
+        "precioAhora": "$400",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-24",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "Tegucigalpa"
       }
     ],
     "promocionesFavoritas": [
@@ -94,7 +104,20 @@
         "direccion": "col.lomas"
       }
     ],
-    "carrito": [],
+    "carrito": [
+      {
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "categoria": "modaNi\u00f1o",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades juan"
+      }
+    ],
     "promocionesFavoritas": [
       {
         "image": "img/productos/deporte2.jpg",
@@ -140,18 +163,16 @@
     ],
     "carrito": [
       {
-        "imagen": "./img/producto1.jpg",
-        "nombreproducto": "Sudadera",
-        "precio": "$400",
-        "cantidad": "2",
-        "descuento": "40%",
-        "nombrePropietario": "santos",
-        "numeroTarjeta": "03455",
-        "vencimiento": "12/12/2012",
-        "CVV": "897",
-        "total": "500",
-        "formaPago": "paypal",
-        "envio": "Gratis"
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "categoria": "modaNi\u00f1o",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades juan"
       }
     ],
     "promocionesFavoritas": [
