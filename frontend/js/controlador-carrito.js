@@ -59,7 +59,7 @@ console.log("id a buscar: ",obtenerIdUsuario());
      <td data-label="Subtotal">$ 80.0</td>
      <td data-label="Quitar">
          <a href="#">
-             <i  onClick="EliminarFavoriteProduct(${i})"class="fas fa-times"></i>
+             <i  onClick="EliminarCarrito(${i})"class="fas fa-times"></i>
          </a>
      </td>
   </tr>
@@ -82,4 +82,22 @@ console.log("id a buscar: ",obtenerIdUsuario());
 
  
 
- 
+ function EliminarCarrito(car){
+  console.log("eliminar producto del carrito" ,car);
+  axios({
+    method: "DELETE",
+    url: url1+`?id=${obtenerIdUsuario()}&index=${car}`,
+    responseType: "json"
+  })
+    .then((res) => {
+      console.log(res.data);
+      optenerMisProductosCarrito();
+    
+    })
+    
+    .catch((error) => {
+      console.error(error);
+    });
+  
+  
+  }

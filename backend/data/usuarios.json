@@ -140,40 +140,28 @@
     ],
     "carrito": [
       {
-        "image": "img/productos/ni\u00f1o6.jpg",
-        "nombreProducto": "Trajecitos",
-        "categoria": "modaNi\u00f1o",
+        "image": "img/productos/rosa.jpg",
+        "nombreProducto": "Vestido",
+        "categoria": "modaAdulto",
         "descripcion": "ASKLKJHGDSfghjkj",
         "precioAntes": "300",
         "precioAhora": "250",
         "descuento": "2890%",
         "fechaInicio": "12-02-2020",
         "fechaLimite": "12-03-2020",
-        "ubicacionsucursal": "variedades juan"
+        "ubicacionsucursal": "variedades chea"
       },
       {
-        "image": "img/productos/mueble cojin.jpg",
-        "nombreProducto": "muebles",
-        "categoria": "Hogar",
-        "descripcion": "ASKLKJHGDSfghjkj",
-        "precioAntes": "24",
-        "precioAhora": "45",
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "categoria": "modaAdulto",
+        "descripcion": "a bajo precio",
+        "precioAntes": "260",
+        "precioAhora": "30",
         "descuento": "10%",
-        "fechaInicio": "2020-05-13",
-        "fechaLimite": "2020-05-13",
-        "ubicacionsucursal": "Comayagua"
-      },
-      {
-        "image": "img/productos/mueble cojin.jpg",
-        "nombreProducto": "muebles",
-        "categoria": "Hogar",
-        "descripcion": "ASKLKJHGDSfghjkj",
-        "precioAntes": "24",
-        "precioAhora": "45",
-        "descuento": "10%",
-        "fechaInicio": "2020-05-13",
-        "fechaLimite": "2020-05-13",
-        "ubicacionsucursal": "Comayagua"
+        "fechaInicio": "2020-05-15",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "variedades Mar"
       }
     ],
     "promocionesFavoritas": [
