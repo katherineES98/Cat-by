@@ -41,64 +41,22 @@
     </header>
     <main>
         <div class="container-fluid">
-            <table >
+            <table id="carrito-compra"  >
                 <thead>
                 <tr>
                    <th>Imagen</th>
                    <th>Producto</th>
+                   <th>Descripcion</th>
                    <th>Precio</th>
                    <th>Cantidad</th>
-                   <th>Total</th>
+                   <th>Subtotal</th>
                    <th>Quitar</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td data-label="Imagen"> 
-                        <a href="#">   <img class="img-fluid" src="img/rosa.jpg" alt="" /></a>
-                    </td>
-                    <td data-label=" Producto" >Vestido</td>
-                    <td data-label="Precio">$ 80.0</td>
-                    <td data-label="Cantidad"><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
-                    <td data-label="Total">$ 80.0</td>
-                    <td data-label="Quitar">
-                        <a href="#">
-                            <i class="fas fa-times"></i>
-                        </a>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td data-label="Imagen" >
+                
                  
-                    <a href="#"> <img class="img-fluid " src="img/vestido.jpg" alt="" /></a>
-                  </td>
-                    <td data-label="Producto" >Vestido</td>
-                    <td data-label="Precio">$ 80.0</td>
-                    <td  data-label="Cantidad" ><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
-                    <td data-label="Total">$ 80.0</td>
-                    <td data-label="Quitar">
-                        <a href="#">
-                            <i class="fas fa-times"></i>
-                        </a>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td data-label="Imagen" >
-                       
-                        <a href="#"><img class="img-fluid" src="img/relojp.jpg" alt="" /></a>
-                    </td>
-                    <td data-label="Producto" >Reloj</td>
-                    <td data-label="Precio" >$ 80.0</td>
-                    <td data-label="Cantidad" ><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
-                    <td data-label="Total">$ 80.0</td>
-                    <td data-label="Quitar">
-                        <a href="#">
-                            <i class="fas fa-times"></i>
-                        </a>
-                    </td>
-                 </tr>
-            
-            
+        
                 </tbody>
             </table>
         </div>
@@ -111,6 +69,8 @@
             
        
     </main>
+    <script src="js/axios.min.js"></script>
+    <script src="js/controlador-carrito.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script> 
