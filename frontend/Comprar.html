@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/all.css">
 
 </head>
-<body>
+<body onload="optenerMisProductosCarrito()"  >
     <header>
         <nav class="navbar navbar-expand-lg " >
             <a class="navbar-brand" href="#"><img src="img/cate2.png"/></a>
@@ -89,88 +89,29 @@
                     </div>
                 </div>
 
-                <div class="alert alert-danger" role="alert">
-                        Metodo de Envio.
-                      </div>
-                       <hr>
-                       <div class="row">
-                           <div class="col-md-12 col-lg-12">
-                                   <div class="d-flex">
-                                       <div class="text1">Producto</div>
-                                       <div class="ml-auto text1">Total</div>
-                                   </div>
-                                   <hr class="my-1">
-                                   <div class="d-flex">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label " for="exampleRadios1" >
-                                          Envio Estandar.
-                                        </label>
-                                        <div class="ml-4 mb-2 small">(3-7 días hábiles)</div>
-                                      </div>
-                                       <div class="ml-auto text3">Gratis</div>
-                                   </div>
-                                   <div class="d-flex">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
-                                        <label class="form-check-label" for="exampleRadios2">
-                                        Envio Expreso.
-                                        </label>
-                                        <div class="ml-4 mb-2 small">(2-4 días hábiles)</div>
-                                      </div>
-                                       <div class="ml-auto text3">$40</div>
-                                   </div>
-                                   <div class="d-flex">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
-                                        <label class="form-check-label" for="exampleRadios3">
-                                        Siguiente dia Habil.
-                                        </label>
-                                      </div>
-                                       <div class="ml-auto text3">$80</div>
-                                   </div>
-                                  
-                                   <hr>
-                                    
-                           </div>
-   
-   
-                       </div>
+              
            
                 <div class="alert alert-danger" role="alert">
                  Pedido <a class="textoa" href="">(Editar)</a>
                    </div>
                     <hr>
                     <div class="row">
-                        <div class="col-md-12 col-lg-12">
+                        <div class="col-md-12 col-lg-12" >
+                            <div>
                                 <div class="d-flex">
                                     <div class="text1">Producto</div>
-                                    <div class="ml-auto text1">Total</div>
+                                    <div class="ml-auto text1">Sub Total</div>
                                 </div>
-                                <hr class="my-1">
-                                <div class="d-flex">
-                                    <h6>Computadora</h6>
-                                    <div class="ml-auto text3"> $ 440 </div>
-                                </div>
-                                <div class="d-flex">
-                                    <h6>Zapatos</h6>
-                                    <div class="ml-auto text3"> $ 40 </div>
-                                </div>
+                            </div>
+                                
+                           <hr class="my-1">
+                          
+                            <div id="compra-producto" >
+                      
+                    </div>
                                
                                
-                                <hr>
-                                <div class="d-flex ">
-                                    <h6>Sub total</h6>
-                                    <div class="ml-auto h6"> $ 388 </div>
-                                </div>
-                                 <div class="d-flex ">
-                                    <h6>Descuento</h6>
-                                    <div class="ml-auto h6"> $ 40 </div>
-                                </div>
-                                <div class="d-flex ">
-                                    <h6>Costo del Envio </h6>
-                                    <div class="ml-auto h6"> Gratis </div>
-                                </div>
+                            
                                 <hr>
                                 <div class="d-flex ">
                                     <h5>Total a Pagar</h5>
@@ -184,7 +125,7 @@
                
                          <div class="row">
                             <div class="col-md-6 mx-auto mt-auto botonE">
-                            <button type="button" onclick="login()"  value="Login" class=" btn-block" >Hacer Pedido</button>
+                            <button type="button"   value="Login" class=" btn-block" >Hacer Pedido</button>
                     </div>
                     </div>
             </form>
@@ -193,11 +134,15 @@
 </div>
 
  </main>
+
+
+ <script src="js/axios.min.js"></script>
+ <script src="js/Comprar.js"></script>
  <script src="js/jquery.min.js"></script>
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script> 
       <script src="js/jquery-3.4.1.min.js"></script>
-     <script src="js/Comprar.js"></script>
+     
 </body>
 </html>
 
