@@ -59,18 +59,25 @@
                         <input id="contrasena" type="password"  placeholder="Contraseña" class="form-control">
                     </div>
 
+                    
+
                     <div class="col-md-6 mb-3 mt-4">
-                       
-                        <div class="custom-file ">
-                            <input type="file" name="archivo[]" class="custom-file-input " id="logo">
+                        <img id="img-visualizar-logo" src="img/logo-placeholder.png" width="123" height="123" />
+
+                        <div class="custom-file " >
+                            <input type="file" name="archivo[]" class="custom-file-input " id="logo" onchange="readURLogo(this);"  >
                             <label class="custom-file-label" for="customFile">Logo</label>
                         </div>
 
                     </div>
+
+                    
+
                     <div class="col-md-6 mb-3 mt-4">
-                        
+                        <img id="img-visualizar-banner" src="img/logo-placeholder.png" width="123" height="123" />
+
                         <div class="custom-file ">
-                            <input type="file"  name="archivo[]" class="custom-file-input " id="banner">
+                            <input type="file"  name="archivo[]" class="custom-file-input " id="banner" onchange="readURL(this);"    >
                             <label class="custom-file-label" for="customFile">Banner</label>
                         </div>
                     </div>
