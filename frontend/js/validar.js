@@ -493,12 +493,12 @@ function validarPromocion(){
 
     var nombreProducto,precioAntes,categoria,descuento,fechaInicio,fechaLimite,precioAhora,ubicacionsucursal; 
     nombreProducto = document.getElementById("nombreProducto").value;
-    precioAntes = document.getElementById("precioAntes").value;
+    precioAntes = document.getElementById("precioAntes-produc").value;
     categoria  = document.getElementById("categoria").value;
-    descuento = document.getElementById("descuento").value;
+    descuento = document.getElementById("descuento-producto").value;
     fechaInicio  = document.getElementById("fechaInicio").value;
     fechaLimite  = document.getElementById("fechaLimite").value;
-    precioAhora  = document.getElementById("precioAhora").value;
+    precioAhora  = document.getElementById("precioAhora-promo").value;
     ubicacionsucursal  = document.getElementById("ubicacionsucursal").value;
     if(nombreProducto===""||precioAntes===""||categoria===""||descuento===""||fechaInicio===""||fechaLimite===""||precioAhora===""||ubicacionsucursal===""){
         alert("Todos los campos son obligatorios");

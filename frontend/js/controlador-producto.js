@@ -67,9 +67,9 @@ function  guardarProducto(){
           nombreProducto:productoActual,
           categoria: document.getElementById('categoria').value,
           descripcion: document.getElementById('descripcion').value,
-          precioAntes: document.getElementById('precioAntes').value,
-          precioAhora: document.getElementById('precioAhora').value,
-          descuento: document.getElementById('descuento').value,
+          precioAntes: document.getElementById('precioAntes-produc').value,
+          precioAhora: document.getElementById('precioAhora-promo').value,
+          descuento: document.getElementById('descuento-producto').value,
           fechaInicio: document.getElementById('fechaInicio').value,
           fechaLimite: document.getElementById('fechaLimite').value,
           ubicacionsucursal: document.getElementById('ubicacionsucursal').value,
@@ -185,7 +185,14 @@ function  guardarProducto(){
     
     }
 
-  
+  function calcularprecio(){
+  let calculos = parseFloat(document.getElementById('precioAntes-produc').value) -
+     (((parseFloat(document.getElementById('descuento-producto').value))/100) * (document.getElementById('precioAntes-produc').value));
+     document.getElementById('precioAhora-promo').value= calculos;
+
+
+
+  }
   
   
     

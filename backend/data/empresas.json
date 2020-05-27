@@ -331,6 +331,19 @@
         "fechaLimite": "2020-05-14",
         "ubicacionsucursal": "Variedades Samuel",
         "evaluacion": []
+      },
+      {
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "categoria": "modaAdulto",
+        "descripcion": "buen productos ",
+        "precioAntes": "400",
+        "precioAhora": "320",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-23",
+        "fechaLimite": "2020-05-14",
+        "ubicacionsucursal": "Variedades Nilsen",
+        "evaluacion": []
       }
     ]
   },
