@@ -176,14 +176,14 @@ function  guardarProducto(){
 
     function seleccionarSelect(){
      
-    
+    document.getElementById("precioAntes-produc").value =empresas.productos[document.getElementById("nombreProducto").value].precio;
     document.getElementById("imagen1").innerHTML=`
     <img src="${empresas.productos[document.getElementById("nombreProducto").value].image}" width="123" height="123" />
     
     `
+    document.getElementById("descripcion").value =empresas.productos[document.getElementById("nombreProducto").value].descripcion;
     
-    
-    
+   
     }
 
   function calcularprecio(){
