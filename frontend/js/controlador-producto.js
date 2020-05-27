@@ -88,6 +88,7 @@ function  guardarProducto(){
       data:promocion
      }).then((res)=>{
          console.log(res);
+         limpiar();
      }).catch((error)=>{
          console.error(error);
      });
@@ -194,6 +195,14 @@ function  guardarProducto(){
 
   }
   
-  
+  function limpiar(){
+     document.getElementById('categoria').value=null;
+     document.getElementById('descripcion').value=null;
+     document.getElementById('precioAntes-produc').value=null;
+     document.getElementById('precioAhora-promo').value=null;
+     document.getElementById('descuento-producto').value=null;
+     document.getElementById('fechaInicio').value=null;
+     document.getElementById('fechaLimite').value=null;
+     document.getElementById('ubicacionsucursal').value=null;
     
-      
+}
