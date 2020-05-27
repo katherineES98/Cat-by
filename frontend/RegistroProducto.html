@@ -49,10 +49,14 @@
                       </div>
                     <hr>
                     <form enctype="multipart/form-data" action="uploader.php" method="POST"  onsubmit="return validarProducto();">
-                    
-                    
-                        <input name="archivo[]" type="file" accept="image/png,image/jpg,image/jpeg"   id="image">
+                    <center>
+                        <div class="col-md-3  mb-3 mt-1 " id="imagen1"  >
                        
+                        
+                            <img id="img-visualizar" src="img/logo-placeholder.png" width="123" height="123" />
+                           </div>
+                        <input name="archivo[]" type="file" accept="image/png,image/jpg,image/jpeg" id="image" onchange="readURL(this);" >
+                    </center>
                     <!--inputs-->
                     <div class="row">
                         <div class="col-md-3  mb-3 mt-4">

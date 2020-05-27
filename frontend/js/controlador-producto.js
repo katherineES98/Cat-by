@@ -206,3 +206,32 @@ function  guardarProducto(){
      document.getElementById('ubicacionsucursal').value=null;
     
 }
+
+
+
+//funcion para visulaizar las imagen en el div del input
+function readURL(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+          $('#img-visualizar').attr('src', e.target.result);
+      }
+
+
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+
+   //('#image').change(function() {
+  //readURL(this);
+//});
+
+
+
+
+
+
+
+
+
