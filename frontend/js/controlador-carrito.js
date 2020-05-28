@@ -31,7 +31,7 @@ console.log("id a buscar: ",obtenerIdUsuario());
         console.log(res.data);
         this.usuarios = res.data;
         llenarTablaCarrito(res.data)
-       
+        precio(res.data);
         //al  momento que responda el servidor le vamos asignar el arreglo
        // generarEmpresa();
         
@@ -55,8 +55,6 @@ console.log("id a buscar: ",obtenerIdUsuario());
      <td data-label=" Producto" >${data.carrito[i].nombreProducto}</td>
      <td data-label=" Descripcion" >${data.carrito[i].descripcion}</td>
      <td data-label="Precio">${data.carrito[i].precioAhora}</td>
-     <td data-label="Cantidad"><input type="number" size="4" value="1" min="0" step="1" class="c-input-text qty text"></td>
-     <td data-label="Subtotal">$ 80.0</td>
      <td data-label="Quitar">
          <a href="#">
              <i  onClick="EliminarCarrito(${i})"class="fas fa-times"></i>
@@ -102,3 +100,21 @@ console.log("id a buscar: ",obtenerIdUsuario());
   
   }
 
+function precio(dataa){
+  let total=0;
+ 
+for (let i = 0; i <dataa.carrito.length; i++) {
+     total+=parseFloat(dataa.carrito[i].precioAhora);
+
+}
+
+document.getElementById("compra-carrito").innerHTML=
+`
+  <h4>Compra Hecha con exito</h4>
+  <p>Total a pagar : ${total}</p>
+  
+  
+  `
+
+
+}

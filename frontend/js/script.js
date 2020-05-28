@@ -153,7 +153,7 @@ function cargarSucursales(nombreS) {
 				<form>
 					<div class="form-group">
 					  <label for="exampleFormControlSelect1">Sucursales</label>
-					  <select class="form-control" >
+					  <select class="form-control" onchange="sucursalesinfor(this.value , ${i})" >
 
 					 ${llenarSelectSucursal(empresas[i].sucursales)}
 					   
@@ -219,6 +219,11 @@ function llenarSelectSucursal(sucursalE) {
   }
   return sucursales1;
 }
+
+
+
+
+
 //genera extrellas no se si funciona aun
 function valoracion(valor) {
   console.log(valor);
@@ -412,3 +417,15 @@ function readURL(input) {
    //('#image').change(function() {
   //readURL(this);
 //});
+
+
+function sucursalesinfor(sucursal,empresa){
+console.log( "la empresa con id:",empresas[empresa].nombreEmpresa);
+console.log( "la sucursal con id:",empresas[empresa].sucursales[sucursal].nombre);
+// agrgar el html para que sea dinamico  en la modal no olvidar agrgar el html y incrustar esto
+// empresas[empresa].sucursales[sucursal].nombre y lo qe quiero que se muestre osea el nombre etc  
+// osesa incrustarlo en el html donde quiero osea en la p o etc
+
+
+  
+}
