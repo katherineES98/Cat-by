@@ -1,7 +1,3 @@
-
-
-
-const url='../../Cat-by/backend/api/usuarios.php';
 const test='../../Cat-by/backend/api/carrito.php';
 var usuarios = [];
 
