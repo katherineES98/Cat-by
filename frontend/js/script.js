@@ -84,8 +84,8 @@ function generarEmpresa() {
                           <div>
                           <center>
                           <div class="iconos" style="display: flex!important; align-items: center!important;justify-content: centerr!important;">
-                          <a href="" onClick="empresaFav('${i}')"  ><i class="fas fa-heart" style=" margin-left:60px!important; color: red;" ></i> </a>    
-                         <i class="fas fa-comment-dots" style="margin-left:25px!important;color:blue;" ></i>
+                          <a href="" onClick="empresaFav('${i}')"  ><i class="fas fa-heart fa-2x" style=" margin-left:60px!important; color: red;" ></i> </a>    
+                         <i class="fas fa-comment-dots fa-2x" style="margin-left:25px!important;color:blue;" ></i>
                          </center>
                          </div>
                         
@@ -158,7 +158,8 @@ function cargarSucursales(nombreS) {
 					 ${llenarSelectSucursal(empresas[i].sucursales)}
 					   
 					  </select>
-					</div>
+          </div>
+          
 					  </div>
 					  <center>
 					  <div class="form-group row"">
@@ -423,8 +424,7 @@ function sucursalesinfor(sucursal,empresa){
 console.log( "la empresa con id:",empresas[empresa].nombreEmpresa);
 console.log( "la sucursal con id:",empresas[empresa].sucursales[sucursal].nombre);
 // agrgar el html para que sea dinamico  en la modal no olvidar agrgar el html y incrustar esto
-// empresas[empresa].sucursales[sucursal].nombre y lo qe quiero que se muestre osea el nombre etc  
-// osesa incrustarlo en el html donde quiero osea en la p o etc
+// empresas[empresa].sucursales[sucursal].nombre
 
 
   

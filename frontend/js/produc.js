@@ -49,10 +49,9 @@ function agregarProducto(produc, k, i) {
             
             <hr>
             <div class="iconos" style="display: flex; align-items: center;justify-content: center;">
-            <i onClick="FavoriteProduc(${k},${i})" class="fas fa-heart" style="margin-right: 5px!important ; color: red;" ></i>
-            <i onClick="agregarCarrito(${k},${i})" class="fas fa-cart-plus" style="margin-right: 5px!important;color:green;" ></i>
-            <i class="fas fa-star" style="margin-right: 5px!important; color:yellow;" ></i>
-            <i  data-toggle="modal" data-target="#exampleModal" class="fas fa-comment-dots" style="margin-right: 5px!important;color:blue;" ></i>
+            <i onClick="FavoriteProduc(${k},${i})" class="fas fa-heart fa-2x " style="margin-right: 5px!important ; color: red;" ></i>
+            <i onClick="agregarCarrito(${k},${i})" class="fas fa-cart-plus fa-2x" style="margin-right: 5px!important;color:green;" ></i>
+            <i  data-toggle="modal" data-target="#exampleModal" class="fas fa-comment-dots fa-2x" style="margin-right: 5px!important;color:blue;" ></i>
           </div>
         
 
