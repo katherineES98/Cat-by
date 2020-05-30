@@ -99,8 +99,59 @@
         </div>
         <div class="row justify-content-center" id="productos"></div>
       </div>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" >
+  Launch demo modal
+</button>
+<!--modal btn ternina aqi-->
     </main>
 
+
+        <!-- Modal Comentario -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header"style="background-color: #00BFFF;">
+          <h5 class="modal-title"  id="exampleModalLabel"><i class="fas fa-comments"></i><b> comments </b></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div> 
+        <div class="modal-body">
+         <hr>
+         <i class="fas fa-user-edit fa-2x" ></i>  <span>Emilya Martinez</span> 
+            <p>
+               buen pruducto excelente descuento.
+               buen pruducto excelente descuento.
+            </p>
+            <p> 12/12/2019</p>
+            <hr>
+            <hr>
+            <i class="fas fa-user-edit fa-2x" ></i>  <span>Emilya Martinez</span> 
+               <p>
+                  buen pruducto excelente descuento.
+                  buen pruducto excelente descuento.
+               </p>
+               <p> 12/12/2019</p>
+               <hr>
+       
+        
+        </div>
+        <div class="modal-footer">
+        
+            <div class="px-0">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Agrega tu opinion" id="comentario-post-[codigo]" style="width: 400px;">
+                  <div class="input-group-append">
+                      <button type="button"  class="btn btn-outline-danger"><i class="far fa-paper-plane"></i></button>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---Termina modal-->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script>

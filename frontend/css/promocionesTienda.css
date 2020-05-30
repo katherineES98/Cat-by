@@ -14,8 +14,16 @@ body{
 .colorEnlace{
     color: #fff !important;
   }
-  
-  
+  /*diseño de lo comentarios*/
+  .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 400px;
+}
+
+
+
+
   @media screen and (max-width:500px){
     nav{
         text-align: center;

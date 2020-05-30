@@ -52,7 +52,7 @@ function agregarProducto(produc, k, i) {
             <i onClick="FavoriteProduc(${k},${i})" class="fas fa-heart" style="margin-right: 5px!important ; color: red;" ></i>
             <i onClick="agregarCarrito(${k},${i})" class="fas fa-cart-plus" style="margin-right: 5px!important;color:green;" ></i>
             <i class="fas fa-star" style="margin-right: 5px!important; color:yellow;" ></i>
-            <i class="fas fa-comment-dots" style="margin-right: 5px!important;color:blue;" ></i>
+            <i  data-toggle="modal" data-target="#exampleModal" class="fas fa-comment-dots" style="margin-right: 5px!important;color:blue;" ></i>
           </div>
         
 
