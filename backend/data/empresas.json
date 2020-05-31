@@ -30,8 +30,8 @@
         "pais": "Honduras",
         "ciudad": "Tegucigalpa",
         "direccion": "col.pueblo nuevo",
-        "latitud": "12",
-        "longitud": "20"
+        "latitud": 14.1069722,
+         "longitud":-87.2098527
       },
       {
         "nombre": "Variedades Samuel",
@@ -40,8 +40,10 @@
         "pais": "Honduras",
         "ciudad": "Tegucigalpa",
         "direccion": "ila ",
-        "latitud": "13",
-        "longitud": "14"
+        "latitud":  14.081686,
+        "longitud": -87.203372
+        
+         
       },
       {
         "nombre": "Variedades JOH",
@@ -408,8 +410,8 @@
     "telefono": "2208790",
     "redesSociales": "Twiter",
     "URL": "https://myaccount.google.com",
-    "latitud": "23",
-    "longitud": "12",
+    "latitud": 14.1069722,
+    "longitud":-87.2098527,
     "pago": "Paypal",
     "propietario": "Pedro",
     "numeroTarjeta": "123455",
@@ -550,8 +552,8 @@
     "telefono": "2208790",
     "redesSociales": "Facebook",
     "URL": "http",
-    "latitud": "23",
-    "longitud": "12",
+    "latitud": 14.0836864,
+    "longitud": -87.1825408,
     "pago": " Tarjeta de credito",
     "propietario": "Pedro",
     "numeroTarjeta": "",

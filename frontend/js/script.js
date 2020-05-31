@@ -147,12 +147,35 @@ function cargarSucursales(nombreS) {
         document.getElementById("sucur").innerHTML = `
 			<div class="card">
 			<div class="card-header">
-			  Sucursal
+			<b>Informacion de la Empresa</b>
 			</div>
 			<div class="card-body">
-				<form>
+        <form>
+        <div class="row">
+        <div class="col-md-12 col-lg-12" >
+            <div>
+                <div class="d-flex">
+                    <div class="text1">Ubicacion de La Empresa</div>
+                 <div class="ml-auto"><p><a href="mapa.html?log=${empresas[i].longitud}&lat=${
+                        empresas[i].latitud
+                      }">Ver Mapa</a></p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+       
+
 					<div class="form-group">
-					  <label for="exampleFormControlSelect1">Sucursales</label>
+            
+          <div class="alert alert-success" role="alert">
+          Sucursales:
+         </div>
+          
+
 					  <select class="form-control" onchange="sucursalesinfor(this.value , ${i})" >
 
 					 ${llenarSelectSucursal(empresas[i].sucursales)}
@@ -186,10 +209,8 @@ function cargarSucursales(nombreS) {
             </div>
             <div class="form-group row">
 						<label for="staticEmail" class="col-sm-4 col-form-label">Mapa</label>
-						<div class="col-sm-6">
-						<p><a href="mapa.html?log=${empresas[i].longitud}&lat=${
-          empresas[i].latitud
-        }">Ver Mapa</a></p>
+						<div class="col-sm-6" id="ubicacion">
+					
 						</div>
 					  </div>
 					  </center>
@@ -437,4 +458,13 @@ document.getElementById("telefono").innerHTML=`
 
 
 `
+document.getElementById("ubicacion").innerHTML=`
+<p><a href="mapa.html?log=${empresas[empresa].sucursales[sucursal].longitud}&lat=${
+  empresas[empresa].sucursales[sucursal].latitud
+}">Ver Mapa</a></p>
+
+
+`
+
+
 }
