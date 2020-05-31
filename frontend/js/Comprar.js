@@ -42,22 +42,31 @@ function optenerMisProductosCarrito() {
     }
 
  function llenarCarritoCompra(data){
- console.log(data);
+  let total1=0;
+  console.log(data);
  document.getElementById("compra-producto").innerHTML="";
  for (let i = 0; i < data.carrito.length; i++) {
+  total1+=parseFloat(usuarios.carrito[i].precioAhora);
      document.getElementById("compra-producto").innerHTML+=`
      <div class="d-flex">
      <h6>${data.carrito[i].nombreProducto}</h6>
      <div class="ml-auto text3"> ${data.carrito[i].precioAhora} </div>
 </div>
 
-     
      `
     
      
  }
-
-
+ document.getElementById("total").innerHTML=
+ `
+ <div class="d-flex ">
+                                    <h5>Total a Pagar</h5>
+                                    <div class="ml-auto h5">${total1}</div>
+                                </div> 
+ 
+ `
 
 
  } 
+
+ 

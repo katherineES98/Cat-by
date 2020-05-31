@@ -15,24 +15,6 @@
         "direccion": "col.lomas"
       },
       {
-        "logo": "img/empresas/mystic.jpg",
-        "nombreEmpresa": "Mystic",
-        "descripcionEmpresa": "Some quick",
-        "direccion": "col.lomas"
-      },
-      {
-        "logo": "img/empresas/mystic.jpg",
-        "nombreEmpresa": "Mystic",
-        "descripcionEmpresa": "Some quick",
-        "direccion": "col.lomas"
-      },
-      {
-        "logo": "img/empresas/curacao.png",
-        "nombreEmpresa": "Curaco",
-        "descripcionEmpresa": "Some quick",
-        "direccion": "col.lomas"
-      },
-      {
         "logo": "img/empresas/hispanos1.jpg",
         "nombreEmpresa": "Honduras R",
         "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
@@ -40,18 +22,6 @@
       }
     ],
     "carrito": [
-      {
-        "image": "img/productos/pulseras.jpg",
-        "nombreProducto": "Computara/Dell",
-        "categoria": "Accesorios",
-        "descripcion": "ASKLKJHGDSfghjkj",
-        "precioAntes": "300",
-        "precioAhora": "250",
-        "descuento": "2890%",
-        "fechaInicio": "12-02-2020",
-        "fechaLimite": "12-03-2020",
-        "ubicacionsucursal": "variedades chea"
-      },
       {
         "image": "img/productos/relojp.jpg",
         "nombreProducto": "Reloj",
@@ -65,27 +35,31 @@
         "ubicacionsucursal": "Variedades JOH"
       },
       {
-        "image": "img/productos/ni\u00f1o6.jpg",
-        "nombreProducto": "Trajecitos",
-        "categoria": "modaNi\u00f1o",
-        "descripcion": "ASKLKJHGDSfghjkj",
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "categoria": "modaAdulto",
+        "descripcion": "a bajo precio",
+        "precioAntes": "260",
+        "precioAhora": "30",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-15",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "variedades Mar"
+      },
+      {
+        "image": "img/productos/micro.jpg",
+        "nombreProducto": "Microondas",
+        "categoria": "Hogar",
+        "descripcion": "linda ropa",
         "precioAntes": "300",
         "precioAhora": "250",
-        "descuento": "2890%",
+        "descuento": "20%",
         "fechaInicio": "12-02-2020",
         "fechaLimite": "12-03-2020",
         "ubicacionsucursal": "variedades juan"
       }
     ],
     "promocionesFavoritas": [
-      {
-        "image": "img/productos/accesorios7.jpg",
-        "nombreProducto": "Sombrero",
-        "descripcion": "a bajo precio",
-        "precioAhora": "30",
-        "ubicacionsucursal": "variedades Mar",
-        "sucursales": []
-      },
       {
         "image": "img/productos/rosa.jpg",
         "nombreProducto": "Vestido",
@@ -95,19 +69,19 @@
         "sucursales": []
       },
       {
-        "image": "img/productos/deporte2.jpg",
-        "nombreProducto": "Sueter/Buso",
-        "descripcion": "ASKLKJHGDSfghjkj",
-        "precioAhora": "$400",
-        "ubicacionsucursal": "Tegucigalpa",
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "descripcion": "a bajo precio",
+        "precioAhora": "30",
+        "ubicacionsucursal": "variedades Mar",
         "sucursales": []
       },
       {
-        "image": "img/productos/deporte2.jpg",
-        "nombreProducto": "Sueter/Buso",
-        "descripcion": "ASKLKJHGDSfghjkj",
-        "precioAhora": "$400",
-        "ubicacionsucursal": "Tegucigalpa",
+        "image": "img/productos/micro.jpg",
+        "nombreProducto": "Microondas",
+        "descripcion": "linda ropa",
+        "precioAhora": "250",
+        "ubicacionsucursal": "variedades juan",
         "sucursales": []
       }
     ]
