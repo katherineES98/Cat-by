@@ -8,7 +8,7 @@
              $evaluacion = new Evaluacion( 
                   $_POST['comentario'],
                   $_POST['calificacon']
-                 
+                  $_POST['idUsuario']
                   
                  
                 );
@@ -31,7 +31,8 @@
             $_PUT = json_decode(file_get_contents('php://input'),true);
             $evaluacion = new Evaluacion( 
               $_PUT['comentario'],
-             $_PUT['calificacon'] 
+             $_PUT['calificacon'],
+             $_PUT['idUsuario'], 
             
            
             );

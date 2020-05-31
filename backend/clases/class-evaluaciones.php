@@ -2,15 +2,18 @@
 class Evaluacion{
     private $comentario;
     private $calificacon;
+    private $idUsuario;
     
 
     public function __construct(
         $comentario,
-        $calificacon
+        $calificacon,
+        $idUsuario
         
        ){
             $this->comentario = $comentario;
             $this->calificacon = $calificacon;
+            $this->idUsuario = $idUsuario;
               
     }
 
@@ -56,6 +59,23 @@ class Evaluacion{
         return $this;
     }
 
+    public function getidUsuario()
+    {
+        return $this->idUsuario;
+    }
+
+    /**
+     * Set the value of idUsuario
+     *
+     * @return  self
+     */ 
+    public function setidUsuario($idUsuario)
+    {
+        $this->idUsuario = $idUsuario;
+
+        return $this;
+    }
+
 //CRUD hacer mejor el crud
 public static function obtenerEvaluaciones($indice,$index){
     $contenidoArchivo = file_get_contents("../data/empresas.json");
@@ -84,7 +104,8 @@ public function guardarEvaluacion($indice,$index){
     $empresas[$indice]["promociones"][$index]["evaluacion"][]= array(
     
         "comentario"=> $this->comentario,
-        "calificacon"=> $this->calificacon
+        "calificacon"=> $this->calificacon,
+        "idUsuario"=> $this->idUsuario
        
          
     );

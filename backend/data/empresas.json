@@ -114,7 +114,8 @@
         "descripcion": "gvhfklakjhfkalKJHBVGFHKALjhbfvg",
         "direccion": "lempira",
         "longitud": "123",
-        "latitud": "123"
+        "latitud": "123",
+        "comentarios": []
       },
       {
         "image": "Cat-by-master-V/frontend/img/Captura.PNG",
@@ -261,7 +262,9 @@
         "fechaInicio": "12-02-2020",
         "fechaLimite": "12-03-2020",
         "ubicacionsucursal": "variedades juan",
-        "evaluacion": [{ "comentario": "Mas o menos", "calificacon": "3" }]
+        "evaluacion": [
+          { "comentario": "Mas o menos", "calificacon": "3", "idUsuario": 1 }
+        ]
       },
       {
         "image": "img/productos/deporte2.jpg",
@@ -274,7 +277,13 @@
         "fechaInicio": "2020-05-24",
         "fechaLimite": "2020-05-31",
         "ubicacionsucursal": "Tegucigalpa",
-        "evaluacion": []
+        "evaluacion": [
+          {
+            "comentario": "lorem ipsum dolor",
+            "calificacon": "2",
+            "idUsuario": 0
+          }
+        ]
       },
       {
         "image": "img/productos/mueble cojin.jpg",
@@ -313,7 +322,9 @@
         "fechaInicio": "2020-05-18",
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "San pedro",
-        "evaluacion": []
+        "evaluacion": [
+          { "comentario": "esta cosa", "calificacon": "4", "idUsuario": 2 }
+        ]
       },
       {
         "image": "img/productos/ni\u00f1o6.jpg",
