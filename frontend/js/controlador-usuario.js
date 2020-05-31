@@ -18,15 +18,19 @@ function login(){
 
     }
    }).then(res=>{
-    if (res.data.codigoResultados==1) {
-      window.location.href="cuentausuario.php";
-      
-  } else {
-      document.getElementById('errorUsuario').style.display='block';
-      document.getElementById('errorUsuario').innerHTML=res.data.mensaje;
-      
-  }
-        
+        if (res.data.codigoResultados==2) {
+          window.location.href="superadministrador.html";
+          
+        } else if (res.data.codigoResultados==1) {
+          window.location.href="cuentausuario.php";
+          
+        } else {
+          document.getElementById('errorUsuario').style.display='block';
+          document.getElementById('errorUsuario').innerHTML=res.data.mensaje;
+          
+      }
+
+
        console.log(res);
        
    }).catch(error=>{
