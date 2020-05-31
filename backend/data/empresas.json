@@ -568,6 +568,16 @@
         "direccion": "col.pueblo nuevo",
         "latitud": "12",
         "longitud": "20"
+      },
+      {
+        "nombre": "Variedades Ernestina",
+        "correo": "erna@gmail.com",
+        "telefono": "22209938",
+        "pais": "Honduras",
+        "ciudad": "Tegucigalpa",
+        "direccion": "col.pueblo nuevo",
+        "latitud": "12",
+        "longitud": "20"
       }
     ],
     "productos": [

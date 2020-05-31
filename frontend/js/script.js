@@ -164,24 +164,24 @@ function cargarSucursales(nombreS) {
 					  <center>
 					  <div class="form-group row"">
 					  <label  class="col-sm-4 "> Correo: </label>
-					  <div class="col-sm-6">
-						<p>${empresas[i].sucursales[j].correo}</p>
+					  <div class="col-sm-6" id="correo">
+					
 						</div>
 					  </div>
 					  </center>
 					  <center>
 					  <div class="form-group row">
 						<label  class="col-sm-4 "> Direccion: </label>
-						<div class="col-sm-6">
-						<p>${empresas[i].sucursales[j].direccion}</p>
+						<div class="col-sm-6" id="direccion">
+					
 						</div>
 					  </div>
 					  </center>
 					  <center>
 					  <div class="form-group row">
 						<label for="staticEmail" class="col-sm-4 col-form-label">Telefono</label>
-						<div class="col-sm-6">
-						<p>${empresas[i].sucursales[j].telefono}</p>
+						<div class="col-sm-6" id="telefono" >
+					
 						</div>
             </div>
             <div class="form-group row">
@@ -419,13 +419,22 @@ function readURL(input) {
   //readURL(this);
 //});
 
-
+//obtener la informacion de cada sucursal
 function sucursalesinfor(sucursal,empresa){
 console.log( "la empresa con id:",empresas[empresa].nombreEmpresa);
 console.log( "la sucursal con id:",empresas[empresa].sucursales[sucursal].nombre);
 // agrgar el html para que sea dinamico  en la modal no olvidar agrgar el html y incrustar esto
 // empresas[empresa].sucursales[sucursal].nombre
+document.getElementById("correo").innerHTML=`
+<p>${empresas[empresa].sucursales[sucursal].correo}</p>
+`
+document.getElementById("direccion").innerHTML=`
+<p>${empresas[empresa].sucursales[sucursal].direccion}</p>
+
+`
+document.getElementById("telefono").innerHTML=`
+<p>${empresas[empresa].sucursales[sucursal].telefono}</p>
 
 
-  
+`
 }
