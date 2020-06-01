@@ -31,7 +31,7 @@
         "ciudad": "Tegucigalpa",
         "direccion": "col.pueblo nuevo",
         "latitud": 14.1069722,
-         "longitud":-87.2098527
+        "longitud": -87.2098527
       },
       {
         "nombre": "Variedades Samuel",
@@ -40,10 +40,8 @@
         "pais": "Honduras",
         "ciudad": "Tegucigalpa",
         "direccion": "ila ",
-        "latitud":  14.081686,
+        "latitud": 14.081686,
         "longitud": -87.203372
-        
-         
       },
       {
         "nombre": "Variedades JOH",
@@ -265,7 +263,8 @@
         "fechaLimite": "12-03-2020",
         "ubicacionsucursal": "variedades juan",
         "evaluacion": [
-          { "comentario": "Mas o menos", "calificacon": "3", "idUsuario": 1 }
+          { "comentario": "Mas o menos", "calificacion": "3", "idUsuario": 1 },
+          { "comentario": "buen producto", "calificacion": 5, "idUsuario": "0" }
         ]
       },
       {
@@ -298,7 +297,9 @@
         "fechaInicio": "2020-05-13",
         "fechaLimite": "2020-05-13",
         "ubicacionsucursal": "Comayagua",
-        "evaluacion": []
+        "evaluacion": [
+          { "comentario": "gcgcgcg", "calificacion": 5, "idUsuario": "0" }
+        ]
       },
       {
         "image": "img/productos/ni\u00f1o7.jpg",
@@ -325,7 +326,7 @@
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "San pedro",
         "evaluacion": [
-          { "comentario": "esta cosa", "calificacon": "4", "idUsuario": 2 }
+          { "comentario": "esta cosa", "calificacion": "4", "idUsuario": 2 }
         ]
       },
       {
@@ -411,7 +412,7 @@
     "redesSociales": "Twiter",
     "URL": "https://myaccount.google.com",
     "latitud": 14.1069722,
-    "longitud":-87.2098527,
+    "longitud": -87.2098527,
     "pago": "Paypal",
     "propietario": "Pedro",
     "numeroTarjeta": "123455",
@@ -507,7 +508,7 @@
         "fechaInicio": "12-02-2020",
         "fechaLimite": "12-03-2020",
         "ubicacionsucursal": "variedades juan",
-        "evaluacion": [{ "comentario": "Buen Producto", "calificacon": "3" }]
+        "evaluacion": [{ "comentario": "Buen Producto", "calificacion": "3" }]
       },
       {
         "image": "img/productos/estufa.jpg",
@@ -520,7 +521,10 @@
         "fechaInicio": "2020-05-13",
         "fechaLimite": "2020-05-14",
         "ubicacionsucursal": "Variedades Ruben",
-        "evaluacion": []
+        "evaluacion": [
+          { "comentario": "malo", "calificacion": 5, "idUsuario": "0" },
+          { "comentario": "mal estufa", "calificacion": 5, "idUsuario": "0" }
+        ]
       },
       {
         "image": "img/productos/relojp.jpg",

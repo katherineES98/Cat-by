@@ -1,18 +1,18 @@
 <?php
 class Evaluacion{
     private $comentario;
-    private $calificacon;
+    private $calificacion;
     private $idUsuario;
     
 
     public function __construct(
         $comentario,
-        $calificacon,
+        $calificacion,
         $idUsuario
         
        ){
             $this->comentario = $comentario;
-            $this->calificacon = $calificacon;
+            $this->calificacion = $calificacion;
             $this->idUsuario = $idUsuario;
               
     }
@@ -39,22 +39,23 @@ class Evaluacion{
         return $this;
     }
 
+   
     /**
-     * Get the value of calificacon
+     * Get the value of calificacion
      */ 
-    public function getCalificacon()
+    public function getCalificacion()
     {
-        return $this->calificacon;
+        return $this->calificacion;
     }
 
     /**
-     * Set the value of calificacon
+     * Set the value of calificacion
      *
      * @return  self
      */ 
-    public function setCalificacon($calificacon)
+    public function setCalificacion($calificacion)
     {
-        $this->calificacon = $calificacon;
+        $this->calificacion = $calificacion;
 
         return $this;
     }
@@ -104,7 +105,7 @@ public function guardarEvaluacion($indice,$index){
     $empresas[$indice]["promociones"][$index]["evaluacion"][]= array(
     
         "comentario"=> $this->comentario,
-        "calificacon"=> $this->calificacon,
+        "calificacion"=> $this->calificacion,
         "idUsuario"=> $this->idUsuario
        
          
@@ -128,7 +129,7 @@ public function guardarEvaluacion($indice,$index){
         $evaluaciones= array(
            
         "comentario"=> $this->comentario,
-        "calificacon"=> $this->calificacon
+        "calificacion"=> $this->calificacion
         
         );
         $empresas[$id]["promociones"][$index]["evaluacion"][$indice] = $evaluaciones;
@@ -150,6 +151,7 @@ public function guardarEvaluacion($indice,$index){
 
 
         }
+
 
 
 
