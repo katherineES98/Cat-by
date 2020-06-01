@@ -47,7 +47,7 @@
                      <form >
                  <div class="row">
                     <div class="col-md-12  mb-3 mt-4">
-                        <select id="producto" class="form-control" onchange="seleccionarSelect()"  >
+                        <select id="producto" class="form-control" onchange="seleccionarSelect(),update_qrcode()"  >
                             <option value="Camisa">Camisa</option>
                          
                             </select>
@@ -66,7 +66,7 @@
                     <div class="row">
                        <div class="col-md-4">
                         <h2>Codigo QR</h2>
-                        <img src="img/QR.png" width="123" height="123" /><br><br>
+                       <div  id="qr"></div>
                         <div class="  botonR " style="margin-top: 5px; width: 120px;">
                         <button type="button" class=" btn-block"  >Generar PDF </button>
                     </div>
@@ -99,6 +99,9 @@
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script> 
       <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/qrcode.js"></script>
+
+
       
 </body>
 </html>
