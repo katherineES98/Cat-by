@@ -79,19 +79,17 @@ header .texto-header{
 .menu ul{
   list-style: none;
   width: 100%;
-  background: #000000;
+  background:#3691be;;
   display: table;
 }
 .menu ul li{
     display: table-cell;
     width: calc(38px * 5);
 }
-.menu ul li:hover{
-background: rgb(0, 0, 0,.9);
-}
+
 
 .menu ul li a{
-    text-decoration: none;
+    
      display: block;
      color: #fff;
      padding: 20px 0;
@@ -99,10 +97,10 @@ background: rgb(0, 0, 0,.9);
 }
 
 .menu ul .todos {background:#3691be;}
-.menu ul .laptop { background: #106288;}
-.menu ul .camara {background:#0b4661;}
-.menu ul .iphone { background: #093144;}
-.menu ul .audifono { background: #022535;}
+.menu ul .laptop { background: #3691be;}
+.menu ul .camara {background:#3691be;}
+.menu ul .iphone { background: #3691be;}
+.menu ul .audifono { background: #3691be;}
 
 /*
 .galeria{
@@ -185,5 +183,28 @@ p{
   .colorEnlace{
     color: #fff !important;
   }
+
+  .modal-header{
+    background-color: #27598b!important;
+    color: #fff;
+}
+
+
   
+  .novedades i{
+    background: #3FFFD7;
+    color: #1F7F6B;
+    font-size: 50px;
+    padding: 16px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 90%;
+    border:2px solid #2FBFA1;
+    -webkit-box-shadow:inset 0 0 15px 0 rgba(0,0,0,0.3);
+    box-shadow:inset 0 0 15px 0 rgba(0,0,0,0.3);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+   }
+
   

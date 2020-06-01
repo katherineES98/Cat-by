@@ -94,8 +94,68 @@
             </div>
 
         </div>
-
-
+        <!---
+        function itemsComentarios(idempresa, idpromo){
+ 
+            axios({
+              method: "GET",
+              url: urlComentarios + `?id=${idempresa}&index=${idpromo}`,
+              responseType: "json",
+            })
+              .then((res) => {
+              this.producto=res.data;
+            
+              document.getElementById( "comentarios").innerHTML="";
+          
+             
+                for (let i = 0; i < producto.evaluacion.length; i++) {
+                  console.log("este es el comentario", producto.evaluacion[i].comentario);
+                  document.getElementById( "comentarios").innerHTML += 
+                  `<i class="fas fa-user-circle fa-2x"></i>
+                  <span>${producto.evaluacion[i].idUsuario}</span>
+                  <p>
+                    ${producto.evaluacion[i].comentario}
+                  </p>
+                  <p>12/12/2019</p>
+                  <hr />`;
+                  
+                  
+                
+              }
+            
+            $("#exampleModal").modal('show');
+             
+              })
+              .catch((error) => {
+                console.error(error);
+              });
+          
+          
+          }
+          
+          function obtenerUsuarioId(){
+            
+            console.log("id a buscar: ",obtenerIdUsuario());
+            axios({
+              method: "GET",
+              url: urlUsuario+`?id=${obtenerIdUsuario()}`,
+              responseType: "json"
+            })
+              .then((res) => {
+                console.log(res.data);
+                this.usuario = res.data;
+              
+               
+                //al  momento que responda el servidor le vamos asignar el arreglo
+               // generarEmpresa();
+                
+              })
+              .catch((error) => {
+                console.error(error);
+              });
+          }
+          obtenerUsuarioId();
+-->
 
     </main>
     <script src="js/jquery.min.js"></script>

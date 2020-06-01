@@ -55,8 +55,8 @@ function agregarProducto(produc, k, i) {
             
             <hr>
             <div class="iconos" style="display: flex; align-items: center;justify-content: center;">
-            <i onClick="FavoriteProduc(${k},${i})" class="fas fa-heart fa-2x " style="margin-right: 5px!important ; color: red;" ></i>
-            <i onClick="agregarCarrito(${k},${i})" class="fas fa-cart-plus fa-2x" style="margin-right: 5px!important;color:green;" ></i>
+            <i onClick="FavoriteProduc(${k},${i})" data-toggle="modal" data-target="#empresaF"" class="fas fa-heart fa-2x " style="margin-right: 5px!important ; color: red;" ></i>
+            <i onClick="agregarCarrito(${k},${i})" data-toggle="modal" data-target="#carritosA"  class="fas fa-cart-plus fa-2x" style="margin-right: 5px!important;color:green;" ></i>
             <i onClick="itemsComentarios(${k},${i})" data-toggle="modal" data-target="#exampleModal" class="fas fa-comment-dots fa-2x" style="margin-right: 5px!important;color:blue;" ></i>
           </div>
         

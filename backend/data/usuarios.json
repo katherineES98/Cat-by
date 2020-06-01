@@ -1,1 +1,229 @@
-[{"nombre":"Maria","apellido":"martinez","genero":"Femenino","correo":"samsant@gmail.com","contrasena":"bcdcb29ed2aab16d48c11485264df665e906bdd9","direccion":"San pablo","telefono":"87967890","empresaFavoritas":[{"logo":"img\/empresas\/curacao.png","nombreEmpresa":"Curaco","descripcionEmpresa":"Some quick","direccion":"col.lomas"},{"logo":"img\/empresas\/hispanos1.jpg","nombreEmpresa":"Honduras R","descripcionEmpresa":"buenacfgcghvjhvhuguhgvh","direccion":"lempira"}],"carrito":[{"image":"img\/productos\/relojp.jpg","nombreProducto":"Reloj","categoria":"Accesorios","descripcion":"linda ropa","precioAntes":"300","precioAhora":"3","descuento":"20%","fechaInicio":"2020-05-01","fechaLimite":"2020-05-17","ubicacionsucursal":"Variedades JOH"},{"image":"img\/productos\/accesorios7.jpg","nombreProducto":"Sombrero","categoria":"modaAdulto","descripcion":"a bajo precio","precioAntes":"260","precioAhora":"30","descuento":"10%","fechaInicio":"2020-05-15","fechaLimite":"2020-05-31","ubicacionsucursal":"variedades Mar"},{"image":"img\/productos\/micro.jpg","nombreProducto":"Microondas","categoria":"Hogar","descripcion":"linda ropa","precioAntes":"300","precioAhora":"250","descuento":"20%","fechaInicio":"12-02-2020","fechaLimite":"12-03-2020","ubicacionsucursal":"variedades juan"}],"promocionesFavoritas":[{"image":"img\/productos\/rosa.jpg","nombreProducto":"Vestido","descripcion":"ASKLKJHGDSfghjkj","precioAhora":"250","ubicacionsucursal":"variedades chea","sucursales":[]},{"image":"img\/productos\/accesorios7.jpg","nombreProducto":"Sombrero","descripcion":"a bajo precio","precioAhora":"30","ubicacionsucursal":"variedades Mar","sucursales":[]}]},{"nombre":"Gloria","apellido":"Martinez","genero":"Femenino","correo":"GloriaM@gmail.com","contrasena":"bcdcb29ed2aab16d48c11485264df665e906bdd9","direccion":"reparto ","telefono":"31905034","empresaFavoritas":[{"logo":"img\/jestereo.gif","nombreEmpresa":"Galloo","descripcionEmpresa":"Some quick","direccion":"col.lomas"},{"logo":"Cat-by\/frontend\/img\/hispanos1.jpg","nombreEmpresa":"Carrion","descripcionEmpresa":"buenacfgcghvjhvhuguhgvh","direccion":"lempira"},{"logo":"..\/img\/jestereo.gif","nombreEmpresa":"Xio","descripcionEmpresa":"Some quick","direccion":"col.lomas"}],"carrito":[{"image":"img\/productos\/rosa.jpg","nombreProducto":"Vestido","categoria":"modaAdulto","descripcion":"ASKLKJHGDSfghjkj","precioAntes":"300","precioAhora":"250","descuento":"2890%","fechaInicio":"12-02-2020","fechaLimite":"12-03-2020","ubicacionsucursal":"variedades chea"},{"image":"img\/productos\/accesorios7.jpg","nombreProducto":"Sombrero","categoria":"modaAdulto","descripcion":"a bajo precio","precioAntes":"260","precioAhora":"30","descuento":"10%","fechaInicio":"2020-05-15","fechaLimite":"2020-05-31","ubicacionsucursal":"variedades Mar"}],"promocionesFavoritas":[{"image":"img\/productos\/deporte2.jpg","nombreProducto":"Sueter\/Buso","descripcion":"ASKLKJHGDSfghjkj","precioAhora":"$400","ubicacionsucursal":"Tegucigalpa","sucursales":[]},{"image":"img\/productos\/ni\u00f1o6.jpg","nombreProducto":"Trajecitos","descripcion":"ASKLKJHGDSfghjkj","precioAhora":"250","ubicacionsucursal":"variedades juan","sucursales":[]},{"image":"img\/productos\/deporte2.jpg","nombreProducto":"Sueter\/Buso","descripcion":"ASKLKJHGDSfghjkj","precioAhora":"$400","ubicacionsucursal":"Tegucigalpa","sucursales":[]}]},{"nombre":"Mario","apellido":"Galeano-Burgos","genero":"Femenino","correo":"mariogburgos@gmail.com","contrasena":"bcdcb29ed2aab16d48c11485264df665e906bdd9","direccion":"El Hatillo, Kilometro 7.3, Frente antiguo Restaurante La Cumbre","telefono":"+50431902143","empresaFavoritas":[{"logo":"Cat-by\/frontend\/img\/hispanos1.jpg","nombreEmpresa":"Carrion","descripcionEmpresa":"buenacfgcghvjhvhuguhgvh","direccion":"lempira"}],"carrito":[{"image":"img\/productos\/ni\u00f1o6.jpg","nombreProducto":"Trajecitos","categoria":"modaNi\u00f1o","descripcion":"ASKLKJHGDSfghjkj","precioAntes":"300","precioAhora":"250","descuento":"2890%","fechaInicio":"12-02-2020","fechaLimite":"12-03-2020","ubicacionsucursal":"variedades juan"}],"promocionesFavoritas":[{"image":"..\/img\/imag.jpg","nombreProducto":"Colares","descripcion":"lorem..","precioAhora":"34..","ubicacionsucursal":"tegus","sucursales":[]}]}]
+[
+  {
+    "nombre": "Maria",
+    "apellido": "martinez",
+    "genero": "Femenino",
+    "correo": "samsant@gmail.com",
+    "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
+    "direccion": "San pablo",
+    "telefono": "87967890",
+    "empresaFavoritas": [
+      {
+        "logo": "img/empresas/curacao.png",
+        "nombreEmpresa": "Curaco",
+        "descripcionEmpresa": "Some quick",
+        "direccion": "col.lomas"
+      },
+      {
+        "logo": "img/empresas/hispanos1.jpg",
+        "nombreEmpresa": "Honduras R",
+        "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
+        "direccion": "lempira"
+      },
+      {
+        "logo": "img/empresas/mendels.jpg",
+        "nombreEmpresa": "hondurasR",
+        "descripcionEmpresa": "jinfushbfhwerf",
+        "direccion": "lempira"
+      },
+      {
+        "logo": "img/empresas/mystic.jpg",
+        "nombreEmpresa": "Mystic",
+        "descripcionEmpresa": "Some quick",
+        "direccion": "col.lomas"
+      },
+      {
+        "logo": "img/empresas/mystic.jpg",
+        "nombreEmpresa": "Mystic",
+        "descripcionEmpresa": "Some quick",
+        "direccion": "col.lomas"
+      }
+    ],
+    "carrito": [
+      {
+        "image": "img/productos/relojp.jpg",
+        "nombreProducto": "Reloj",
+        "categoria": "Accesorios",
+        "descripcion": "linda ropa",
+        "precioAntes": "300",
+        "precioAhora": "3",
+        "descuento": "20%",
+        "fechaInicio": "2020-05-01",
+        "fechaLimite": "2020-05-17",
+        "ubicacionsucursal": "Variedades JOH"
+      },
+      {
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "categoria": "modaAdulto",
+        "descripcion": "a bajo precio",
+        "precioAntes": "260",
+        "precioAhora": "30",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-15",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "variedades Mar"
+      },
+      {
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "categoria": "modaNi\u00f1o",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades juan"
+      }
+    ],
+    "promocionesFavoritas": [
+      {
+        "image": "img/productos/rosa.jpg",
+        "nombreProducto": "Vestido",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "250",
+        "ubicacionsucursal": "variedades chea",
+        "sucursales": []
+      },
+      {
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "descripcion": "a bajo precio",
+        "precioAhora": "30",
+        "ubicacionsucursal": "variedades Mar",
+        "sucursales": []
+      },
+      {
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "250",
+        "ubicacionsucursal": "variedades juan",
+        "sucursales": []
+      }
+    ]
+  },
+  {
+    "nombre": "Gloria",
+    "apellido": "Martinez",
+    "genero": "Femenino",
+    "correo": "GloriaM@gmail.com",
+    "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
+    "direccion": "reparto ",
+    "telefono": "31905034",
+    "empresaFavoritas": [
+      {
+        "logo": "img/jestereo.gif",
+        "nombreEmpresa": "Galloo",
+        "descripcionEmpresa": "Some quick",
+        "direccion": "col.lomas"
+      },
+      {
+        "logo": "Cat-by/frontend/img/hispanos1.jpg",
+        "nombreEmpresa": "Carrion",
+        "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
+        "direccion": "lempira"
+      },
+      {
+        "logo": "../img/jestereo.gif",
+        "nombreEmpresa": "Xio",
+        "descripcionEmpresa": "Some quick",
+        "direccion": "col.lomas"
+      }
+    ],
+    "carrito": [
+      {
+        "image": "img/productos/rosa.jpg",
+        "nombreProducto": "Vestido",
+        "categoria": "modaAdulto",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades chea"
+      },
+      {
+        "image": "img/productos/accesorios7.jpg",
+        "nombreProducto": "Sombrero",
+        "categoria": "modaAdulto",
+        "descripcion": "a bajo precio",
+        "precioAntes": "260",
+        "precioAhora": "30",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-15",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "variedades Mar"
+      }
+    ],
+    "promocionesFavoritas": [
+      {
+        "image": "img/productos/deporte2.jpg",
+        "nombreProducto": "Sueter/Buso",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "$400",
+        "ubicacionsucursal": "Tegucigalpa",
+        "sucursales": []
+      },
+      {
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "250",
+        "ubicacionsucursal": "variedades juan",
+        "sucursales": []
+      },
+      {
+        "image": "img/productos/deporte2.jpg",
+        "nombreProducto": "Sueter/Buso",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "$400",
+        "ubicacionsucursal": "Tegucigalpa",
+        "sucursales": []
+      }
+    ]
+  },
+  {
+    "nombre": "Mario",
+    "apellido": "Galeano-Burgos",
+    "genero": "Femenino",
+    "correo": "mariogburgos@gmail.com",
+    "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
+    "direccion": "El Hatillo, Kilometro 7.3, Frente antiguo Restaurante La Cumbre",
+    "telefono": "+50431902143",
+    "empresaFavoritas": [
+      {
+        "logo": "Cat-by/frontend/img/hispanos1.jpg",
+        "nombreEmpresa": "Carrion",
+        "descripcionEmpresa": "buenacfgcghvjhvhuguhgvh",
+        "direccion": "lempira"
+      }
+    ],
+    "carrito": [
+      {
+        "image": "img/productos/ni\u00f1o6.jpg",
+        "nombreProducto": "Trajecitos",
+        "categoria": "modaNi\u00f1o",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "300",
+        "precioAhora": "250",
+        "descuento": "2890%",
+        "fechaInicio": "12-02-2020",
+        "fechaLimite": "12-03-2020",
+        "ubicacionsucursal": "variedades juan"
+      }
+    ],
+    "promocionesFavoritas": [
+      {
+        "image": "../img/imag.jpg",
+        "nombreProducto": "Colares",
+        "descripcion": "lorem..",
+        "precioAhora": "34..",
+        "ubicacionsucursal": "tegus",
+        "sucursales": []
+      }
+    ]
+  }
+]

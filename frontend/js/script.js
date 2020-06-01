@@ -84,8 +84,9 @@ function generarEmpresa() {
                           <div>
                           <center>
                           <div class="iconos" style="display: flex!important; align-items: center!important;justify-content: centerr!important;">
-                          <a href="" onClick="empresaFav('${i}')"  ><i class="fas fa-heart fa-2x" style=" margin-left:60px!important; color: red;" ></i> </a>    
+                          <i onClick="empresaFav('${i}')"data-toggle="modal" data-target="#exampleModal" class="fas fa-heart fa-2x" style=" margin-left:60px!important; color: red;" ></i>    
                          <i class="fas fa-comment-dots fa-2x" style="margin-left:25px!important;color:blue;" ></i>
+        
                          </center>
                          </div>
                         
