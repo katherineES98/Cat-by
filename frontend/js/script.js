@@ -62,7 +62,7 @@ function generarEmpresa() {
     document.getElementById("empres").innerHTML += `
 	<div class=" col-md-4 " >
                     <div class="card"  style="margin-bottom: 20px;">
-						<img src="${empresas[i].logo}" class="card-img-top" alt="..." onClick="cargarSucursales('${empresas[i].nombreEmpresa}')">
+						<img src="${empresas[i].logo}" class="card-img-top" alt="..." >
 						<div class="card-body">
 						<form style="text-align: center;">
                 <p class="clasificacion">
@@ -84,19 +84,22 @@ function generarEmpresa() {
                           <p class="card-text" style="background-color: #FFFAF0!important;"><b> Descripcion :</b>  ${empresas[i].descripcionEmpresa}</p>
                           <hr>
                           <div>
-                          <center>
-                          <div class="iconos" style="display: flex!important; align-items: center!important;justify-content: centerr!important;">
-                          <i onClick="empresaFav('${i}')"data-toggle="modal" data-target="#exampleModal" class="fas fa-heart fa-2x" style=" margin-left:60px!important; color: red;" ></i>    
-                         <i class="fas fa-comment-dots fa-2x" style="margin-left:25px!important;color:blue;" ></i>
-        
-                         </center>
+                         
+                          <div class="iconos" style="display: flex!important; align-items: center!important;justify-content: center!important;">
+                          <i onClick="empresaFav('${i}')"data-toggle="modal" data-target="#exampleModal" class="fas fa-heart fa-2x" style=" background: #FF0000;font-size: 30px;  padding: 5px; color: white;" ></i>    
+                         <i  onClick="cargarSucursales('${empresas[i].nombreEmpresa}')" class="far fa-building fa-2x iconos" style="margin-left:20px!important; background: #0000CD;font-size: 30px;  padding: 5px; color: white;" ></i>
+
                          </div>
                         
                           </div>
                           </div>
                       </div>
                 </div>
+            
                 
+             
+                
+               
 		
 		`;
   }
