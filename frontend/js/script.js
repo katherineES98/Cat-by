@@ -469,3 +469,32 @@ document.getElementById("ubicacion").innerHTML=`
 
 
 }
+
+//visualizar imgen logo de actualizar empresa logo
+
+function readURLogoEmpresa(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+          $('#img-logo').attr('src', e.target.result);
+      }
+
+
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+
+//visualizar imagen de actualizar empresa banner 
+function readURBannerEmpresa(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+          $('#img-Banner').attr('src', e.target.result);
+      }
+
+
+      reader.readAsDataURL(input.files[0]);
+  }
+}

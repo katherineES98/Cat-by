@@ -49,27 +49,31 @@
                  <div class="row">
                     <div class="col-md-4  mb-3 mt-4">
                         <input  id="nombreEmpresa" type="text" class="form-control"
-                            placeholder="Nombre de la Empresa">
+                            placeholder="Nombre de la Empresa"required>
                     </div>
                     <div class="col-md-4 mb-3 mt-4">
-                        <input id="correo" type="text"  class="form-control" placeholder="Correo Electronico">
+                        <input id="correo" type="text"  class="form-control" placeholder="Correo Electronico"required>
                     </div>
                         
                     <div class="col-md-4 mb-3 mt-4">
-                        <input id="contrasena" type="password"  placeholder="Contraseña" class="form-control">
+                        <input id="contrasena" type="password"  placeholder="Contraseña" class="form-control"required>
                     </div>
 
                     <div class="col-md-6 mb-3 mt-4">
-                       
+                        <center>
+                            <img id="img-logo" src="img/logo-placeholder.png" width="123" height="123" style="padding-bottom: 10px;" />
+                        </center>
                         <div class="custom-file ">
-                            <input type="file" name="archivo[]" class="custom-file-input " id="logo" name="logo">
+                            <input type="file" name="archivo[]" class="custom-file-input " id="logo" name="logo" onchange="readURLogoEmpresa(this);"required>
                             <label class="custom-file-label" for="customFile">Logo</label>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3 mt-4">
-                       
+                        <center>
+                            <img id="img-Banner" src="img/logo-placeholder.png" width="123" height="123" style="padding-bottom: 10px;" />
+                        </center>
                         <div class="custom-file ">
-                            <input type="file" name="archivo[]" class="custom-file-input " id="banner" name="banner"  >
+                            <input type="file" name="archivo[]" class="custom-file-input " id="banner" name="banner" onchange="readURBannerEmpresa(this);" required>
                             <label class="custom-file-label" for="customFile">Banner</label>
                         </div>
                     </div>
@@ -82,15 +86,15 @@
                    <div class="row">
                     <div class="col-md-4  mb-3 mt-4">
                         <label for="exampleformControlTextareas1">Mision</label>
-                        <textarea id="mision" class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+                        <textarea id="mision" class="form-control" id="exampleformControlTextareas1"  rows="3"required></textarea>
                     </div>
                     <div class="col-md-4 mb-3 mt-4">
                         <label for="exampleformControlTextareas1">Vision</label>
-                 <textarea id="vision" class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+                 <textarea id="vision" class="form-control" id="exampleformControlTextareas1"  rows="3"required></textarea>
                     </div>
                     <div class="col-md-4 mb-3 mt-4">
                         <label for="exampleformControlTextareas1">Descripcion</label>
-                 <textarea id="descripcionEmpresa" class="form-control" id="exampleformControlTextareas1"  rows="3"></textarea>
+                 <textarea id="descripcionEmpresa" class="form-control" id="exampleformControlTextareas1"  rows="3"required></textarea>
                     </div>
 
                    </div>
@@ -101,11 +105,11 @@
                    <div class="row">
                     <div class="col-md-3  mb-3 mt-4">
                         <input  id="direccion" type="text" class="form-control"
-                            placeholder="Direccion">
+                            placeholder="Direccion"required>
                     </div>
                     <div class="col-md-3 mt-4">
 
-                       <select id="pais" class="form-control">
+                       <select id="pais" class="form-control"required>
 
                        <option   value="">Pais</option>
                        <option value="Honduras">Honduras</option>
@@ -115,11 +119,11 @@
                        </select>
                    </div>
                     <div class="col-md-3 mb-3 mt-4">
-                        <input id="ciudad" type="text"  class="form-control" placeholder="Ciudad">
+                        <input id="ciudad" type="text"  class="form-control" placeholder="Ciudad"required>
                     </div>
                     <div class="col-md-3  mb-3 mt-4">
                         <input  id="telefono" type="text"   class="form-control"
-                            placeholder="Numero Telefonico">
+                            placeholder="Numero Telefonico"required>
                     </div>
                 </div>
                 <div class="alert alert-danger" role="alert">
@@ -129,7 +133,7 @@
                    <div class="row">
                     <div class="col-md-6 mt-4">
 
-                       <select id="redesSociales"  class="form-control">
+                       <select id="redesSociales"  class="form-control"required>
 
                        <option value="">Redes Sociales</option>
                        <option value="Facebook">Facebook</option>
@@ -141,7 +145,7 @@
                    </div>
                    <div class="col-md-6  mb-3 mt-4">
                     <input  id="URL" type="text"   class="form-control"
-                        placeholder="URL">
+                        placeholder="URL"required>
                         
                 </div>
              
@@ -153,10 +157,10 @@
                     <hr>
                     <div class="row">
                      <div class="col-md-6 mb-3 mt-4">
-                         <input id="latitud" type="text"  class="form-control" placeholder="Latitud">
+                         <input id="latitud" type="text" class="form-control" placeholder="Latitud"required>
                      </div>
                      <div class="col-md-6 mb-3 mt-4">
-                         <input id="longitud" type="text"     class="form-control" placeholder="Longitud">
+                         <input id="longitud" type="text" class="form-control" placeholder="Longitud"required>
                      </div>
                  </div>
 
@@ -167,7 +171,7 @@
                         
                         <div class="col-md-6 mt-4">
         
-                            <select id="pago"  class="form-control"  >
+                            <select id="pago"  class="form-control" required>
      
                             <option  value="Forma de Pago">Forma de Pago</option>
                             <option value="Tarjeta de Credito">Tarjeta de Credito</option>
@@ -178,7 +182,7 @@
                             </select>
                         </div>
                         <div class="col-md-6  mb-3 mt-4">
-                         <select id="plan" class="form-control"  >
+                         <select id="plan" class="form-control" required>
      
                              <option  value="Plan">Plan</option>
                              <option value="Gratis">Gratis</option>
@@ -194,18 +198,18 @@
                     
                      <div class="col-md-6  mb-3 mt-4">
                          <input id="propietario" type="text"  class="form-control"
-                             placeholder="Nombre del Propietario">
+                             placeholder="Nombre del Propietario"required>
                      </div>
                      <div class="col-md-6 mb-3 mt-4">
-                         <input id="numeroTarjeta" type="text"  class="form-control" placeholder="Numero de Tarjeta">
+                         <input id="numeroTarjeta" type="text"  class="form-control" placeholder="Numero de Tarjeta"required>
                      </div> 
                      
                      <div class="col-md-6  mb-3 mt-4">
                          <input id="vencimiento" type="text"  class="form-control"
-                             placeholder="vencimiento">
+                             placeholder="vencimiento"required>
                      </div>
                      <div class="col-md-6 mb-3 mt-4">
-                         <input id="cvv" type="text"  class="form-control" placeholder="CVV">
+                         <input id="cvv" type="text"  class="form-control" placeholder="CVV"required>
                      </div>
                     </div>
                    
