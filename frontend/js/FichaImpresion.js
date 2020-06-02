@@ -62,7 +62,7 @@ function seleccionarSelect(){
 
 
 document.getElementById("nombreP").innerHTML=`
-<h5>${empresa.promociones[document.getElementById("producto").value].nombreProducto}</h5>
+<h5>${empresa.promociones[document.getElementById("producto").value].descripcion}</h5>
 
 `
 document.getElementById("imagen").innerHTML=`
@@ -72,4 +72,9 @@ document.getElementById("imagen").innerHTML=`
 
 
 
+}
+
+
+function imprimirPDF(){
+  print();
 }
