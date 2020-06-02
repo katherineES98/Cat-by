@@ -22,6 +22,8 @@ function updateFormValue(data) {
   document.getElementById("pais").value = data.pais;
   document.getElementById("ciudad").value = data.ciudad;
   document.getElementById("telefono").value = data.telefono;
+  document.getElementById("img-logo").setAttribute("src",data.logo);
+  document.getElementById("img-Banner").setAttribute("src",data.banner);
   document.getElementById("redesSociales").value = data.redesSociales;
   document.getElementById("URL").value = data.URL;
   document.getElementById("latitud").value = data.latitud;
@@ -306,9 +308,9 @@ function actualizarEmpresa() {
     correo: document.getElementById("correo").value,
     contrasena: document.getElementById("contrasena").value,
     logo:
-      "Cat-by/frontend/img/" + document.getElementById("logo").files[0].name,
+      "img/empresas/" + document.getElementById("logo").files[0].name,
     banner:
-      "Cat-by/frontend/img/" + document.getElementById("banner").files[0].name,
+      "img/empresas/" + document.getElementById("banner").files[0].name,
     mision: document.getElementById("mision").value,
     vision: document.getElementById("vision").value,
     direccion: document.getElementById("direccion").value,
