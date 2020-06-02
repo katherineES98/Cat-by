@@ -264,17 +264,11 @@
         "ubicacionsucursal": "variedades juan",
         "evaluacion": [
           {
-            "comentario": "Mas o menos",
-            "calificacion": "3",
-            "idUsuario": "santos"
-          },
-          {
-            "comentario": "buen producto",
+            "comentario": "Excelente trajecito",
             "calificacion": 5,
-            "idUsuario": "Ester"
-          },
-          { "comentario": "g", "calificacion": 5, "idUsuario": "Maria" },
-          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" }
+            "nombre": "Gloria",
+            "apellido": "Martinez"
+          }
         ]
       },
       {
@@ -290,16 +284,10 @@
         "ubicacionsucursal": "Tegucigalpa",
         "evaluacion": [
           {
-            "comentario": "lorem ipsum dolor",
-            "calificacon": "2",
-            "idUsuario": 0
-          },
-          { "comentario": "bueno", "calificacion": 5, "idUsuario": "Maria" },
-          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" },
-          {
             "comentario": "buen producto",
             "calificacion": 5,
-            "idUsuario": "Gloria"
+            "nombre": "Emily",
+            "apellido": "santos"
           }
         ]
       },
@@ -315,7 +303,18 @@
         "fechaLimite": "2020-05-13",
         "ubicacionsucursal": "Comayagua",
         "evaluacion": [
-          { "comentario": "gcgcgcg", "calificacion": 5, "idUsuario": "Xiomara" }
+          {
+            "comentario": "gcgcgcg",
+            "calificacion": 5,
+            "nombre": "Ester",
+            "apellido": "Moreno"
+          },
+          {
+            "comentario": "buen producto",
+            "calificacion": 5,
+            "nombre": "Gloria",
+            "apellido": "Martinez"
+          }
         ]
       },
       {
@@ -329,10 +328,7 @@
         "fechaInicio": "2020-05-18",
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "Tegucigalpa",
-        "evaluacion": [
-          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" },
-          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" }
-        ]
+        "evaluacion": []
       },
       {
         "image": "img/productos/ni\u00f1o7.jpg",
@@ -349,7 +345,8 @@
           {
             "comentario": "esta cosa",
             "calificacion": "4",
-            "idUsuario": "Denis"
+            "nombre": "Denis",
+            "apellido": "Guevara"
           }
         ]
       },
@@ -381,7 +378,8 @@
           {
             "comentario": "buen sombrero",
             "calificacion": 5,
-            "idUsuario": "Gloria"
+            "nombre": "Marlon",
+            "apellido": "santos"
           }
         ]
       },
@@ -400,7 +398,8 @@
           {
             "comentario": "buen producto",
             "calificacion": 5,
-            "idUsuario": "Gloria"
+            "nombre": "Pedro",
+            "apellido": "martinez"
           }
         ]
       },
@@ -558,11 +557,11 @@
         "fechaLimite": "2020-05-14",
         "ubicacionsucursal": "Variedades Ruben",
         "evaluacion": [
-          { "comentario": "malo", "calificacion": 5, "idUsuario": "Juan" },
           {
             "comentario": "mal estufa",
             "calificacion": 5,
-            "idUsuario": "Maria"
+            "nombre": "Xiomara",
+            "apellido": "santos"
           }
         ]
       },
@@ -666,7 +665,8 @@
           {
             "comentario": "buena pulsera",
             "calificacion": 5,
-            "idUsuario": "Gloria"
+            "nombre": "Gloria",
+            "apellido": "santos"
           }
         ]
       }

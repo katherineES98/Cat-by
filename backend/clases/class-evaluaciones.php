@@ -2,18 +2,22 @@
 class Evaluacion{
     private $comentario;
     private $calificacion;
-    private $idUsuario;
+    private $nombre;
+    private $apellido;
+
+    
     
 
     public function __construct(
         $comentario,
         $calificacion,
-        $idUsuario
-        
+        $nombre,
+        $apellido
        ){
             $this->comentario = $comentario;
             $this->calificacion = $calificacion;
-            $this->idUsuario = $idUsuario;
+            $this->nombre = $nombre;
+            $this->apellido = $apellido;
               
     }
 
@@ -60,22 +64,46 @@ class Evaluacion{
         return $this;
     }
 
-    public function getidUsuario()
+     /**
+     * Get the value of apellido
+     */ 
+    public function getApellido()
     {
-        return $this->idUsuario;
+        return $this->apellido;
     }
 
     /**
-     * Set the value of idUsuario
+     * Set the value of apellido
      *
      * @return  self
      */ 
-    public function setidUsuario($idUsuario)
+    public function setApellido($apellido)
     {
-        $this->idUsuario = $idUsuario;
+        $this->apellido = $apellido;
 
         return $this;
     }
+
+    /**
+     * Get the value of nombre
+     */ 
+    public function getNombre()
+    {
+        return $this->nombre;
+    }
+
+    /**
+     * Set the value of nombre
+     *
+     * @return  self
+     */ 
+    public function setNombre($nombre)
+    {
+        $this->nombre = $nombre;
+
+        return $this;
+    }
+    
 
 //CRUD hacer mejor el crud
 public static function obtenerEvaluaciones($indice,$index){
@@ -106,7 +134,8 @@ public function guardarEvaluacion($indice,$index){
     
         "comentario"=> $this->comentario,
         "calificacion"=> $this->calificacion,
-        "idUsuario"=> $this->idUsuario
+        "nombre"=> $this->nombre,
+        "apellido"=> $this->apellido,
        
          
     );
@@ -129,7 +158,9 @@ public function guardarEvaluacion($indice,$index){
         $evaluaciones= array(
            
         "comentario"=> $this->comentario,
-        "calificacion"=> $this->calificacion
+        "calificacion"=> $this->calificacion,
+        "nombre"=> $this->nombre,
+        "apellido"=> $this->apellido
         
         );
         $empresas[$id]["promociones"][$index]["evaluacion"][$indice] = $evaluaciones;
@@ -158,6 +189,8 @@ public function guardarEvaluacion($indice,$index){
 
 
 
+
+   
 }
 
 

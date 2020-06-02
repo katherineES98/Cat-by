@@ -8,8 +8,8 @@
              $evaluacion = new Evaluacion( 
                   $_POST['comentario'],
                   $_POST['calificacion'],
-                  $_POST['idUsuario']
-                  
+                  $_POST['nombre'],
+                  $_POST['apellido']
                  
                 );
           echo $evaluacion->guardarEvaluacion($_GET['id'],$_GET['index']);
@@ -32,7 +32,8 @@
             $evaluacion = new Evaluacion( 
               $_PUT['comentario'],
              $_PUT['calificacion'],
-             $_PUT['idUsuario'] 
+             $_PUT['nombre'],
+             $_PUT['apellido'] 
             
            
             );

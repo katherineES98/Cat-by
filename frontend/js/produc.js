@@ -291,7 +291,7 @@ function itemsComentarios(idempresa, idpromo){
         console.log("este es el comentario", producto.evaluacion[i].comentario);
         document.getElementById( "comentarios").innerHTML += 
         `<i class="fas fa-user-circle fa-2x"></i>
-        <span>${producto.evaluacion[i].idUsuario}</span>
+        <span>${producto.evaluacion[i].nombre} ${producto.evaluacion[i].apellido} </span>
         <p>
           ${producto.evaluacion[i].comentario}
         </p>
@@ -339,7 +339,8 @@ function guardaritemsComentarios(idempresa, idpromo){
   let comentarios = {
     comentario: document.getElementById("idcomentario").value,
     calificacion: 5,
-    idUsuario: usuario.nombre
+    nombre: usuario.nombre,
+    apellido:usuario.apellido
   };
 
 axios({
