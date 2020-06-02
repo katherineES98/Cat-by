@@ -45,7 +45,15 @@ function agregarProducto(produc, k, i) {
         <div class="card" style="margin-bottom: 20px;" >
             <img src='${produc.image}' class="card-img-top" alt="...">
             <div class="card-body">
-              <div class="card-title">   
+              <div class="card-title">
+              <center>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              </center> 
+              <br/>
               <h6><b>${produc.nombreProducto} | -${produc.descuento} </b></h6>
               <h6><b>Precio:${produc.precioAhora}</b></h6>
               <h6 class="texto2" style="text-decoration: line-through;" ><b>Precio real:${produc.precioAntes} </b></h6>

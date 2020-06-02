@@ -52,7 +52,7 @@ function obtenerIdUsuario(){
     <td data-label="Precio">${data.promocionesFavoritas[i].precioAhora}</td>
     <td data-label="Sucursal">${data.promocionesFavoritas[i].ubicacionsucursal}</td>
     <td data-label="Quitar">
-                        <a href="#">
+                        <a href="javascript:void(0);">
                             <i  onClick="EliminarFavoriteProduct(${i})" class="fas fa-times"></i>
                         </a>
                     </td>

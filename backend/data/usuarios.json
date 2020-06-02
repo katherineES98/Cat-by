@@ -5,7 +5,7 @@
     "genero": "Femenino",
     "correo": "samsant@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "direccion": "Reparto",
+    "direccion": "Suazo Cordoba",
     "telefono": "87967890",
     "empresaFavoritas": [
       {
@@ -27,6 +27,18 @@
         "fechaInicio": "2020-05-13",
         "fechaLimite": "2020-05-13",
         "ubicacionsucursal": "Comayagua"
+      },
+      {
+        "image": "img/productos/deporte2.jpg",
+        "nombreProducto": "Sueter/Buso",
+        "categoria": "modaAdulto",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAntes": "$500",
+        "precioAhora": "$400",
+        "descuento": "10%",
+        "fechaInicio": "2020-05-24",
+        "fechaLimite": "2020-05-31",
+        "ubicacionsucursal": "Tegucigalpa"
       }
     ],
     "promocionesFavoritas": [
@@ -36,6 +48,22 @@
         "descripcion": "ASKLKJHGDSfghjkj",
         "precioAhora": "250",
         "ubicacionsucursal": "variedades chea",
+        "sucursales": []
+      },
+      {
+        "image": "img/productos/mueble cojin.jpg",
+        "nombreProducto": "muebles",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "45",
+        "ubicacionsucursal": "Comayagua",
+        "sucursales": []
+      },
+      {
+        "image": "img/productos/deporte2.jpg",
+        "nombreProducto": "Sueter/Buso",
+        "descripcion": "ASKLKJHGDSfghjkj",
+        "precioAhora": "$400",
+        "ubicacionsucursal": "Tegucigalpa",
         "sucursales": []
       }
     ]

@@ -61,13 +61,13 @@
                     <div class="row">
                         <div class="col-md-3  mb-3 mt-4">
                             <input  id="nombreProducto" type="text" class="form-control"
-                                placeholder="Nombre del Producto">
+                                placeholder="Nombre del Producto" required >
                         </div>
                         <div class="col-md-3  mb-3 mt-4">
-                            <input id="precio"  type="text" class="form-control" placeholder="Precio">
+                            <input id="precio"  type="text" class="form-control" placeholder="Precio" required>
                         </div>
                         <div class="col-md-3  mb-3 mt-4">
-                            <input id="cantidad" type="text"  class="form-control" placeholder="Cantidad">
+                            <input id="cantidad" type="text"  class="form-control" placeholder="Cantidad"required>
                         </div>
                         <div class="col-md-3  mb-3 mt-4 ">
 
@@ -87,7 +87,7 @@
                       </div>
                     <hr>
                     <div class="form-group ">
-                        <textarea id="descripcion" class="form-control  " id="exampleFormControlTextarea1" placeholder=" Ingrese Descripcion del Producto" rows="3"></textarea>
+                        <textarea id="descripcion" class="form-control  " id="exampleFormControlTextarea1" placeholder=" Ingrese Descripcion del Producto" rows="3" required ></textarea>
                       </div>
                       <div class="alert alert-danger" role="alert">
                         Ubicacion
@@ -95,21 +95,22 @@
                       <hr>
                         <div class="row">
                             <div class="col-md-4  mb-3 mt-4">
-                                <input  id="direccion" type="text" class="form-control" placeholder=" Introduzca su Direccion">
+                                <input  id="direccion" type="text" class="form-control" placeholder=" Introduzca su Direccion" required>
                             </div>
                             <div class="col-md-4  mb-3 mt-4">
-                                <input  id="latitud" type="text" class="form-control" placeholder="Latitud">
+                                <input  id="latitud" type="text" class="form-control" placeholder="Latitud" required>
                             </div>
                             <div class="col-md-4  mb-3 mt-4">
-                                <input id="longitud" type="text"   class="form-control" placeholder="Longitud">
+                                <input id="longitud" type="text"   class="form-control" placeholder="Longitud" required>
                             </div>
                         </div>
                        
                            <!---
                             <button type="button" onclick="guardarProducto()"  value="Login" class=" btn-block" >Agregar</button>
                             -->
+                            <center>
                             <input type="submit" value="Registrar" class="btn-enviar">
-                        
+                        </center>
                 </form>
                 </div>
 

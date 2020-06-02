@@ -49,7 +49,7 @@
                    <hr>
                    <div class="row">
                     <div class="col-md-3  mb-3 mt-4">
-                        <select id="nombreProducto" class="form-control" onchange="seleccionarSelect();">
+                        <select id="nombreProducto" class="form-control" onchange="seleccionarSelect();" required>
 
                             <option value="">Productos:</option>
                             <option value="Camisa">Camisa</option>
@@ -57,10 +57,10 @@
                             </select>
                     </div>
                     <div class="col-md-3 mb-3 mt-4">
-                        <input id="precioAntes-produc" type="text"   class="form-control" placeholder="Precio">
+                        <input id="precioAntes-produc" type="text"   class="form-control" placeholder="Precio" required >
                     </div>
                     <div class="col-md-3  mb-3 mt-4">
-                        <select id="categoria" class="form-control">
+                        <select id="categoria" class="form-control" required>
 
                             <option value="">Categoria:</option>
                             <option value="Tecnologia">Tecnologia</option>
@@ -84,7 +84,7 @@
                    <div class="row">
                     <div class="col-md-3 mt-4">
                         <label class="example Texto2 ">Porcentaje De  Promocion: </label>
-                        <select id="descuento-producto" class="form-control" onchange="calcularprecio();">
+                        <select id="descuento-producto" class="form-control" onchange="calcularprecio();" required>
                         <option value="10%">10%</option>
                         <option value="20%">20%</option>
                         <option value="30%">30%</option>
@@ -101,17 +101,17 @@
                     
                     <div class="col-md-3  mb-3 mt-4">
                         <label class="example Texto2 ">Fecha de incio: </label>
-                        <input id="fechaInicio" type="date" class="form-control"  value=''>
+                        <input id="fechaInicio" type="date" class="form-control" required>
 
                     </div>
                     <div class="col-md-3  mb-3 mt-4">
                         <label class="example Texto2">Fecha limite: </label>
-                        <input id="fechaLimite" type="date" class="form-control"  value=''>
+                        <input id="fechaLimite" type="date" class="form-control" required>
                         
                     </div>
                     <div class="col-md-3 mb-3 mt-4">
                         <label class="example Texto2">Precio Ahora: </label>
-                        <input id="precioAhora-promo" type="text"   class="form-control" placeholder="Precio Ahora">
+                        <input id="precioAhora-promo" type="text"   class="form-control" placeholder="Precio Ahora" required>
                     </div>
                     
                    </div>
@@ -121,7 +121,7 @@
                    <hr>
                    <div class="row">
                     <div class="col-md-6 mb-3 mt-4">
-                    <select id="ubicacionsucursal" class="form-control">
+                    <select id="ubicacionsucursal" class="form-control" required>
 
                         <option value="">Sucursales:</option>
                         <option value="Tegucigalpa">Tegucigalpa</option>
@@ -132,7 +132,7 @@
                     </div> 
                     <div class="col-md-6  mb-3 mt-4">
                    
-                        <textarea id="descripcion" class="form-control  " id="exampleFormControlTextarea1" placeholder=" Ingrese Descripcion de la promocion" rows="3"></textarea>
+                        <textarea id="descripcion" class="form-control  " id="exampleFormControlTextarea1" placeholder=" Ingrese Descripcion de la promocion" rows="3" required></textarea>
                      
                     </div>
                    </div>

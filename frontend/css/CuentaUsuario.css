@@ -124,3 +124,7 @@ header .texto-header{
  
   
 }
+.modal-header{
+  background-color: #27598b!important;
+  color: #fff;
+}

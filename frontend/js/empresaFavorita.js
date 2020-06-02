@@ -51,7 +51,7 @@ function obtenerIdUsuario(){
      <td data-label="Descripcion">${ data.empresaFavoritas[i].descripcionEmpresa}</td>
      <td data-label="Ubicacion">${ data.empresaFavoritas[i].direccion }</td>
      <td data-label="Quitar">
-                        <a href="#">
+                        <a href="javascript:void(0);">
                             <i  onClick="EliminarFavoriteCompany(${i})" class="fas fa-times"></i>
                         </a>
                     </td>

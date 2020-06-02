@@ -63,7 +63,7 @@ header("Location: 401.html");
                       <!--card-->
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height: 150px;box-shadow: 2px 2px 5px #1ea7d4;">
+                            <div class="card " style="height: 150px;box-shadow: 2px 2px 5px #31495f;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="actualizarEmpresa.html?key=formEmpresa"><i class="fas fa-user-edit fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;" ></i></a>
@@ -75,7 +75,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #1ea7d4;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #31495f;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="RegistroSucursal.html"><i class="fas fa-building  fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
@@ -88,7 +88,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #1ea7d4;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #31495f;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="RegistroProducto.html"><i class="fas fa-thumbs-up fa-3x"  style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
@@ -101,7 +101,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #1ea7d4;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #31495f;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="RegistroPromocion.html?key=producto"> <i class="fas fa-store fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
@@ -114,7 +114,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #1ea7d4;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #31495f;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="FichadeImpresion.html"><i class="fas fa-star fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
@@ -127,21 +127,14 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #1ea7d4;">
-                                <div class="card-body ">
-                                    <div class="iconos">
-                                        <i class="fas fa-cash-register fa-3x" style="display: flex; align-items: center;justify-content: center;color: black;"></i>
-                                    </div>
-                                       <h3>Proximamente</h3>
-                                </div>
-                              </div>
+                          
                             </div>
                         </div>
 
                     </div>
                     
                     <div class="col-md-8 ">
-                        <div class="card" >
+                        <div class="card dashboard" >
                             <h5 class="card-header " style="text-align: center;">
                                Control De Ventas
                             </h5>
@@ -173,12 +166,12 @@ header("Location: 401.html");
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
-                </div>
+                </div>   
                 <div class="modal-body">
-                    Seleccione "Cerrar sesión" a continuación si está listo para finalizar su sesión actual.</div>
+                    Seleccione <b>"Cerrar sesión"</b> a continuación si está listo para finalizar su sesión actual.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <a class="btn btn-primary" href="logout.php">Cerrar Sesion</a>
+                    <a class="btn btn-danger" href="logout.php">Cerrar Sesion</a>
                 </div>
             </div>
         </div>
