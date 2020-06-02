@@ -56,7 +56,7 @@ console.log("id a buscar: ",obtenerIdUsuario());
      <td data-label=" Descripcion" >${data.carrito[i].descripcion}</td>
      <td data-label="Precio">${data.carrito[i].precioAhora}</td>
      <td data-label="Quitar">
-         <a href="#">
+         <a href="javascript:void(0);">
              <i  onClick="EliminarCarrito(${i})"class="fas fa-times"></i>
          </a>
      </td>

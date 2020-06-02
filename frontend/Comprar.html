@@ -74,18 +74,18 @@
                     </div>
                     <div class="col-md-6  mb-3 mt-4">
                         <input id="nombrepro" type="text"  class="form-control"
-                            placeholder="Nombre del Propietario">
+                            placeholder="Nombre del Propietario" required>
                     </div>
                     <div class="col-md-6 mb-3 mt-4">
-                        <input id="numerot" type="text"  class="form-control" placeholder="Numero de Tarjeta">
+                        <input id="numerot" type="text"  class="form-control" placeholder="Numero de Tarjeta" required >
                     </div>
                     
                     <div class="col-md-6  mb-3 mt-4">
                         <input id="vencimiento" type="text"  class="form-control"
-                            placeholder="Vencimiento">
+                            placeholder="Vencimiento" required>
                     </div>
                     <div class="col-md-6 mb-3 mt-4">
-                        <input  id="cvv"  type="text"  class="form-control" placeholder="CVV">
+                        <input  id="cvv"  type="text"  class="form-control" placeholder="CVV" required>
                     </div>
                 </div>
 
@@ -124,7 +124,7 @@
                
                          <div class="row">
                             <div class="col-md-6 mx-auto mt-auto botonE">
-                            <button type="button"   value="Login" class=" btn-block" >Hacer Pedido</button>
+                            <button type="button" data-toggle="modal" data-target="#compras" value="Login" class=" btn-block" >Hacer Pedido</button>
                     </div>
                     </div>
             </form>
@@ -133,6 +133,33 @@
 </div>
 
  </main>
+
+ <!-- Modal compra favorito-->
+ <div class="modal fade" id="compras" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">
+            <center> Compra Realizada con Exito</center> 
+            </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <center>
+                
+  <p class="novedades"><i class="fas fa-check" aria-hidden="true"></i></p>
+  </center>  
+  </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+
+
 
 
  <script src="js/axios.min.js"></script>

@@ -7,6 +7,7 @@ const urlUsuario = "../../Cat-by/backend/api/usuarios.php";
 var producto=[];
 var empresas = [];
 var usuario = [];
+var empresas=[];
 generarProductos('todos');
 function generarProductos(produc) {
   document.getElementById("productos").innerHTML = "";
@@ -265,7 +266,7 @@ function guardarComentario(idProducto, idEmpresa) {
     });
 }
 * */
-
+//obtener comentarios
 function itemsComentarios(idempresa, idpromo){
 
   document.getElementById("imprimirBot").innerHTML = `
@@ -295,7 +296,7 @@ function itemsComentarios(idempresa, idpromo){
         <p>
           ${producto.evaluacion[i].comentario}
         </p>
-        <p>12/12/2019</p>
+       
         <hr />`;
         
         
@@ -335,10 +336,12 @@ function obtenerUsuarioId(){
 }
 obtenerUsuarioId();
 
+//guardar comentarios
 function guardaritemsComentarios(idempresa, idpromo){
+ 
   let comentarios = {
     comentario: document.getElementById("idcomentario").value,
-    calificacion: 5,
+    calificacion:6,
     nombre: usuario.nombre,
     apellido:usuario.apellido
   };
@@ -357,3 +360,5 @@ axios({
     console.error(error);
   });
 }
+
+
