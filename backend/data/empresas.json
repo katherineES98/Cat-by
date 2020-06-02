@@ -263,8 +263,18 @@
         "fechaLimite": "12-03-2020",
         "ubicacionsucursal": "variedades juan",
         "evaluacion": [
-          { "comentario": "Mas o menos", "calificacion": "3", "idUsuario": 1 },
-          { "comentario": "buen producto", "calificacion": 5, "idUsuario": "0" }
+          {
+            "comentario": "Mas o menos",
+            "calificacion": "3",
+            "idUsuario": "santos"
+          },
+          {
+            "comentario": "buen producto",
+            "calificacion": 5,
+            "idUsuario": "Ester"
+          },
+          { "comentario": "g", "calificacion": 5, "idUsuario": "Maria" },
+          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" }
         ]
       },
       {
@@ -283,6 +293,13 @@
             "comentario": "lorem ipsum dolor",
             "calificacon": "2",
             "idUsuario": 0
+          },
+          { "comentario": "bueno", "calificacion": 5, "idUsuario": "Maria" },
+          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" },
+          {
+            "comentario": "buen producto",
+            "calificacion": 5,
+            "idUsuario": "Gloria"
           }
         ]
       },
@@ -298,7 +315,7 @@
         "fechaLimite": "2020-05-13",
         "ubicacionsucursal": "Comayagua",
         "evaluacion": [
-          { "comentario": "gcgcgcg", "calificacion": 5, "idUsuario": "0" }
+          { "comentario": "gcgcgcg", "calificacion": 5, "idUsuario": "Xiomara" }
         ]
       },
       {
@@ -312,7 +329,10 @@
         "fechaInicio": "2020-05-18",
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "Tegucigalpa",
-        "evaluacion": []
+        "evaluacion": [
+          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" },
+          { "comentario": "hola", "calificacion": 5, "idUsuario": "Maria" }
+        ]
       },
       {
         "image": "img/productos/ni\u00f1o7.jpg",
@@ -326,7 +346,11 @@
         "fechaLimite": "2020-05-21",
         "ubicacionsucursal": "San pedro",
         "evaluacion": [
-          { "comentario": "esta cosa", "calificacion": "4", "idUsuario": 2 }
+          {
+            "comentario": "esta cosa",
+            "calificacion": "4",
+            "idUsuario": "Denis"
+          }
         ]
       },
       {
@@ -353,7 +377,13 @@
         "fechaInicio": "2020-05-15",
         "fechaLimite": "2020-05-31",
         "ubicacionsucursal": "variedades Mar",
-        "evaluacion": []
+        "evaluacion": [
+          {
+            "comentario": "buen sombrero",
+            "calificacion": 5,
+            "idUsuario": "Gloria"
+          }
+        ]
       },
       {
         "image": "img/productos/ni\u00f1o6.jpg",
@@ -366,7 +396,13 @@
         "fechaInicio": "2020-05-14",
         "fechaLimite": "2020-05-14",
         "ubicacionsucursal": "Variedades Samuel",
-        "evaluacion": []
+        "evaluacion": [
+          {
+            "comentario": "buen producto",
+            "calificacion": 5,
+            "idUsuario": "Gloria"
+          }
+        ]
       },
       {
         "image": "img/productos/accesorios7.jpg",
@@ -508,7 +544,7 @@
         "fechaInicio": "12-02-2020",
         "fechaLimite": "12-03-2020",
         "ubicacionsucursal": "variedades juan",
-        "evaluacion": [{ "comentario": "Buen Producto", "calificacion": "3" }]
+        "evaluacion": []
       },
       {
         "image": "img/productos/estufa.jpg",
@@ -522,8 +558,12 @@
         "fechaLimite": "2020-05-14",
         "ubicacionsucursal": "Variedades Ruben",
         "evaluacion": [
-          { "comentario": "malo", "calificacion": 5, "idUsuario": "0" },
-          { "comentario": "mal estufa", "calificacion": 5, "idUsuario": "0" }
+          { "comentario": "malo", "calificacion": 5, "idUsuario": "Juan" },
+          {
+            "comentario": "mal estufa",
+            "calificacion": 5,
+            "idUsuario": "Maria"
+          }
         ]
       },
       {
@@ -622,7 +662,13 @@
         "fechaInicio": "12-02-2020",
         "fechaLimite": "12-03-2020",
         "ubicacionsucursal": "variedades chea",
-        "evaluacion": []
+        "evaluacion": [
+          {
+            "comentario": "buena pulsera",
+            "calificacion": 5,
+            "idUsuario": "Gloria"
+          }
+        ]
       }
     ]
   },

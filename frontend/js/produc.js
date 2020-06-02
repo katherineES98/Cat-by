@@ -4,11 +4,12 @@ const tests = "../../Cat-by/backend/api/promocionesFavorita.php";
 const test1 = "../../Cat-by/backend/api/carrito.php";
 const urlComentarios = "../../Cat-by/backend/api/evaluacion.php";
 const urlUsuario = "../../Cat-by/backend/api/usuarios.php";
+var producto=[];
 var empresas = [];
-generarProductos("todos");
+var usuario = [];
+generarProductos('todos');
 function generarProductos(produc) {
   document.getElementById("productos").innerHTML = "";
-  document.getElementById("imprimirBoton").innerHTML = ``;
   console.log(produc);
   axios({
     method: "GET",
@@ -38,8 +39,6 @@ function generarProductos(produc) {
 
 function agregarProducto(produc, k, i) {
   console.log(produc.evaluacion);
-  document.getElementById("imprimirBoton").innerHTML = "";
-
   document.getElementById("productos").innerHTML += `
         <div class=" col-md-3 ">
         <div class="card" style="margin-bottom: 20px;" >
@@ -57,7 +56,7 @@ function agregarProducto(produc, k, i) {
             <div class="iconos" style="display: flex; align-items: center;justify-content: center;">
             <i onClick="FavoriteProduc(${k},${i})" data-toggle="modal" data-target="#empresaF"" class="fas fa-heart fa-2x " style="margin-right: 5px!important ; color: red;" ></i>
             <i onClick="agregarCarrito(${k},${i})" data-toggle="modal" data-target="#carritosA"  class="fas fa-cart-plus fa-2x" style="margin-right: 5px!important;color:green;" ></i>
-            <i onClick="itemsComentarios(${k},${i})" data-toggle="modal" data-target="#exampleModal" class="fas fa-comment-dots fa-2x" style="margin-right: 5px!important;color:blue;" ></i>
+            <i onClick="itemsComentarios(${i},${k})" data-toggle="modal" data-target="#exampleModal" class="fas fa-comment-dots fa-2x" style="margin-right: 5px!important;color:blue;" ></i>
           </div>
         
 
@@ -84,6 +83,7 @@ function agregarCarrito(indiceProducto, indiceEmpresa) {
         for (let k = 0; k < res.data[i].promociones.length; k++) {
           if (indiceEmpresa === i && indiceProducto === k) {
             productoSelecionado(res.data[i].promociones[k]);
+
           }
         }
       }
@@ -187,7 +187,7 @@ function productoSelecionadoFavorito(productos) {
       console.error(error);
     });
 }
-
+/*
 function itemsComentarios(idProducto, idEmpresa) {
   document.getElementById("comentario").innerHTML = "";
   document.getElementById("imprimirBoton").innerHTML = `
@@ -263,4 +263,96 @@ function guardarComentario(idProducto, idEmpresa) {
     .catch((error) => {
       console.error(error);
     });
+}
+* */
+
+function itemsComentarios(idempresa, idpromo){
+
+  document.getElementById("imprimirBot").innerHTML = `
+  <button
+                    type="button"
+                    onClick="guardaritemsComentarios(${idempresa},${idpromo})"
+                    class="btn btn-outline-danger"
+                  >
+                    <i class="far fa-paper-plane"></i>
+                  </button>`;
+
+ 
+  axios({
+    method: "GET",
+    url: urlComentarios + `?id=${idempresa}&index=${idpromo}`,
+    responseType: "json",
+  })
+    .then((res) => {
+    this.producto=res.data;
+  
+    document.getElementById( "comentarios").innerHTML="";
+      for (let i = 0; i < producto.evaluacion.length; i++) {
+        console.log("este es el comentario", producto.evaluacion[i].comentario);
+        document.getElementById( "comentarios").innerHTML += 
+        `<i class="fas fa-user-circle fa-2x"></i>
+        <span>${producto.evaluacion[i].idUsuario}</span>
+        <p>
+          ${producto.evaluacion[i].comentario}
+        </p>
+        <p>12/12/2019</p>
+        <hr />`;
+        
+        
+      
+    }
+  
+  $("#exampleModal").modal('show');
+   
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+
+
+}
+
+function obtenerUsuarioId(){
+  
+  console.log("id a buscar: ",obtenerIdUsuario());
+  axios({
+    method: "GET",
+    url: urlUsuario+`?id=${obtenerIdUsuario()}`,
+    responseType: "json"
+  })
+    .then((res) => {
+      console.log(res.data);
+      this.usuario = res.data;
+    
+     
+      //al  momento que responda el servidor le vamos asignar el arreglo
+     // generarEmpresa();
+      
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
+obtenerUsuarioId();
+
+function guardaritemsComentarios(idempresa, idpromo){
+  let comentarios = {
+    comentario: document.getElementById("idcomentario").value,
+    calificacion: 5,
+    idUsuario: usuario.nombre
+  };
+
+axios({
+  method: "POST",
+  url: urlComentarios + `?id=${idempresa}&index=${idpromo}`,
+  responseType: "json",
+  data: comentarios,
+})
+  .then((res) => {
+    itemsComentarios(idempresa, idpromo);
+    console.log(res);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
 }

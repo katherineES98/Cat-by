@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/promo.css" />
     <link rel="stylesheet" href="css/all.css" />
   </head>
-  <body>
+  <body >
     <header>
       <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><img src="img/cate2.png" /></a>
@@ -111,7 +111,7 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header" style="background-color: #00bfff;">
             <h5 class="modal-title" id="exampleModalLabel">
@@ -128,21 +128,19 @@
           </div>
           <div class="modal-body">
             <hr />
-            <div id="comentario"></div>
+            <div id="comentarios"></div>
           </div>
           <div class="modal-footer">
+
             <div class="px-0">
               <div class="input-group mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Agrega tu opinion"
-                  id="idComentario"
-                  style="width: 400px;"
-                />
-                <div class="input-group-append" id="imprimirBoton"></div>
+                  <input type="text" class="form-control" placeholder="Comment" id="idcomentario">
+                  <div class="input-group-append" id="imprimirBot">
+                      
+                  </div>
               </div>
-            </div>
+          </div>
+
           </div>
         </div>
       </div>
@@ -198,11 +196,15 @@
 
 
 
-
+<!---
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.slim.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
+    -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
     <script src="js/axios.min.js"></script>
     <script src="js/produc.js"></script>
   </body>
