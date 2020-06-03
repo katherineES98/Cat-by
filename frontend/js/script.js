@@ -14,7 +14,7 @@ if (window.location.search.substring(1)) {
 function updateFormValue(data) {
   document.getElementById("nombreEmpresa").value = data.nombreEmpresa;
   document.getElementById("correo").value = data.correo;
-  document.getElementById("contrasena").value = data.contrasena;
+  
   document.getElementById("mision").value = data.mision;
   document.getElementById("vision").value = data.vision;
   document.getElementById("descripcionEmpresa").value = data.descripcionEmpresa;

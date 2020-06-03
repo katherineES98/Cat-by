@@ -81,7 +81,7 @@ function updateFormValueUsuario(data){
   document.getElementById('apellido').value=data.apellido
   document.getElementById('genero').value=data.genero
   document.getElementById('correo').value=data.correo
-  document.getElementById('contrasena').value=data.contrasena
+ 
   document.getElementById('direccion').value=data.direccion
   document.getElementById('telefono').value=data.telefono
 
