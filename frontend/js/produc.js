@@ -4,11 +4,11 @@ const tests = "../../Cat-by/backend/api/promocionesFavorita.php";
 const test1 = "../../Cat-by/backend/api/carrito.php";
 const urlComentarios = "../../Cat-by/backend/api/evaluacion.php";
 const urlUsuario = "../../Cat-by/backend/api/usuarios.php";
-var producto=[];
+var producto = [];
 var empresas = [];
 var usuario = [];
-var empresas=[];
-generarProductos('todos');
+var empresas = [];
+generarProductos("todos");
 function generarProductos(produc) {
   document.getElementById("productos").innerHTML = "";
   console.log(produc);
@@ -39,7 +39,10 @@ function generarProductos(produc) {
 }
 
 function agregarProducto(produc, k, i) {
-  console.log(produc.evaluacion);
+  let id = `${k}` + `${i}`;
+  console.log("identificado", id);
+  console.log("evalucion", produc.evaluacion);
+
   document.getElementById("productos").innerHTML += `
         <div class=" col-md-3 ">
         <div class="card" style="margin-bottom: 20px;" >
@@ -47,11 +50,8 @@ function agregarProducto(produc, k, i) {
             <div class="card-body">
               <div class="card-title">
               <center>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
+              <div id="puntuacion${id}"></div>
+              
               </center> 
               <br/>
               <h6><b>${produc.nombreProducto} | -${produc.descuento} </b></h6>
@@ -75,6 +75,36 @@ function agregarProducto(produc, k, i) {
      </div>
         
         `;
+  document.getElementById(`puntuacion${id}`).innerHTML = "";
+  let sinPuntuacion = 0;
+  if (produc.evaluacion.length > 0) {
+    console.log("entro", k);
+    sinPuntuacion = 5 - produc.evaluacion[0].calificacion;
+    for (let i = 0; i < produc.evaluacion[0].calificacion; i++) {
+      document.getElementById(
+        `puntuacion${id}`
+      ).innerHTML += `<i class="fas fa-star"></i>`;
+    }
+    if (sinPuntuacion > 0) {
+      for (let i = 0; i < sinPuntuacion; i++) {
+        document.getElementById(
+          `puntuacion${id}`
+        ).innerHTML += `<i class="far fa-star"></i>`;
+      }
+    }
+  } else {
+    for (let i = 0; i < 5; i++) {
+      document.getElementById(
+        `puntuacion${id}`
+      ).innerHTML += `<i class="far fa-star"></i>`;
+    }
+  }
+
+  /**<i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              */
 }
 // funcion que seleciona el producto que se decisio agregar al carrito
 function agregarCarrito(indiceProducto, indiceEmpresa) {
@@ -92,7 +122,6 @@ function agregarCarrito(indiceProducto, indiceEmpresa) {
         for (let k = 0; k < res.data[i].promociones.length; k++) {
           if (indiceEmpresa === i && indiceProducto === k) {
             productoSelecionado(res.data[i].promociones[k]);
-
           }
         }
       }
@@ -275,8 +304,7 @@ function guardarComentario(idProducto, idEmpresa) {
 }
 * */
 //obtener comentarios
-function itemsComentarios(idempresa, idpromo){
-
+function itemsComentarios(idempresa, idpromo) {
   document.getElementById("imprimirBot").innerHTML = `
   <button
                     type="button"
@@ -286,57 +314,48 @@ function itemsComentarios(idempresa, idpromo){
                     <i class="far fa-paper-plane"></i>
                   </button>`;
 
- 
   axios({
     method: "GET",
     url: urlComentarios + `?id=${idempresa}&index=${idpromo}`,
     responseType: "json",
   })
     .then((res) => {
-    this.producto=res.data;
-  
-    document.getElementById( "comentarios").innerHTML="";
+      this.producto = res.data;
+
+      document.getElementById("comentarios").innerHTML = "";
       for (let i = 0; i < producto.evaluacion.length; i++) {
         console.log("este es el comentario", producto.evaluacion[i].comentario);
-        document.getElementById( "comentarios").innerHTML += 
-        `<i class="fas fa-user-circle fa-2x"></i>
+        document.getElementById(
+          "comentarios"
+        ).innerHTML += `<i class="fas fa-user-circle fa-2x"></i>
         <span>${producto.evaluacion[i].nombre} ${producto.evaluacion[i].apellido} </span>
         <p>
           ${producto.evaluacion[i].comentario}
         </p>
        
         <hr />`;
-        
-        
-      
-    }
-  
-  $("#exampleModal").modal('show');
-   
+      }
+
+      $("#exampleModal").modal("show");
     })
     .catch((error) => {
       console.error(error);
     });
-
-
 }
 
-function obtenerUsuarioId(){
-  
-  console.log("id a buscar: ",obtenerIdUsuario());
+function obtenerUsuarioId() {
+  console.log("id a buscar: ", obtenerIdUsuario());
   axios({
     method: "GET",
-    url: urlUsuario+`?id=${obtenerIdUsuario()}`,
-    responseType: "json"
+    url: urlUsuario + `?id=${obtenerIdUsuario()}`,
+    responseType: "json",
   })
     .then((res) => {
       console.log(res.data);
       this.usuario = res.data;
-    
-     
+
       //al  momento que responda el servidor le vamos asignar el arreglo
-     // generarEmpresa();
-      
+      // generarEmpresa();
     })
     .catch((error) => {
       console.error(error);
@@ -345,28 +364,25 @@ function obtenerUsuarioId(){
 obtenerUsuarioId();
 
 //guardar comentarios
-function guardaritemsComentarios(idempresa, idpromo){
- 
+function guardaritemsComentarios(idempresa, idpromo) {
   let comentarios = {
     comentario: document.getElementById("idcomentario").value,
-    calificacion:6,
+    calificacion: 6,
     nombre: usuario.nombre,
-    apellido:usuario.apellido
+    apellido: usuario.apellido,
   };
 
-axios({
-  method: "POST",
-  url: urlComentarios + `?id=${idempresa}&index=${idpromo}`,
-  responseType: "json",
-  data: comentarios,
-})
-  .then((res) => {
-    itemsComentarios(idempresa, idpromo);
-    console.log(res);
+  axios({
+    method: "POST",
+    url: urlComentarios + `?id=${idempresa}&index=${idpromo}`,
+    responseType: "json",
+    data: comentarios,
   })
-  .catch((error) => {
-    console.error(error);
-  });
+    .then((res) => {
+      itemsComentarios(idempresa, idpromo);
+      console.log(res);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
 }
-
-

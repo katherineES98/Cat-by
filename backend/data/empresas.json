@@ -230,7 +230,7 @@
         "evaluacion": [
           {
             "comentario": "Excelente trajecito",
-            "calificacion": 5,
+            "calificacion": 2,
             "nombre": "Gloria",
             "apellido": "Martinez"
           },
@@ -380,7 +380,7 @@
         "evaluacion": [
           {
             "comentario": "buen producto",
-            "calificacion": 5,
+            "calificacion": 4,
             "nombre": "Pedro",
             "apellido": "martinez"
           }
@@ -663,7 +663,7 @@
         "evaluacion": [
           {
             "comentario": "buena pulsera",
-            "calificacion": 5,
+            "calificacion": 1,
             "nombre": "Gloria",
             "apellido": "santos"
           }
