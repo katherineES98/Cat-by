@@ -156,7 +156,7 @@ public function guardarPromocionFavoritas($indice){
         "descripcion"=> $this->descripcion,
         "precioAhora"=> $this->precioAhora,
         "ubicacionsucursal"=> $this->ubicacionsucursal,
-        "sucursales"=>[]
+        
 
         
 
@@ -185,7 +185,7 @@ public function guardarPromocionFavoritas($indice){
         "descripcion"=> $this->descripcion,
         "precioAhora"=> $this->precioAhora,
         "ubicacionsucursal"=> $this->ubicacionsucursal,
-        "sucursales"=>$usuarios[$id]["promocionesFavoritas"][$index]["sucursales"]
+       
 
        
         );

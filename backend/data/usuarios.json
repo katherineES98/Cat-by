@@ -53,16 +53,21 @@
         "nombreProducto": "Pantalon y Chaqueta",
         "descripcion": "Chaqueta comoda",
         "precioAhora": "300",
-        "ubicacionsucursal": "Variedades Samuel",
-        "sucursales": []
+        "ubicacionsucursal": "Variedades Samuel"
       },
       {
         "image": "img/productos/ni\u00f1o3.png",
         "nombreProducto": "Blusa Ni\u00f1a",
         "descripcion": "Linda Blusa y a Buen precio",
         "precioAhora": "200",
-        "ubicacionsucursal": "Variedades Nidia",
-        "sucursales": []
+        "ubicacionsucursal": "Variedades Nidia"
+      },
+      {
+        "image": "img/productos/mueble cojin.jpg",
+        "nombreProducto": "Muebles",
+        "descripcion": "Buenos y comodos muebles , lindo color",
+        "precioAhora": "620",
+        "ubicacionsucursal": "Variedades Nidia"
       }
     ]
   },
@@ -120,16 +125,14 @@
         "nombreProducto": "Cargador para Phone",
         "descripcion": "Buen Cargador y gran Resistencia",
         "precioAhora": "960",
-        "ubicacionsucursal": "Variedades Ruben",
-        "sucursales": []
+        "ubicacionsucursal": "Variedades Ruben"
       },
       {
         "image": "img/productos/relojp.jpg",
         "nombreProducto": "Relojes de mano",
         "descripcion": "Muy buenos relojes y contra el agua",
         "precioAhora": "350",
-        "ubicacionsucursal": "Variedades ",
-        "sucursales": []
+        "ubicacionsucursal": "Variedades "
       }
     ]
   }

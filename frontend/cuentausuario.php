@@ -60,7 +60,7 @@ header("Location: 401.html");
                       <!--card-->
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card "style="height:150px;box-shadow: 2px 2px 10px #31495f;">
+                            <div class="card "style="height:150px;box-shadow: 2px 2px 10px #31495f;background: Ivory!important;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                     <a href="ActualizarCliente.html?key=formUsuario"><i class="fas fa-user-edit fa-3x" style="display: flex; align-items: center;justify-content: center;color: black;" ></i></a>
@@ -72,7 +72,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;background: Ivory!important;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="Empresa.html"><i class="fas fa-building  fa-3x" style="display: flex; align-items: center;justify-content: center;color: black;"></i></a>
@@ -85,7 +85,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #31495f;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 5px #31495f;background: Ivory!important;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="EmpresasFavoritas.html"><i class="fas fa-thumbs-up fa-3x"  style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
@@ -98,7 +98,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;background: Ivory!important;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="principal.html"><i class="fas fa-store fa-3x" style="display: flex; align-items: center;justify-content: center;color: black;"></i></a>
@@ -111,7 +111,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;background: Ivory!important;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="PromocionesFav.html"><i class="fas fa-star fa-3x" style="display: flex; align-items: center;justify-content: center;color: black;"></i></a>
@@ -124,7 +124,7 @@ header("Location: 401.html");
                         </div>
                         <div class="row">
                             <div class="col-xl-10 col-md-10 mx-auto mb-4">
-                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;">
+                            <div class="card " style="height:150px;box-shadow: 2px 2px 10px #31495f;background: Ivory!important;">
                                 <div class="card-body ">
                                     <div class="iconos">
                                         <a href="Carrito.html"><i class="fas fa-shopping-cart fa-3x" style="display: flex; align-items: center;justify-content: center; color: black;"></i></a>
@@ -137,9 +137,9 @@ header("Location: 401.html");
 
                     </div>
                    <div class="col-md-8 ">
-                        <div class="card informacion" style="height: 700px; box-shadow: 0px 10px 10px -6px back!important;">
+                        <div class="card informacion" style="height: 700px; box-shadow: 0px 10px 10px -6px back!important;background: Ivory!important; ">
                             <h5 class="card-header">
-                                <div class="col-md-4 m-auto imagen1">
+                                <div class="col-md-4 m-auto imagen1"> 
                                     <center>
                                     <img src="img/face1.jpg" class="w-100 my-5 img-thumbnail">
                                 </center>

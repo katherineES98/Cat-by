@@ -134,7 +134,7 @@ function validarEmpresa(){
     propietario= document.getElementById("propietario").value;
     pago  = document.getElementById("pago").value;
     plan  = document.getElementById("plan").value;
-    vencimiento  = document.getElementById("vencimiento").value;
+    
     cvv  = document.getElementById("cvv").value;
     numeroTarjeta  = document.getElementById("numeroTarjeta").value;
 
@@ -143,7 +143,7 @@ function validarEmpresa(){
     re1 = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
      re2 =/^([0-2][0-9]|3[0-1])(\/|-)(0[1-9]|1[0-2])\2(\d{4})$/
     if(nombreEmpresa==="" ||correo===""||contrasena===""||mision===""||vision===""||descripcionEmpresa===""||direccion===""||pais===""||ciudad===""||telefono===""||redesSociales===""||URL===""||latitud===""||longitud===""||pago===""||
-    plan===""||propietario===""||vencimiento===""||cvv===""||numeroTarjeta===""){
+    plan===""||propietario===""||cvv===""||numeroTarjeta===""){
         alert("Todos los campos son obligatorios");
         return false;
         }
@@ -222,10 +222,7 @@ function validarEmpresa(){
             alert("Seleccione una opcion");
             return false
         }
-        else if(!(re2.test(vencimiento))){
-            alert("El Vencimiento no es valido");
-            return false
-        }
+      
         else if(isNaN(cvv)){
             alert("El CVV ingresado no es un numero");
             return false
@@ -263,7 +260,7 @@ function validarEmpresaActalizada(){
     propietario= document.getElementById("propietario").value;
     pago  = document.getElementById("pago").value;
     plan  = document.getElementById("plan").value;
-    vencimiento  = document.getElementById("vencimiento").value;
+   
     cvv  = document.getElementById("cvv").value;
     numeroTarjeta  = document.getElementById("numeroTarjeta").value;
 
@@ -271,7 +268,7 @@ function validarEmpresaActalizada(){
     re1 = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
      re2 =/^([0-2][0-9]|3[0-1])(\/|-)(0[1-9]|1[0-2])\2(\d{4})$/
     if(nombreEmpresa==="" ||correo===""||mision===""||vision===""||descripcionEmpresa===""||direccion===""||pais===""||ciudad===""||telefono===""||redesSociales===""||URL===""||latitud===""||longitud===""||pago===""||
-    plan===""||propietario===""||vencimiento===""||cvv===""||numeroTarjeta===""){
+    plan===""||propietario===""||cvv===""||numeroTarjeta===""){
         alert("Todos los campos son obligatorios");
         return false;
         }
@@ -346,10 +343,7 @@ function validarEmpresaActalizada(){
             alert("Seleccione una opcion");
             return false
         }
-        else if(!(re2.test(vencimiento))){
-            alert("El Vencimiento no es valido");
-            return false
-        }
+       
         else if(isNaN(cvv)){
             alert("El CVV ingresado no es un numero");
             return false
