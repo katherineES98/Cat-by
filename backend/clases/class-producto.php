@@ -7,8 +7,7 @@ class Producto{
     private $categoria;
     private $descripcion;
     private $direccion;
-    private $longitud;
-    private $latitud;
+    
     
     public function __construct(
     $image,
@@ -17,9 +16,8 @@ class Producto{
     $cantidad,
     $categoria,
     $descripcion,
-    $direccion,
-    $longitud,
-    $latitud){
+    $direccion
+   ){
         $this->image = $image;
         $this->nombreProducto = $nombreProducto;
         $this->precio = $precio;
@@ -27,8 +25,6 @@ class Producto{
         $this->categoria = $categoria;
         $this->descripcion = $descripcion;
         $this->direccion = $direccion;
-        $this->longitud = $longitud;
-        $this->latitud = $latitud;
        
       
 }
@@ -176,45 +172,7 @@ class Producto{
         return $this;
     }
 
-    /**
-     * Get the value of longitud
-     */ 
-    public function getLongitud()
-    {
-        return $this->longitud;
-    }
-
-    /**
-     * Set the value of longitud
-     *
-     * @return  self
-     */ 
-    public function setLongitud($longitud)
-    {
-        $this->longitud = $longitud;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of latitud
-     */ 
-    public function getLatitud()
-    {
-        return $this->latitud;
-    }
-
-    /**
-     * Set the value of latitud
-     *
-     * @return  self
-     */ 
-    public function setLatitud($latitud)
-    {
-        $this->latitud = $latitud;
-
-        return $this;
-    }
+    
 
 //CRUD
 public static function obtenerProducto($indice){
@@ -247,9 +205,8 @@ public function guardarProducto($indice){
         "cantidad"=> $this->cantidad,
         "categoria"=> $this->categoria,
         "descripcion"=> $this->descripcion,
-        "direccion"=> $this->direccion,
-        "longitud"=> $this->longitud,
-        "latitud"=> $this->latitud
+        "direccion"=> $this->direccion
+        
         
     );
 
@@ -274,9 +231,8 @@ public function guardarProducto($indice){
             "cantidad"=> $this->cantidad,
             "categoria"=> $this->categoria,
             "descripcion"=> $this->descripcion,
-            "direccion"=> $this->direccion,
-            "longitud"=> $this->longitud,
-            "latitud"=> $this->latitud
+            "direccion"=> $this->direccion
+            
 
 
           

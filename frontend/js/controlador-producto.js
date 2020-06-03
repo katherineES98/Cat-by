@@ -27,8 +27,7 @@ function  guardarProducto(){
         categoria: document.getElementById('categoria').value,
         descripcion: document.getElementById('descripcion').value,
         direccion: document.getElementById('direccion').value,
-        longitud: document.getElementById('longitud').value,
-        latitud: document.getElementById('latitud').value,
+       
      
         
      

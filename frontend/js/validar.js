@@ -22,7 +22,7 @@ else if(apellido.length>80){
     alert("El apellido es muy Largo");
     return false
 }
-else if(contraseña.length>8 || contraseña.length<4){
+else if(contraseña.length>20 || contraseña.length<2){
     alert("Contraseña debe tener entre 4-8 caracteres");
     return false
 }
@@ -138,6 +138,7 @@ function validarEmpresa(){
     cvv  = document.getElementById("cvv").value;
     numeroTarjeta  = document.getElementById("numeroTarjeta").value;
 
+    
     re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     re1 = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
      re2 =/^([0-2][0-9]|3[0-1])(\/|-)(0[1-9]|1[0-2])\2(\d{4})$/
@@ -158,7 +159,7 @@ function validarEmpresa(){
             alert("El correo no es valido");
             return false
         }
-        else if(contrasena.length>8 || contrasena.length<4){
+        else if(contrasena.length>20 || contrasena.length<2){
             alert("Contraseña debe tener entre 4-8 caracteres");
             return false
         }
@@ -185,7 +186,7 @@ function validarEmpresa(){
             alert("Seleccione una opcion");
             return false
         }
-        else if(ciudad.length>10){
+        else if(ciudad.length>50){
             alert("el nombre de la Ciudad  es muy Largo");
             return false
         }
@@ -309,7 +310,7 @@ function validarEmpresaActalizada(){
             alert("Seleccione una opcion");
             return false
         }
-        else if(ciudad.length>10){
+        else if(ciudad.length>50){
             alert("el nombre de la Ciudad  es muy Largo");
             return false
         }
@@ -409,7 +410,7 @@ else if(pais.value==0 || pais.value=="" ){
     alert("Seleccione una opcion");
     return false
 }
-else if(ciudad.length>10){
+else if(ciudad.length>50){
     alert("el nombre de la Ciudad  es muy Largo");
     return false
 }
@@ -443,10 +444,9 @@ cantidad = document.getElementById("cantidad").value;
 categoria  = document.getElementById("categoria").value;
 descripcion  = document.getElementById("descripcion").value;
 direccion  = document.getElementById("direccion").value;
-latitud  = document.getElementById("latitud").value;
-longitud  = document.getElementById("longitud").value;
 
-if(nombreProducto===""||precio===""||cantidad===""||categoria===""||descripcion===""||direccion===""||latitud===""||longitud===""){
+
+if(nombreProducto===""||precio===""||cantidad===""||categoria===""||descripcion===""||direccion===""){
     alert("Todos los campos son obligatorios");
     return false;
     }
@@ -474,14 +474,7 @@ if(nombreProducto===""||precio===""||cantidad===""||categoria===""||descripcion=
         alert("La Direccion es muy larga");
         return false
     }
-    else if(isNaN(latitud)){
-        alert("La latitud ingresado no es un numero");
-        return false
-    }
-    else if(isNaN(longitud)){
-        alert("la Longitud ingresado no es un numero");
-        return false
-    }
+    
     else {
         alert("Datos Correctos");
         guardarProducto();

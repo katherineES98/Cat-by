@@ -29,7 +29,7 @@ for ($i=0; $i < $num_archivos; $i++) {
 }
 
 
-header("location:cuentaEmpresarial.php");
+header("location:RegistroProducto.html");
 
 
 

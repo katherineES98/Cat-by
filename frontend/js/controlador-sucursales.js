@@ -29,6 +29,7 @@ function  guardarSucursal(){
     responseType:'json',
     data:sucursal
    }).then((res)=>{
+    limpiar();
        console.log(res);
    }).catch((error)=>{
        console.error(error);
@@ -54,4 +55,16 @@ function  guardarSucursal(){
   }
 
 
+
+  function limpiar(){
+    document.getElementById('nombre').value=null;
+    document.getElementById('correo').value=null;
+    document.getElementById('telefono').value=null;
+    document.getElementById('pais').value=null;
+    document.getElementById('ciudad').value=null;
+    document.getElementById('direccion').value=null;
+    document.getElementById('latitud').value=null;
+    document.getElementById('longitud').value=null;
+   
+}
 

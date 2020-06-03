@@ -11,9 +11,8 @@
                 $_POST['cantidad'],
                 $_POST['categoria'],
                 $_POST['descripcion'], 
-                $_POST['direccion'],
-                $_POST['longitud'],
-                $_POST['latitud']
+                $_POST['direccion']
+               
               
               );
         echo  $producto ->guardarProducto($_GET['id']);
@@ -38,9 +37,8 @@
                $_PUT['cantidad'],
                $_PUT['categoria'], 
                $_PUT['descripcion'], 
-               $_PUT['direccion'],
-               $_PUT['longitud'],
-               $_PUT['latitud']
+               $_PUT['direccion']
+              
              
              
               );
