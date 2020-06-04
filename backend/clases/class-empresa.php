@@ -585,7 +585,7 @@ public function actualizarEmpresa($indice){
             "nombreEmpresa"=>$this->nombreEmpresa,
             "descripcionEmpresa"=>$this->descripcionEmpresa,
             "correo"=>$this->correo,
-            "contrasena"=>$this->contrasena,
+            "contrasena"=>sha1($this->contrasena),
             "logo"=>$this->logo,
             "banner"=>$this->banner,
             "mision"=>$this->mision,

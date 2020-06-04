@@ -4,8 +4,8 @@
     "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
     "correo": "Mystic@gmail.com",
     "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "logo": "img/empresas/exotic.png",
-    "banner": "img/empresas/untitled.png",
+    "logo": "img\/empresas\/exotic.png",
+    "banner": "img\/empresas\/untitled.png",
     "mision": "Proveer un buen producto y los mejores  precios accesibles.",
     "vision": "Proporcionar acceso a la informaci\u00f3n del mundo en un solo clic.",
     "direccion": " V-661, Tegucigalpa 11101",
@@ -13,13 +13,13 @@
     "ciudad": "Teguscigalpa",
     "telefono": "22206517",
     "redesSociales": "Twiter",
-    "URL": "https://www.google.com",
+    "URL": "https:\/\/www.google.com",
     "latitud": 14.075651,
     "longitud": -87.200962,
     "pago": "Paypal",
     "propietario": "juana",
     "numeroTarjeta": "12345",
-    "vencimiento": "12/2019",
+    "vencimiento": "12\/2019",
     "cvv": "1223",
     "plan": "Gratis",
     "sucursales": [
@@ -46,7 +46,7 @@
     ],
     "productos": [
       {
-        "image": "img/productos/dama.jpg",
+        "image": "img\/productos\/dama.jpg",
         "nombreProducto": "Pantalon y Chaqueta",
         "precio": "500",
         "cantidad": "2",
@@ -55,7 +55,7 @@
         "direccion": "Tegucigalpa"
       },
       {
-        "image": "img/productos/ni\u00f1o3.png",
+        "image": "img\/productos\/ni\u00f1o3.png",
         "nombreProducto": "Blusa Ni\u00f1a",
         "precio": "250",
         "cantidad": "1",
@@ -64,7 +64,7 @@
         "direccion": "reparto "
       },
       {
-        "image": "img/productos/accesorios7.jpg",
+        "image": "img\/productos\/accesorios7.jpg",
         "nombreProducto": "Sombrero",
         "precio": "250",
         "cantidad": "1",
@@ -73,7 +73,7 @@
         "direccion": "San pablo calle principal enfrente al punto de taxi"
       },
       {
-        "image": "img/productos/mueble cojin.jpg",
+        "image": "img\/productos\/mueble cojin.jpg",
         "nombreProducto": "Muebles",
         "precio": "1550",
         "cantidad": "1",
@@ -84,7 +84,7 @@
     ],
     "promociones": [
       {
-        "image": "img/productos/ni\u00f1o7.jpg",
+        "image": "img\/productos\/ni\u00f1o7.jpg",
         "nombreProducto": "Camisa",
         "categoria": "modaAdulto",
         "descripcion": "linda ropa",
@@ -100,11 +100,29 @@
             "calificacion": "4",
             "nombre": "Denis",
             "apellido": "Guevara"
+          },
+          {
+            "comentario": "buen producto",
+            "calificacion": 6,
+            "nombre": "ismael",
+            "apellido": "santos"
+          },
+          {
+            "comentario": "buen producto",
+            "calificacion": 6,
+            "nombre": "samuel",
+            "apellido": "martines"
+          },
+          {
+            "comentario": "buen producto",
+            "calificacion": 6,
+            "nombre": "martin",
+            "apellido": "sosa"
           }
         ]
       },
       {
-        "image": "img/productos/dama.jpg",
+        "image": "img\/productos\/dama.jpg",
         "nombreProducto": "Pantalon y Chaqueta",
         "categoria": "modaAdulto",
         "descripcion": "Chaqueta comoda",
@@ -113,7 +131,7 @@
         "descuento": "40%",
         "fechaInicio": "2020-06-04",
         "fechaLimite": "2020-06-06",
-        "ubicacionsucursal": "Variedades Samuel",
+        "ubicacionsucursal": "Variedades lopez",
         "evaluacion": [
           {
             "comentario": "Bonito pantalon",
@@ -124,7 +142,7 @@
         ]
       },
       {
-        "image": "img/productos/ni\u00f1o3.png",
+        "image": "img\/productos\/ni\u00f1o3.png",
         "nombreProducto": "Blusa Ni\u00f1a",
         "categoria": "modaNi\u00f1o",
         "descripcion": "Linda Blusa y a Buen precio",
@@ -140,11 +158,17 @@
             "calificacion": 6,
             "nombre": "Maria",
             "apellido": "Martinez"
+          },
+          {
+            "comentario": "buen producto",
+            "calificacion": 6,
+            "nombre": "samuel",
+            "apellido": "sosa"
           }
         ]
       },
       {
-        "image": "img/productos/mueble cojin.jpg",
+        "image": "img\/productos\/mueble cojin.jpg",
         "nombreProducto": "Muebles",
         "categoria": "Hogar",
         "descripcion": "Buenos y comodos muebles , lindo color",
@@ -154,158 +178,107 @@
         "fechaInicio": "2020-06-27",
         "fechaLimite": "2020-06-23",
         "ubicacionsucursal": "Variedades Nidia",
-        "evaluacion": []
+        "evaluacion": [
+          {
+            "comentario": "bueno miebbles",
+            "calificacion": 6,
+            "nombre": "Walter",
+            "apellido": "Hernandez"
+          }
+        ]
       }
     ]
   },
   {
-    "nombreEmpresa": "El compadre",
-    "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
-    "correo": "Compadre@gmail.com",
-    "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
-    "logo": "img/empresas/compadre.jpg",
-    "banner": "img/empresas/untitled.png",
-    "mision": "crear  un espaciocultural de alto nivel",
-    "vision": "ser un espacio cultural excelente y bien equipado",
-    "direccion": "col.lomas",
-    "pais": "Guatemala",
-    "ciudad": "Jesus de otoro",
-    "telefono": "2203517",
-    "redesSociales": "Twiter",
-    "URL": "https://myaccount.google.com",
-    "latitud": 14.1069722,
-    "longitud": -87.2098527,
-    "pago": "Paypal",
-    "propietario": "Pedro",
-    "numeroTarjeta": "123455",
-    "vencimiento": "12/2017",
-    "cvv": "234",
-    "plan": "Gratis",
+    "nombreEmpresa": "Empresa Honduras",
+    "descripcionEmpresa": "proveer lo mejores productos",
+    "correo": "sosa96aleman@gmail.com",
+    "contrasena": "20eabe5d64b0e216796e834f52d61fd0b70332fc",
+    "logo": "img\/empresas\/curacao.png",
+    "banner": "img\/empresas\/29.jpg",
+    "mision": "proveer lo mejores productos",
+    "vision": "proveer lo mejores productos",
+    "direccion": "suazo",
+    "pais": "Honduras",
+    "ciudad": "Tegucigalpa",
+    "telefono": "22206745",
+    "redesSociales": "Instagram",
+    "URL": "https:\/\/git-scm.com\/downloads",
+    "latitud": "14.075651",
+    "longitud": "-87.200962",
+    "pago": "Tarjeta de Debito",
+    "propietario": "kelly",
+    "numeroTarjeta": "123456",
+    "vencimiento": "12\/12",
+    "cvv": "1334",
+    "plan": "Profesional",
     "sucursales": [
       {
-        "nombre": "Variedades Ruben",
-        "correo": "ruben@gmail.com",
-        "telefono": "22206738",
-        "pais": "Honduras",
+        "nombre": "variedades elmir",
+        "correo": "sosa96aleman@gmail.com",
+        "telefono": "22206745",
+        "pais": "Costa Rica",
         "ciudad": "Tegucigalpa",
-        "direccion": "col.pueblo nuevo",
-        "latitud": "14.1069722",
-        "longitud": "-87.2098527"
+        "direccion": "suazo",
+        "latitud": "14.075651",
+        "longitud": "-87.200962"
       },
       {
-        "nombre": "Variedades ",
-        "correo": "ruben@gmail.com",
-        "telefono": "22206738",
+        "nombre": "variedades elfo",
+        "correo": "welfo@gmail.com",
+        "telefono": "22206745",
         "pais": "Honduras",
         "ciudad": "Tegucigalpa",
-        "direccion": "col.pueblo nuevo",
-        "latitud": "14.1069722",
-        "longitud": "-87.2098527"
+        "direccion": "suazo",
+        "latitud": "14.075651",
+        "longitud": "-87.200962"
       }
     ],
     "productos": [
       {
-        "image": "img/productos/caballero3.jpg",
-        "nombreProducto": "Accesorios de Hombre",
-        "precio": "300",
+        "image": "img\/productos\/19.png",
+        "nombreProducto": "Tenis",
+        "precio": "1500",
         "cantidad": "2",
-        "categoria": "Accesorios",
-        "descripcion": "lo puedes usar en toda ocasion",
-        "direccion": "Citymoll"
+        "categoria": "modaAdulto",
+        "descripcion": "buenos tenis",
+        "direccion": "suazo"
       },
       {
-        "image": "img/productos/cargad.jpg",
-        "nombreProducto": "Cargador para Phone",
-        "precio": "1600",
-        "cantidad": "1",
+        "image": "img\/productos\/jj}.png",
+        "nombreProducto": "celulares",
+        "precio": "1500",
+        "cantidad": "2",
         "categoria": "Tecnologia",
-        "descripcion": "Buen Cargador y gran Resistencia",
-        "direccion": "Col.torocaba frente a los catrachos"
-      },
-      {
-        "image": "img/productos/relojp.jpg",
-        "nombreProducto": "Relojes de mano",
-        "precio": "500",
-        "cantidad": "1",
-        "categoria": "Accesorios",
-        "descripcion": "Muy buenos relojes y contra el agua",
-        "direccion": "Citymoll"
-      },
-      {
-        "image": "img/productos/refri.jpg",
-        "nombreProducto": "Refrijeradora",
-        "precio": "500",
-        "cantidad": "1",
-        "categoria": "Hogar",
-        "descripcion": "comoda y gran rendimiento",
-        "direccion": "Tegucigalpa"
+        "descripcion": "buenos celulares",
+        "direccion": "suazo"
       }
     ],
     "promociones": [
       {
-        "image": "img/productos/caballero3.jpg",
-        "nombreProducto": "Accesorios de Hombre",
+        "image": "img\/productos\/19.png",
+        "nombreProducto": "Tenis",
         "categoria": "modaAdulto",
-        "descripcion": "lo puedes usar en toda ocasion",
-        "precioAntes": "300",
-        "precioAhora": "210",
-        "descuento": "30%",
-        "fechaInicio": "2020-06-19",
-        "fechaLimite": "2020-06-18",
-        "ubicacionsucursal": "Variedades ",
+        "descripcion": "buenos tenis",
+        "precioAntes": "1500",
+        "precioAhora": "900",
+        "descuento": "40%",
+        "fechaInicio": "2020-06-08",
+        "fechaLimite": "2020-06-17",
+        "ubicacionsucursal": "variedades elfo",
         "evaluacion": []
       },
       {
-        "image": "img/productos/cargad.jpg",
-        "nombreProducto": "Cargador para Phone",
+        "image": "img\/productos\/jj}.png",
+        "nombreProducto": "celulares",
         "categoria": "Tecnologia",
-        "descripcion": "Buen Cargador y gran Resistencia",
-        "precioAntes": "1600",
-        "precioAhora": "960",
-        "descuento": "40%",
-        "fechaInicio": "2020-06-12",
-        "fechaLimite": "2020-06-19",
-        "ubicacionsucursal": "Variedades Ruben",
-        "evaluacion": [
-          {
-            "comentario": "no es muy bueno el cargador",
-            "calificacion": 6,
-            "nombre": "Vanesa",
-            "apellido": "Escalar"
-          }
-        ]
-      },
-      {
-        "image": "img/productos/relojp.jpg",
-        "nombreProducto": "Relojes de mano",
-        "categoria": "Accesorios",
-        "descripcion": "Muy buenos relojes y contra el agua",
-        "precioAntes": "500",
-        "precioAhora": "350",
-        "descuento": "30%",
-        "fechaInicio": "2020-06-12",
-        "fechaLimite": "2020-06-25",
-        "ubicacionsucursal": "Variedades ",
-        "evaluacion": [
-          {
-            "comentario": "buen reloj",
-            "calificacion": 6,
-            "nombre": "Vanesa",
-            "apellido": "Escalar"
-          }
-        ]
-      },
-      {
-        "image": "img/productos/refri.jpg",
-        "nombreProducto": "Refrijeradora",
-        "categoria": "Hogar",
-        "descripcion": "comoda y gran rendimiento",
-        "precioAntes": "500",
-        "precioAhora": "250",
+        "descripcion": "buenos celulares",
+        "precioAntes": "1500",
+        "precioAhora": "750",
         "descuento": "50%",
-        "fechaInicio": "2020-06-19",
-        "fechaLimite": "2020-06-27",
-        "ubicacionsucursal": "Variedades Ruben",
+        "fechaInicio": "2020-06-08",
+        "fechaLimite": "2020-06-25",
+        "ubicacionsucursal": "variedades elmir",
         "evaluacion": []
       }
     ]

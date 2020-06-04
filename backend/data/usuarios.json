@@ -1,1 +1,215 @@
-[{"nombre":"Maria","apellido":"Martinez","genero":"Femenino","correo":"Mariam@gmail.com","contrasena":"bcdcb29ed2aab16d48c11485264df665e906bdd9","direccion":"Suazo Cordoba","telefono":"87967890","empresaFavoritas":[{"logo":"img\/empresas\/exotic.png","nombreEmpresa":"Mystic","descripcionEmpresa":"Te ofreceremos la mejores promociones que te puedas imaginar","direccion":" V-661, Tegucigalpa 11101"},{"logo":"img\/empresas\/compadre.jpg","nombreEmpresa":"El compadre","descripcionEmpresa":"Te ofreceremos la mejores promociones que te puedas imaginar","direccion":"col.lomas"}],"carrito":[{"image":"img\/productos\/dama.jpg","nombreProducto":"Pantalon y Chaqueta","categoria":"modaAdulto","descripcion":"Chaqueta comoda","precioAntes":"500","precioAhora":"300","descuento":"40%","fechaInicio":"2020-06-04","fechaLimite":"2020-06-06","ubicacionsucursal":"Variedades Samuel"},{"image":"img\/productos\/ni\u00f1o3.png","nombreProducto":"Blusa Ni\u00f1a","categoria":"modaNi\u00f1o","descripcion":"Linda Blusa y a Buen precio","precioAntes":"250","precioAhora":"200","descuento":"20%","fechaInicio":"2020-06-19","fechaLimite":"2020-06-30","ubicacionsucursal":"Variedades Nidia"},{"image":"img\/productos\/refri.jpg","nombreProducto":"Refrijeradora","categoria":"Hogar","descripcion":"comoda y gran rendimiento","precioAntes":"500","precioAhora":"250","descuento":"50%","fechaInicio":"2020-06-19","fechaLimite":"2020-06-27","ubicacionsucursal":"Variedades Ruben"},{"image":"img\/productos\/ni\u00f1o7.jpg","nombreProducto":"Camisa","categoria":"modaAdulto","descripcion":"linda ropa","precioAntes":"500","precioAhora":"3","descuento":"20%","fechaInicio":"2020-05-18","fechaLimite":"2020-05-21","ubicacionsucursal":"San pedro"}],"promocionesFavoritas":[{"image":"img\/productos\/dama.jpg","nombreProducto":"Pantalon y Chaqueta","descripcion":"Chaqueta comoda","precioAhora":"300","ubicacionsucursal":"Variedades Samuel"},{"image":"img\/productos\/ni\u00f1o3.png","nombreProducto":"Blusa Ni\u00f1a","descripcion":"Linda Blusa y a Buen precio","precioAhora":"200","ubicacionsucursal":"Variedades Nidia"}]},{"nombre":"Vanesa","apellido":"Escalar","genero":"Femenino","correo":"vaneEscalar@gmail.com","contrasena":"bcdcb29ed2aab16d48c11485264df665e906bdd9","direccion":"reparto ","telefono":"31905034","empresaFavoritas":[{"logo":"img\/empresas\/exotic.png","nombreEmpresa":"Mystic","descripcionEmpresa":"Te ofreceremos la mejores promociones que te puedas imaginar","direccion":" V-661, Tegucigalpa 11101"},{"logo":"img\/empresas\/compadre.jpg","nombreEmpresa":"El compadre","descripcionEmpresa":"Te ofreceremos la mejores promociones que te puedas imaginar","direccion":"col.lomas"}],"carrito":[{"image":"img\/productos\/cargad.jpg","nombreProducto":"Cargador para Phone","categoria":"Tecnologia","descripcion":"Buen Cargador y gran Resistencia","precioAntes":"1600","precioAhora":"960","descuento":"40%","fechaInicio":"2020-06-12","fechaLimite":"2020-06-19","ubicacionsucursal":"Variedades Ruben"},{"image":"img\/productos\/relojp.jpg","nombreProducto":"Relojes de mano","categoria":"Accesorios","descripcion":"Muy buenos relojes y contra el agua","precioAntes":"500","precioAhora":"350","descuento":"30%","fechaInicio":"2020-06-12","fechaLimite":"2020-06-25","ubicacionsucursal":"Variedades "}],"promocionesFavoritas":[{"image":"img\/productos\/cargad.jpg","nombreProducto":"Cargador para Phone","descripcion":"Buen Cargador y gran Resistencia","precioAhora":"960","ubicacionsucursal":"Variedades Ruben"},{"image":"img\/productos\/relojp.jpg","nombreProducto":"Relojes de mano","descripcion":"Muy buenos relojes y contra el agua","precioAhora":"350","ubicacionsucursal":"Variedades "}]}]
+[
+    {
+        "nombre": "Maria",
+        "apellido": "Martinez",
+        "genero": "Femenino",
+        "correo": "Mariam@gmail.com",
+        "contrasena": "7c4a8d09ca3762af61e59520943dc26494f8941b",
+        "direccion": "Suazo Cordoba",
+        "telefono": "87967890",
+        "empresaFavoritas": [
+            {
+                "logo": "img\/empresas\/exotic.png",
+                "nombreEmpresa": "Mystic",
+                "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
+                "direccion": " V-661, Tegucigalpa 11101"
+            },
+            {
+                "logo": "img\/empresas\/compadre.jpg",
+                "nombreEmpresa": "El compadre",
+                "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
+                "direccion": "col.lomas"
+            }
+        ],
+        "carrito": [
+            {
+                "image": "img\/productos\/dama.jpg",
+                "nombreProducto": "Pantalon y Chaqueta",
+                "categoria": "modaAdulto",
+                "descripcion": "Chaqueta comoda",
+                "precioAntes": "500",
+                "precioAhora": "300",
+                "descuento": "40%",
+                "fechaInicio": "2020-06-04",
+                "fechaLimite": "2020-06-06",
+                "ubicacionsucursal": "Variedades Samuel"
+            },
+            {
+                "image": "img\/productos\/ni\u00f1o3.png",
+                "nombreProducto": "Blusa Ni\u00f1a",
+                "categoria": "modaNi\u00f1o",
+                "descripcion": "Linda Blusa y a Buen precio",
+                "precioAntes": "250",
+                "precioAhora": "200",
+                "descuento": "20%",
+                "fechaInicio": "2020-06-19",
+                "fechaLimite": "2020-06-30",
+                "ubicacionsucursal": "Variedades Nidia"
+            },
+            {
+                "image": "img\/productos\/refri.jpg",
+                "nombreProducto": "Refrijeradora",
+                "categoria": "Hogar",
+                "descripcion": "comoda y gran rendimiento",
+                "precioAntes": "500",
+                "precioAhora": "250",
+                "descuento": "50%",
+                "fechaInicio": "2020-06-19",
+                "fechaLimite": "2020-06-27",
+                "ubicacionsucursal": "Variedades Ruben"
+            },
+            {
+                "image": "img\/productos\/ni\u00f1o7.jpg",
+                "nombreProducto": "Camisa",
+                "categoria": "modaAdulto",
+                "descripcion": "linda ropa",
+                "precioAntes": "500",
+                "precioAhora": "3",
+                "descuento": "20%",
+                "fechaInicio": "2020-05-18",
+                "fechaLimite": "2020-05-21",
+                "ubicacionsucursal": "San pedro"
+            }
+        ],
+        "promocionesFavoritas": [
+            {
+                "image": "img\/productos\/dama.jpg",
+                "nombreProducto": "Pantalon y Chaqueta",
+                "descripcion": "Chaqueta comoda",
+                "precioAhora": "300",
+                "ubicacionsucursal": "Variedades Samuel"
+            },
+            {
+                "image": "img\/productos\/ni\u00f1o3.png",
+                "nombreProducto": "Blusa Ni\u00f1a",
+                "descripcion": "Linda Blusa y a Buen precio",
+                "precioAhora": "200",
+                "ubicacionsucursal": "Variedades Nidia"
+            }
+        ]
+    },
+    {
+        "nombre": "Vanesa",
+        "apellido": "Escalar",
+        "genero": "Femenino",
+        "correo": "vaneEscalar@gmail.com",
+        "contrasena": "bcdcb29ed2aab16d48c11485264df665e906bdd9",
+        "direccion": "reparto ",
+        "telefono": "31905034",
+        "empresaFavoritas": [
+            {
+                "logo": "img\/empresas\/exotic.png",
+                "nombreEmpresa": "Mystic",
+                "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
+                "direccion": " V-661, Tegucigalpa 11101"
+            },
+            {
+                "logo": "img\/empresas\/compadre.jpg",
+                "nombreEmpresa": "El compadre",
+                "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
+                "direccion": "col.lomas"
+            }
+        ],
+        "carrito": [
+            {
+                "image": "img\/productos\/cargad.jpg",
+                "nombreProducto": "Cargador para Phone",
+                "categoria": "Tecnologia",
+                "descripcion": "Buen Cargador y gran Resistencia",
+                "precioAntes": "1600",
+                "precioAhora": "960",
+                "descuento": "40%",
+                "fechaInicio": "2020-06-12",
+                "fechaLimite": "2020-06-19",
+                "ubicacionsucursal": "Variedades Ruben"
+            },
+            {
+                "image": "img\/productos\/relojp.jpg",
+                "nombreProducto": "Relojes de mano",
+                "categoria": "Accesorios",
+                "descripcion": "Muy buenos relojes y contra el agua",
+                "precioAntes": "500",
+                "precioAhora": "350",
+                "descuento": "30%",
+                "fechaInicio": "2020-06-12",
+                "fechaLimite": "2020-06-25",
+                "ubicacionsucursal": "Variedades "
+            }
+        ],
+        "promocionesFavoritas": [
+            {
+                "image": "img\/productos\/cargad.jpg",
+                "nombreProducto": "Cargador para Phone",
+                "descripcion": "Buen Cargador y gran Resistencia",
+                "precioAhora": "960",
+                "ubicacionsucursal": "Variedades Ruben"
+            },
+            {
+                "image": "img\/productos\/relojp.jpg",
+                "nombreProducto": "Relojes de mano",
+                "descripcion": "Muy buenos relojes y contra el agua",
+                "precioAhora": "350",
+                "ubicacionsucursal": "Variedades "
+            }
+        ]
+    },
+    {
+        "nombre": "samuel",
+        "apellido": "sosa",
+        "genero": "Masculino",
+        "correo": "sosa96aleman@gmail.com",
+        "contrasena": "8cb2237d0679ca88db6464eac60da96345513964",
+        "direccion": "suazo",
+        "telefono": "22206745",
+        "empresaFavoritas": [
+            {
+                "logo": "img\/empresas\/compadre.jpg",
+                "nombreEmpresa": "El compadre",
+                "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
+                "direccion": "col.lomas"
+            }
+        ],
+        "carrito": [
+            {
+                "image": "img\/productos\/ni\u00f1o7.jpg",
+                "nombreProducto": "Camisa",
+                "categoria": "modaAdulto",
+                "descripcion": "linda ropa",
+                "precioAntes": "500",
+                "precioAhora": "3",
+                "descuento": "20%",
+                "fechaInicio": "2020-05-18",
+                "fechaLimite": "2020-05-21",
+                "ubicacionsucursal": "San pedro"
+            },
+            {
+                "image": "img\/productos\/dama.jpg",
+                "nombreProducto": "Pantalon y Chaqueta",
+                "categoria": "modaAdulto",
+                "descripcion": "Chaqueta comoda",
+                "precioAntes": "500",
+                "precioAhora": "300",
+                "descuento": "40%",
+                "fechaInicio": "2020-06-04",
+                "fechaLimite": "2020-06-06",
+                "ubicacionsucursal": "Variedades Samuel"
+            }
+        ],
+        "promocionesFavoritas": [
+            {
+                "image": "img\/productos\/ni\u00f1o3.png",
+                "nombreProducto": "Blusa Ni\u00f1a",
+                "descripcion": "Linda Blusa y a Buen precio",
+                "precioAhora": "200",
+                "ubicacionsucursal": "Variedades Nidia"
+            },
+            {
+                "image": "img\/productos\/dama.jpg",
+                "nombreProducto": "Pantalon y Chaqueta",
+                "descripcion": "Chaqueta comoda",
+                "precioAhora": "300",
+                "ubicacionsucursal": "Variedades Samuel"
+            }
+        ]
+    }
+]
