@@ -19,6 +19,12 @@
                 "nombreEmpresa": "El compadre",
                 "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
                 "direccion": "col.lomas"
+            },
+            {
+                "logo": "img\/empresas\/exotic.png",
+                "nombreEmpresa": "Mystic",
+                "descripcionEmpresa": "Te ofreceremos la mejores promociones que te puedas imaginar",
+                "direccion": " V-661, Tegucigalpa 11101"
             }
         ],
         "carrito": [
@@ -59,16 +65,16 @@
                 "ubicacionsucursal": "Variedades Ruben"
             },
             {
-                "image": "img\/productos\/ni\u00f1o7.jpg",
-                "nombreProducto": "Camisa",
-                "categoria": "modaAdulto",
-                "descripcion": "linda ropa",
-                "precioAntes": "500",
-                "precioAhora": "3",
-                "descuento": "20%",
-                "fechaInicio": "2020-05-18",
-                "fechaLimite": "2020-05-21",
-                "ubicacionsucursal": "San pedro"
+                "image": "img\/productos\/jj}.png",
+                "nombreProducto": "celulares",
+                "categoria": "Tecnologia",
+                "descripcion": "buenos celulares",
+                "precioAntes": "1500",
+                "precioAhora": "750",
+                "descuento": "50%",
+                "fechaInicio": "2020-06-08",
+                "fechaLimite": "2020-06-25",
+                "ubicacionsucursal": "variedades elmir"
             }
         ],
         "promocionesFavoritas": [
@@ -78,6 +84,13 @@
                 "descripcion": "Chaqueta comoda",
                 "precioAhora": "300",
                 "ubicacionsucursal": "Variedades Samuel"
+            },
+            {
+                "image": "img\/productos\/ni\u00f1o3.png",
+                "nombreProducto": "Blusa Ni\u00f1a",
+                "descripcion": "Linda Blusa y a Buen precio",
+                "precioAhora": "200",
+                "ubicacionsucursal": "Variedades Nidia"
             },
             {
                 "image": "img\/productos\/ni\u00f1o3.png",

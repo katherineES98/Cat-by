@@ -164,6 +164,12 @@
             "calificacion": 6,
             "nombre": "samuel",
             "apellido": "sosa"
+          },
+          {
+            "comentario": "binito",
+            "calificacion": 6,
+            "nombre": "Maria",
+            "apellido": "Martinez"
           }
         ]
       },
@@ -243,15 +249,6 @@
         "categoria": "modaAdulto",
         "descripcion": "buenos tenis",
         "direccion": "suazo"
-      },
-      {
-        "image": "img\/productos\/jj}.png",
-        "nombreProducto": "celulares",
-        "precio": "1500",
-        "cantidad": "2",
-        "categoria": "Tecnologia",
-        "descripcion": "buenos celulares",
-        "direccion": "suazo"
       }
     ],
     "promociones": [
@@ -266,19 +263,6 @@
         "fechaInicio": "2020-06-08",
         "fechaLimite": "2020-06-17",
         "ubicacionsucursal": "variedades elfo",
-        "evaluacion": []
-      },
-      {
-        "image": "img\/productos\/jj}.png",
-        "nombreProducto": "celulares",
-        "categoria": "Tecnologia",
-        "descripcion": "buenos celulares",
-        "precioAntes": "1500",
-        "precioAhora": "750",
-        "descuento": "50%",
-        "fechaInicio": "2020-06-08",
-        "fechaLimite": "2020-06-25",
-        "ubicacionsucursal": "variedades elmir",
         "evaluacion": []
       }
     ]
